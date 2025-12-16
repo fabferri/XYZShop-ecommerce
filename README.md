@@ -18,9 +18,11 @@ The e-commerce website includes a warehouse management system.
 ## Project Structure
 
 ```
-test-dijango5/
+XYZShop/
 ├── products/          # Product catalog and category management
-│   └── static/        # Product-specific static files
+│   ├── static/        # Product-specific static files
+│   ├── templates/     # Product HTML templates
+│   └── templatetags/  # Custom template tags
 ├── cart/              # Shopping cart functionality
 ├── orders/            # Order processing and management
 ├── accounts/          # User authentication and profile management
@@ -28,6 +30,8 @@ test-dijango5/
 ├── media/             # Uploaded images and files
 │   └── products/      # Product images 1024x1024
 ├── templates/         # HTML templates
+├── add-new-products-manually/  # New product data to add manually
+├── .venv/             # Virtual environment
 └── manage.py          # Django management script
 ```
 
@@ -409,5 +413,5 @@ python db_delete_all_records.py
 python restore_database.py
 ```
 
-`Tags: Django,` <br>
+`Tags: Django` <br>
 `date: 15-12-2025` <br>
