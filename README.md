@@ -261,6 +261,10 @@ python manage.py createsuperuser
 
 ---
 
+## Add manually new products
+
+The folder **add-new-products-manually** contains a list of product pictures and product description to add manually the products after the database has been created and the website is running. Add the products with adminsitrator account.
+
 ## Utility Scripts
 
 The project includes utility scripts for database management and maintenance:
