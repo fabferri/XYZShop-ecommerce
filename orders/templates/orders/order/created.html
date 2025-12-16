@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Order Confirmation{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <div class="success-message">
+            <h1>✓ Thank you!</h1>
+            <p>Your order has been successfully placed.</p>
+            <p><strong>Order Number:</strong> {{ order.id }}</p>
+        </div>
+        
+        <h2>Order Details</h2>
+        <p><strong>Name:</strong> {{ order.first_name }} {{ order.last_name }}</p>
+        <p><strong>Email:</strong> {{ order.email }}</p>
+        <p><strong>Delivery Address:</strong><br>
+        {{ order.address }}<br>
+        {{ order.city }}, {{ order.postal_code }}</p>
+        
+        <h2>Items Ordered</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in order.items.all %}
+                    <tr>
+                        <td>{{ item.product.name }}</td>
+                        <td>{{ item.quantity }}</td>
+                        <td>£{{ item.price }}</td>
+                        <td>£{{ item.get_cost }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+        
+        <p class="total">Total: £{{ order.get_total_cost }}</p>
+        
+        <p style="margin-top: 2rem;">We will send you an email confirmation shortly.</p>
+        
+        <a href="{% url 'products:product_list' %}" class="btn">Continue Shopping</a>
+    </div>
+{% endblock %}

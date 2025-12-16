@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    {% if category %}{{ category.name }}{% else %}Products{% endif %}
+{% endblock %}
+
+{% block content %}
+    <nav>
+        <div class="nav-content">
+            <ul class="categories">
+                <li><a href="{% url 'products:product_list' %}" {% if not category %}class="selected"{% endif %}>All Products</a></li>
+                {% for c in categories %}
+                    <li>
+                        <a href="{{ c.get_absolute_url }}" {% if category.slug == c.slug %}class="selected"{% endif %}>
+                            {{ c.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>{% if category %}{{ category.name }}{% else %}All Products{% endif %}</h1>
+        
+        <div class="product-grid">
+            {% for product in products %}
+                <div class="product-item">
+                    <div class="category-label">{{ product.category.name }}</div>
+                    <a href="{{ product.get_absolute_url }}">
+                        {% if product.image %}
+                            <img src="{{ product.image.url }}?v=12" alt="{{ product.name }}">
+                        {% else %}
+                            <img src="https://via.placeholder.com/250x200?text=No+Image" alt="{{ product.name }}">
+                        {% endif %}
+                    </a>
+                    <h3><a href="{{ product.get_absolute_url }}">{{ product.name }}</a></h3>
+                    <p class="price">£{{ product.price }}</p>
+                    {% if product.stock > 0 %}
+                        <p style="color: green;">In Stock ({{ product.stock }})</p>
+                    {% else %}
+                        <p style="color: red;">Out of Stock</p>
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+{% endblock %}

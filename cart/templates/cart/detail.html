@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}
+    Your Shopping Cart
+{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Your Shopping Cart</h1>
+        
+        {% if cart %}
+            <table>
+                <thead>
+                    <tr>
+                        <th>Image</th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                        <th>Remove</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for item in cart %}
+                        <tr>
+                            <td>
+                                {% if item.product.image %}
+                                    <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" style="width: 100px; height: 80px; object-fit: cover;">
+                                {% else %}
+                                    <img src="https://via.placeholder.com/100x80?text=No+Image" alt="{{ item.product.name }}">
+                                {% endif %}
+                            </td>
+                            <td>
+                                <a href="{{ item.product.get_absolute_url }}" style="color: #006400; text-decoration: none;">
+                                    {{ item.product.name }}
+                                </a>
+                            </td>
+                            <td>
+                                <form action="{% url 'cart:cart_add' item.product.id %}" method="post" style="margin: 0;">
+                                    {% csrf_token %}
+                                    {{ item.update_quantity_form.quantity }}
+                                    {{ item.update_quantity_form.update }}
+                                    <input type="submit" value="Update" class="btn" style="padding: 0.4rem 0.8rem; margin-top: 0.5rem;">
+                                </form>
+                            </td>
+                            <td>£{{ item.price }}</td>
+                            <td>£{{ item.total_price }}</td>
+                            <td>
+                                <form action="{% url 'cart:cart_remove' item.product.id %}" method="post" style="margin: 0;">
+                                    {% csrf_token %}
+                                    <input type="submit" value="Remove" class="btn btn-remove" style="padding: 0.5rem 1rem;">
+                                </form>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            
+            <p class="total">
+                Total: £{{ cart.get_total_price }}
+            </p>
+            
+            <div style="text-align: right;">
+                <a href="{% url 'products:product_list' %}" class="btn" style="background-color: #6c757d; margin-right: 1rem;">Continue Shopping</a>
+                <a href="{% url 'orders:order_create' %}" class="btn">Checkout</a>
+            </div>
+        {% else %}
+            <p style="font-size: 1.2rem; text-align: center; margin: 3rem 0;">Your cart is empty.</p>
+            <div style="text-align: center;">
+                <a href="{% url 'products:product_list' %}" class="btn">Start Shopping</a>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

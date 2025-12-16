@@ -1,0 +1,337 @@
+{% extends "base.html" %}
+
+{% block title %}Payment - Order #{{ order.id }}{% endblock %}
+
+{% block content %}
+<div class="payment-container">
+    <h1>Complete Your Payment</h1>
+    
+    <div class="payment-layout">
+        <!-- Order Summary -->
+        <div class="order-summary-card">
+            <h2>Order Summary</h2>
+            <div class="order-details">
+                <p><strong>Order #{{ order.id }}</strong></p>
+                <p class="delivery-to">Delivering to:</p>
+                <p>{{ order.first_name }} {{ order.last_name }}</p>
+                <p>{{ order.address }}</p>
+                <p>{{ order.postal_code }} {{ order.city }}</p>
+                <p>{{ order.email }}</p>
+            </div>
+            
+            <div class="order-items">
+                <h3>Items</h3>
+                {% for item in order.items.all %}
+                <div class="payment-item">
+                    <span class="item-name">{{ item.product.name }} × {{ item.quantity }}</span>
+                    <span class="item-price">£{{ item.get_cost }}</span>
+                </div>
+                {% endfor %}
+            </div>
+            
+            <div class="order-total">
+                <strong>Total Amount:</strong>
+                <strong class="total-price">£{{ order.get_total_cost }}</strong>
+            </div>
+        </div>
+        
+        <!-- Payment Form -->
+        <div class="payment-form-card">
+            <h2>Payment Method</h2>
+            <form method="post" id="payment-form">
+                {% csrf_token %}
+                
+                <div class="payment-method-selection">
+                    {{ form.payment_method }}
+                </div>
+                
+                <div id="card-details" class="card-details">
+                    <h3>Card Details</h3>
+                    <div class="form-group">
+                        <label for="{{ form.card_number.id_for_label }}">Card Number</label>
+                        {{ form.card_number }}
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="{{ form.card_holder.id_for_label }}">Card Holder Name</label>
+                        {{ form.card_holder }}
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="{{ form.expiry_date.id_for_label }}">Expiry Date</label>
+                            {{ form.expiry_date }}
+                        </div>
+                        <div class="form-group">
+                            <label for="{{ form.cvv.id_for_label }}">CVV</label>
+                            {{ form.cvv }}
+                        </div>
+                    </div>
+                </div>
+                
+                {% if form.non_field_errors %}
+                <div class="error-messages">
+                    {{ form.non_field_errors }}
+                </div>
+                {% endif %}
+                
+                <button type="submit" class="btn-pay">
+                    <span>Complete Payment - £{{ order.get_total_cost }}</span>
+                </button>
+                
+                <p class="secure-note">
+                    🔒 Your payment information is secure and encrypted
+                </p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<style>
+    .payment-container {
+        max-width: 1200px;
+        margin: 40px auto;
+        padding: 0 20px;
+    }
+    
+    .payment-container h1 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #2c3e50;
+        font-size: 2.5em;
+    }
+    
+    .payment-layout {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        align-items: start;
+    }
+    
+    .order-summary-card,
+    .payment-form-card {
+        background: white;
+        border-radius: 12px;
+        padding: 30px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    
+    .order-summary-card h2,
+    .payment-form-card h2 {
+        margin-top: 0;
+        color: #2c3e50;
+        border-bottom: 2px solid #e8f4f8;
+        padding-bottom: 15px;
+    }
+    
+    .order-details {
+        margin: 20px 0;
+        padding: 20px;
+        background: #f8f9fa;
+        border-radius: 8px;
+    }
+    
+    .order-details p {
+        margin: 5px 0;
+        color: #555;
+    }
+    
+    .delivery-to {
+        font-weight: bold;
+        color: #2c3e50;
+        margin-top: 15px !important;
+    }
+    
+    .order-items {
+        margin: 25px 0;
+    }
+    
+    .order-items h3 {
+        color: #2c3e50;
+        margin-bottom: 15px;
+    }
+    
+    .payment-item {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .payment-item:last-child {
+        border-bottom: none;
+    }
+    
+    .item-name {
+        color: #555;
+    }
+    
+    .item-price {
+        font-weight: bold;
+        color: #27ae60;
+    }
+    
+    .order-total {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+        padding-top: 20px;
+        border-top: 3px solid #3498db;
+        font-size: 1.3em;
+    }
+    
+    .total-price {
+        color: #27ae60;
+    }
+    
+    .payment-method-selection {
+        margin: 25px 0;
+    }
+    
+    .payment-method-selection ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .payment-method-selection li {
+        margin: 15px 0;
+    }
+    
+    .payment-method-selection label {
+        display: flex;
+        align-items: center;
+        padding: 15px 20px;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s;
+        font-size: 1.1em;
+    }
+    
+    .payment-method-selection label:hover {
+        border-color: #3498db;
+        background: #f8f9fa;
+    }
+    
+    .payment-method-selection input[type="radio"] {
+        margin-right: 15px;
+        width: 20px;
+        height: 20px;
+        cursor: pointer;
+    }
+    
+    .payment-method-selection input[type="radio"]:checked + label {
+        border-color: #3498db;
+        background: #e8f4f8;
+        font-weight: bold;
+    }
+    
+    .card-details {
+        margin: 25px 0;
+        padding: 25px;
+        background: #f8f9fa;
+        border-radius: 8px;
+    }
+    
+    .card-details h3 {
+        margin-top: 0;
+        color: #2c3e50;
+    }
+    
+    .form-group {
+        margin-bottom: 20px;
+    }
+    
+    .form-group label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+        font-weight: 500;
+    }
+    
+    .payment-input {
+        width: 100%;
+        padding: 12px;
+        border: 2px solid #e0e0e0;
+        border-radius: 6px;
+        font-size: 1em;
+        transition: border-color 0.3s;
+    }
+    
+    .payment-input:focus {
+        outline: none;
+        border-color: #3498db;
+    }
+    
+    .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+    }
+    
+    .btn-pay {
+        width: 100%;
+        padding: 18px;
+        background: linear-gradient(135deg, #27ae60, #2ecc71);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 1.2em;
+        font-weight: bold;
+        cursor: pointer;
+        transition: all 0.3s;
+        margin-top: 20px;
+    }
+    
+    .btn-pay:hover {
+        background: linear-gradient(135deg, #229954, #27ae60);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(39, 174, 96, 0.3);
+    }
+    
+    .secure-note {
+        text-align: center;
+        margin-top: 15px;
+        color: #7f8c8d;
+        font-size: 0.9em;
+    }
+    
+    .error-messages {
+        background: #fee;
+        border: 2px solid #fcc;
+        color: #c33;
+        padding: 15px;
+        border-radius: 6px;
+        margin: 15px 0;
+    }
+    
+    @media (max-width: 768px) {
+        .payment-layout {
+            grid-template-columns: 1fr;
+        }
+        
+        .form-row {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+<script>
+    // Show/hide card details based on payment method
+    document.addEventListener('DOMContentLoaded', function() {
+        const paymentMethodRadios = document.querySelectorAll('input[name="payment_method"]');
+        const cardDetails = document.getElementById('card-details');
+        
+        function toggleCardDetails() {
+            const selectedMethod = document.querySelector('input[name="payment_method"]:checked').value;
+            cardDetails.style.display = selectedMethod === 'card' ? 'block' : 'none';
+        }
+        
+        paymentMethodRadios.forEach(radio => {
+            radio.addEventListener('change', toggleCardDetails);
+        });
+        
+        toggleCardDetails();
+    });
+</script>
+{% endblock %}

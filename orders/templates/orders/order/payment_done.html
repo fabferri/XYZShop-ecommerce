@@ -1,0 +1,315 @@
+{% extends "base.html" %}
+
+{% block title %}Payment Successful{% endblock %}
+
+{% block content %}
+<div class="success-container">
+    <div class="success-card">
+        <div class="success-icon">✓</div>
+        <h1>Payment Successful!</h1>
+        <p class="thank-you">Thank you for your order</p>
+        
+        <div class="order-confirmation">
+            <h2>Order Confirmation</h2>
+            
+            <div class="confirmation-details">
+                <div class="detail-row">
+                    <span class="detail-label">Order Number:</span>
+                    <span class="detail-value">#{{ order.id }}</span>
+                </div>
+                
+                <div class="detail-row">
+                    <span class="detail-label">Payment ID:</span>
+                    <span class="detail-value">{{ order.payment_id }}</span>
+                </div>
+                
+                <div class="detail-row">
+                    <span class="detail-label">Payment Method:</span>
+                    <span class="detail-value">{{ order.get_payment_method_display }}</span>
+                </div>
+                
+                <div class="detail-row">
+                    <span class="detail-label">Total Paid:</span>
+                    <span class="detail-value total">£{{ order.get_total_cost }}</span>
+                </div>
+                
+                <div class="detail-row">
+                    <span class="detail-label">Status:</span>
+                    <span class="detail-value status">{{ order.get_status_display }}</span>
+                </div>
+            </div>
+            
+            <div class="delivery-info">
+                <h3>Delivery Address</h3>
+                <p>{{ order.first_name }} {{ order.last_name }}</p>
+                <p>{{ order.address }}</p>
+                <p>{{ order.postal_code }} {{ order.city }}</p>
+                <p>{{ order.email }}</p>
+            </div>
+            
+            <div class="order-items-summary">
+                <h3>Order Items</h3>
+                {% for item in order.items.all %}
+                <div class="summary-item">
+                    <div class="item-info">
+                        <span class="item-name">{{ item.product.name }}</span>
+                        <span class="item-quantity">Qty: {{ item.quantity }}</span>
+                    </div>
+                    <span class="item-price">£{{ item.get_cost }}</span>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        
+        <div class="next-steps">
+            <h3>What happens next?</h3>
+            <ul>
+                <li>📧 You will receive a confirmation email at {{ order.email }}</li>
+                <li>📦 Your order will be processed and shipped within 2-3 business days</li>
+                <li>🚚 You'll receive tracking information once shipped</li>
+            </ul>
+        </div>
+        
+        <div class="action-buttons">
+            {% if user.is_authenticated %}
+            <a href="{% url 'accounts:order_history' %}" class="btn-secondary">View Order History</a>
+            {% endif %}
+            <a href="{% url 'products:product_list' %}" class="btn-primary">Continue Shopping</a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .success-container {
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 20px;
+    }
+    
+    .success-card {
+        background: white;
+        border-radius: 12px;
+        padding: 40px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+        text-align: center;
+    }
+    
+    .success-icon {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto 30px;
+        background: linear-gradient(135deg, #27ae60, #2ecc71);
+        color: white;
+        font-size: 60px;
+        line-height: 100px;
+        border-radius: 50%;
+        box-shadow: 0 4px 20px rgba(39, 174, 96, 0.3);
+    }
+    
+    .success-card h1 {
+        color: #27ae60;
+        margin-bottom: 10px;
+        font-size: 2.5em;
+    }
+    
+    .thank-you {
+        color: #7f8c8d;
+        font-size: 1.2em;
+        margin-bottom: 40px;
+    }
+    
+    .order-confirmation {
+        text-align: left;
+        margin: 30px 0;
+    }
+    
+    .order-confirmation h2 {
+        color: #2c3e50;
+        margin-bottom: 25px;
+        text-align: center;
+        font-size: 1.8em;
+    }
+    
+    .confirmation-details {
+        background: #f8f9fa;
+        padding: 25px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .detail-row {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0;
+        border-bottom: 1px solid #e0e0e0;
+    }
+    
+    .detail-row:last-child {
+        border-bottom: none;
+    }
+    
+    .detail-label {
+        color: #7f8c8d;
+        font-weight: 500;
+    }
+    
+    .detail-value {
+        color: #2c3e50;
+        font-weight: bold;
+    }
+    
+    .detail-value.total {
+        color: #27ae60;
+        font-size: 1.3em;
+    }
+    
+    .detail-value.status {
+        color: #3498db;
+        text-transform: capitalize;
+    }
+    
+    .delivery-info {
+        background: #e8f4f8;
+        padding: 20px;
+        border-radius: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .delivery-info h3 {
+        color: #2c3e50;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    
+    .delivery-info p {
+        margin: 5px 0;
+        color: #555;
+    }
+    
+    .order-items-summary {
+        background: #fff;
+        padding: 20px;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        margin-bottom: 25px;
+    }
+    
+    .order-items-summary h3 {
+        color: #2c3e50;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+    
+    .summary-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .summary-item:last-child {
+        border-bottom: none;
+    }
+    
+    .item-info {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .item-name {
+        font-weight: 500;
+        color: #2c3e50;
+    }
+    
+    .item-quantity {
+        color: #7f8c8d;
+        font-size: 0.9em;
+    }
+    
+    .item-price {
+        font-weight: bold;
+        color: #27ae60;
+        font-size: 1.1em;
+    }
+    
+    .next-steps {
+        text-align: left;
+        background: #fffbea;
+        padding: 20px;
+        border-radius: 8px;
+        margin: 30px 0;
+    }
+    
+    .next-steps h3 {
+        color: #2c3e50;
+        margin-top: 0;
+    }
+    
+    .next-steps ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .next-steps li {
+        padding: 10px 0;
+        color: #555;
+        font-size: 1.05em;
+    }
+    
+    .action-buttons {
+        display: flex;
+        gap: 15px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    
+    .btn-primary,
+    .btn-secondary {
+        padding: 15px 30px;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.3s;
+        display: inline-block;
+    }
+    
+    .btn-primary {
+        background: linear-gradient(135deg, #3498db, #2980b9);
+        color: white;
+    }
+    
+    .btn-primary:hover {
+        background: linear-gradient(135deg, #2980b9, #21618c);
+        transform: translateY(-2px);
+        box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+    }
+    
+    .btn-secondary {
+        background: #ecf0f1;
+        color: #2c3e50;
+        border: 2px solid #bdc3c7;
+    }
+    
+    .btn-secondary:hover {
+        background: #bdc3c7;
+        transform: translateY(-2px);
+    }
+    
+    @media (max-width: 768px) {
+        .success-card {
+            padding: 20px;
+        }
+        
+        .action-buttons {
+            flex-direction: column;
+        }
+        
+        .btn-primary,
+        .btn-secondary {
+            width: 100%;
+            text-align: center;
+        }
+    }
+</style>
+{% endblock %}

@@ -1,0 +1,68 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block title %}Search Results{% endblock %}
+
+{% block content %}
+    <nav>
+        <div class="nav-content">
+            <ul class="categories">
+                <li><a href="{% url 'products:product_list' %}">All Products</a></li>
+                {% for c in categories %}
+                    <li>
+                        <a href="{{ c.get_absolute_url }}">
+                            {{ c.name }}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Search Results</h1>
+        
+        {% if query %}
+            <p style="margin-bottom: 20px; font-size: 18px;">
+                Showing results for: <strong>"{{ query }}"</strong>
+                {% if product_count > 0 %}
+                    ({{ product_count }} product{{ product_count|pluralize }} found)
+                {% endif %}
+            </p>
+        {% else %}
+            <p style="margin-bottom: 20px; font-size: 18px;">
+                Please enter a search term to find products.
+            </p>
+        {% endif %}
+        
+        {% if products %}
+            <div class="product-grid">
+                {% for product in products %}
+                    <div class="product-item">
+                        <div class="category-label">{{ product.category.name }}</div>
+                        <a href="{{ product.get_absolute_url }}">
+                            {% if product.image %}
+                                <img src="{{ product.image.url }}?v=12" alt="{{ product.name }}">
+                            {% else %}
+                                <img src="https://via.placeholder.com/250x200?text=No+Image" alt="{{ product.name }}">
+                            {% endif %}
+                        </a>
+                        <h3><a href="{{ product.get_absolute_url }}">{{ product.name }}</a></h3>
+                        <p class="price">£{{ product.price }}</p>
+                        {% if product.stock > 0 %}
+                            <p style="color: green;">In Stock ({{ product.stock }})</p>
+                        {% else %}
+                            <p style="color: red;">Out of Stock</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+            </div>
+        {% elif query %}
+            <div style="text-align: center; padding: 40px; background: #f5f5f5; border-radius: 8px; margin-top: 20px;">
+                <h2 style="color: #666;">No products found</h2>
+                <p style="color: #888; margin-top: 10px;">Try searching with different keywords or browse our categories.</p>
+                <a href="{% url 'products:product_list' %}" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background: #333; color: white; text-decoration: none; border-radius: 4px;">View All Products</a>
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

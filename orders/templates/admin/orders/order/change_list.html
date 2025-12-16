@@ -1,0 +1,134 @@
+{% extends "admin/change_list.html" %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+    /* Wrapper for double scrollbar */
+    #changelist-form {
+        position: relative;
+    }
+    
+    /* Top scrollbar container */
+    .scroll-wrapper-top {
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .scroll-content-top {
+        height: 1px;
+    }
+    
+    /* Force horizontal scrolling on results */
+    div.results {
+        overflow-x: auto !important;
+        overflow-y: visible !important;
+        max-width: 100% !important;
+        display: block !important;
+    }
+    
+    table#result_list {
+        width: auto !important;
+        min-width: 100% !important;
+    }
+    
+    #result_list th,
+    #result_list td {
+        white-space: nowrap !important;
+    }
+    
+    /* Allow text wrapping for specific columns */
+    #result_list th.field-first_name,
+    #result_list td.field-first_name,
+    #result_list th.field-last_name,
+    #result_list td.field-last_name,
+    #result_list th.field-email,
+    #result_list td.field-email,
+    #result_list th.field-city,
+    #result_list td.field-city {
+        white-space: normal !important;
+        min-width: 120px;
+        max-width: 200px;
+    }
+    
+    /* Scrollbar styling for both */
+    div.results::-webkit-scrollbar,
+    .scroll-wrapper-top::-webkit-scrollbar {
+        height: 12px;
+    }
+    
+    div.results::-webkit-scrollbar-track,
+    .scroll-wrapper-top::-webkit-scrollbar-track {
+        background: #f1f1f1;
+        border-radius: 6px;
+    }
+    
+    div.results::-webkit-scrollbar-thumb,
+    .scroll-wrapper-top::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 6px;
+    }
+    
+    div.results::-webkit-scrollbar-thumb:hover,
+    .scroll-wrapper-top::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+    
+    /* Firefox scrollbar styling */
+    div.results,
+    .scroll-wrapper-top {
+        scrollbar-width: thin;
+        scrollbar-color: #888 #f1f1f1;
+    }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Create top scrollbar wrapper
+    var resultsDiv = document.querySelector('div.results');
+    if (resultsDiv) {
+        var table = document.querySelector('#result_list');
+        if (table) {
+            // Create wrapper for top scrollbar
+            var topScrollWrapper = document.createElement('div');
+            topScrollWrapper.className = 'scroll-wrapper-top';
+            
+            // Create content div with same width as table
+            var topScrollContent = document.createElement('div');
+            topScrollContent.className = 'scroll-content-top';
+            topScrollWrapper.appendChild(topScrollContent);
+            
+            // Insert before results div
+            resultsDiv.parentNode.insertBefore(topScrollWrapper, resultsDiv);
+            
+            // Sync scrollbars
+            topScrollWrapper.addEventListener('scroll', function() {
+                resultsDiv.scrollLeft = topScrollWrapper.scrollLeft;
+            });
+            
+            resultsDiv.addEventListener('scroll', function() {
+                topScrollWrapper.scrollLeft = resultsDiv.scrollLeft;
+            });
+            
+            // Set width based on table
+            function updateScrollWidth() {
+                topScrollContent.style.width = table.scrollWidth + 'px';
+            }
+            
+            // Update on load and resize
+            updateScrollWidth();
+            window.addEventListener('resize', updateScrollWidth);
+            
+            // Update when inline edits change table width
+            var observer = new MutationObserver(updateScrollWidth);
+            observer.observe(table, { 
+                attributes: true, 
+                childList: true, 
+                subtree: true 
+            });
+        }
+    }
+});
+</script>
+{% endblock %}

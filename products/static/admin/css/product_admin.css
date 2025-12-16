@@ -1,0 +1,58 @@
+/* Force horizontal scrolling on the results container */
+div.results {
+    overflow-x: auto !important;
+    overflow-y: visible !important;
+    max-width: 100% !important;
+}
+
+/* Make table expand to show all columns */
+table#result_list {
+    width: auto !important;
+    min-width: 100% !important;
+    table-layout: auto !important;
+}
+
+/* Prevent column content from wrapping */
+#result_list th,
+#result_list td {
+    white-space: nowrap !important;
+    padding: 8px 12px !important;
+}
+
+/* Allow product name column to wrap if needed */
+#result_list th.field-name,
+#result_list td.field-name {
+    min-width: 200px;
+    max-width: 350px;
+    white-space: normal !important;
+}
+
+/* Better scrollbar styling */
+div.results::-webkit-scrollbar {
+    height: 14px;
+    background: #f8f8f8;
+}
+
+div.results::-webkit-scrollbar-track {
+    background: #e8e8e8;
+    border-radius: 7px;
+}
+
+div.results::-webkit-scrollbar-thumb {
+    background: #999;
+    border-radius: 7px;
+    border: 2px solid #e8e8e8;
+}
+
+div.results::-webkit-scrollbar-thumb:hover {
+    background: #666;
+}
+
+/* Ensure changelist form doesn't constrain width */
+#changelist {
+    width: 100% !important;
+}
+
+#changelist-form {
+    width: 100% !important;
+}

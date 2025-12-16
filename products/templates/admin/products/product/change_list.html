@@ -1,0 +1,138 @@
+{% extends "admin/change_list.html" %}
+
+{% block extrahead %}
+{{ block.super }}
+<style>
+    /* Wrapper for double scrollbar */
+    #changelist-form {
+        position: relative;
+    }
+    
+    /* Top scrollbar container */
+    .scroll-wrapper-top {
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        height: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .scroll-content-top {
+        height: 1px;
+    }
+    
+    /* Force horizontal scrolling on results */
+    div.results {
+        overflow-x: auto !important;
+        overflow-y: visible !important;
+        max-width: 100% !important;
+        display: block !important;
+    }
+    
+    table#result_list {
+        width: auto !important;
+        min-width: 100% !important;
+    }
+    
+    #result_list th,
+    #result_list td {
+        white-space: nowrap !important;
+    }
+    
+    #result_list th.field-name,
+    #result_list td.field-name {
+        white-space: normal !important;
+        min-width: 200px;
+        max-width: 350px;
+    }
+    
+    /* Scrollbar styling for both */
+    div.results::-webkit-scrollbar,
+    .scroll-wrapper-top::-webkit-scrollbar {
+        height: 14px;
+    }
+    
+    div.results::-webkit-scrollbar-track,
+    .scroll-wrapper-top::-webkit-scrollbar-track {
+        background: #e8e8e8;
+    }
+    
+    div.results::-webkit-scrollbar-thumb,
+    .scroll-wrapper-top::-webkit-scrollbar-thumb {
+        background: #999;
+        border-radius: 7px;
+    }
+    
+    div.results::-webkit-scrollbar-thumb:hover,
+    .scroll-wrapper-top::-webkit-scrollbar-thumb:hover {
+        background: #666;
+    }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Create top scrollbar
+        const results = document.querySelector('div.results');
+        if (results) {
+            const resultList = document.querySelector('#result_list');
+            const topScroll = document.createElement('div');
+            topScroll.className = 'scroll-wrapper-top';
+            const topScrollContent = document.createElement('div');
+            topScrollContent.className = 'scroll-content-top';
+            topScroll.appendChild(topScrollContent);
+            
+            // Insert before results
+            results.parentNode.insertBefore(topScroll, results);
+            
+            // Sync scrollbar widths
+            function syncWidth() {
+                if (resultList) {
+                    topScrollContent.style.width = resultList.scrollWidth + 'px';
+                }
+            }
+            syncWidth();
+            
+            // Sync scroll positions
+            topScroll.addEventListener('scroll', function() {
+                results.scrollLeft = topScroll.scrollLeft;
+            });
+            
+            results.addEventListener('scroll', function() {
+                topScroll.scrollLeft = results.scrollLeft;
+            });
+            
+            // Re-sync on window resize
+            window.addEventListener('resize', syncWidth);
+            
+            // Re-sync after any DOM changes (for inline editing)
+            const observer = new MutationObserver(syncWidth);
+            observer.observe(resultList, { childList: true, subtree: true });
+        }
+    });
+</script>
+{% endblock %}
+
+{% block footer %}
+{{ block.super }}
+<div style="padding: 20px; background-color: #f8f9fa; border-top: 2px solid #dee2e6; margin-top: 20px;">
+    <div style="max-width: 1200px; margin: 0 auto;">
+        <h3 style="margin-top: 0; color: #333;">Quick Filters</h3>
+        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+            <a href="?is_online__exact=0" class="button" style="padding: 10px 20px; background-color: #17a2b8; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.2em;">📦</span>
+                <span>View Warehouse Products Only</span>
+            </a>
+            <a href="?is_online__exact=1" class="button" style="padding: 10px 20px; background-color: #28a745; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.2em;">🌐</span>
+                <span>View Online Products Only</span>
+            </a>
+            <a href="?" class="button" style="padding: 10px 20px; background-color: #6c757d; color: white; text-decoration: none; border-radius: 5px; display: inline-flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.2em;">🔄</span>
+                <span>View All Products</span>
+            </a>
+        </div>
+        <p style="margin-top: 15px; color: #666; font-size: 0.9em;">
+            <strong>Tip:</strong> Use these buttons to quickly filter products by their warehouse/online status. 
+            You can also use the filter sidebar on the right for more filtering options.
+        </p>
+    </div>
+</div>
+{% endblock %}

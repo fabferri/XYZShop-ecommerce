@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}My Profile{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>My Profile</h1>
+        
+        <div style="background-color: #f4f4f4; padding: 2rem; border-radius: 5px; margin: 2rem 0;">
+            <h2>Account Information</h2>
+            <p><strong>Username:</strong> {{ user.username }}</p>
+            <p><strong>Name:</strong> {{ user.first_name }} {{ user.last_name }}</p>
+            <p><strong>Email:</strong> {{ user.email }}</p>
+            <p><strong>Member since:</strong> {{ user.date_joined|date:"F d, Y" }}</p>
+        </div>
+        
+        <div style="margin-top: 2rem;">
+            <a href="{% url 'accounts:order_history' %}" class="btn">View Order History</a>
+        </div>
+    </div>
+{% endblock %}

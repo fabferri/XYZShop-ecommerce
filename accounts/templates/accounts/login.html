@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block title %}Login{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Login</h1>
+        
+        {% if form.errors %}
+            <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 1rem; border-radius: 5px; margin-bottom: 1rem;">
+                <strong>Invalid username or password. Please try again.</strong>
+            </div>
+        {% endif %}
+        
+        <form method="post" style="max-width: 600px;">
+            {% csrf_token %}
+            
+            <p>
+                <label for="{{ form.username.id_for_label }}">Username:</label>
+                {{ form.username }}
+            </p>
+            
+            <p>
+                <label for="{{ form.password.id_for_label }}">Password:</label>
+                {{ form.password }}
+            </p>
+            
+            <button type="submit" class="btn">Login</button>
+        </form>
+        
+        <p style="margin-top: 2rem;">
+            Don't have an account? <a href="{% url 'accounts:register' %}" style="color: #006400;">Register here</a>
+        </p>
+    </div>
+{% endblock %}

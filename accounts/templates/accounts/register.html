@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block title %}Register{% endblock %}
+
+{% block content %}
+    <div class="container">
+        <h1>Create Account</h1>
+        
+        <form method="post" style="max-width: 600px;">
+            {% csrf_token %}
+            
+            {% if form.errors %}
+                <div style="background-color: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; padding: 1rem; border-radius: 5px; margin-bottom: 1rem;">
+                    <strong>Please correct the errors below:</strong>
+                    <ul style="margin-top: 0.5rem;">
+                        {% for field, errors in form.errors.items %}
+                            {% for error in errors %}
+                                <li>{{ field }}: {{ error }}</li>
+                            {% endfor %}
+                        {% endfor %}
+                    </ul>
+                </div>
+            {% endif %}
+            
+            <p>
+                <label for="{{ form.username.id_for_label }}">Username:</label>
+                {{ form.username }}
+                {% if form.username.help_text %}
+                    <small style="display: block; color: #666; margin-top: 0.25rem;">{{ form.username.help_text }}</small>
+                {% endif %}
+            </p>
+            
+            <p>
+                <label for="{{ form.first_name.id_for_label }}">First Name:</label>
+                {{ form.first_name }}
+            </p>
+            
+            <p>
+                <label for="{{ form.last_name.id_for_label }}">Last Name:</label>
+                {{ form.last_name }}
+            </p>
+            
+            <p>
+                <label for="{{ form.email.id_for_label }}">Email:</label>
+                {{ form.email }}
+            </p>
+            
+            <p>
+                <label for="{{ form.password1.id_for_label }}">Password:</label>
+                {{ form.password1 }}
+                {% if form.password1.help_text %}
+                    <small style="display: block; color: #666; margin-top: 0.25rem;">{{ form.password1.help_text }}</small>
+                {% endif %}
+            </p>
+            
+            <p>
+                <label for="{{ form.password2.id_for_label }}">Confirm Password:</label>
+                {{ form.password2 }}
+                {% if form.password2.help_text %}
+                    <small style="display: block; color: #666; margin-top: 0.25rem;">{{ form.password2.help_text }}</small>
+                {% endif %}
+            </p>
+            
+            <button type="submit" class="btn">Create Account</button>
+        </form>
+        
+        <p style="margin-top: 2rem;">
+            Already have an account? <a href="{% url 'accounts:login' %}" style="color: #006400;">Log in here</a>
+        </p>
+    </div>
+{% endblock %}
