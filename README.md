@@ -274,12 +274,6 @@ The project includes utility scripts for database management and maintenance:
 
 **Purpose**: Exports all current product definitions from database
 
-**Usage**:
-
-```powershell
-python export_products.py
-```
-
 **What it does**:
 - Queries all products and categories from database
 - Generates Python code with CATEGORIES and ALL_PRODUCTS dictionaries
@@ -295,11 +289,6 @@ python export_products.py
 
 **Purpose**: Populates database with products marked as warehouse (not online)
 
-**Usage**:
-```powershell
-python db_populate_fresh_database.py
-```
-
 **What it does**:
 - Deletes all existing products and categories
 - Creates 4 sample categories
@@ -314,11 +303,6 @@ python db_populate_fresh_database.py
 ### db_delete_all_records.py
 
 **Purpose**: Deletes all database records (except superusers)
-
-**Usage**:
-```powershell
-python db_delete_all_records.py
-```
 
 **What it does**:
 - Deletes all Sales records
@@ -340,11 +324,6 @@ python db_delete_all_records.py
 
 **Purpose**: Lists all product images from media folder
 
-**Usage**:
-```powershell
-python extract_product_images.py
-```
-
 **What it does**:
 - Scans `media/products/` directory
 - Lists all image files (.jpg, .png, .gif)
@@ -358,11 +337,6 @@ python extract_product_images.py
 ### compare_product_images.py
 
 **Purpose**: Compares actual images with stored list
-
-**Usage**:
-```powershell
-python compare_product_images.py
-```
 
 **What it does**:
 - Reads `product_images_list.txt`
@@ -379,11 +353,6 @@ python compare_product_images.py
 
 **Purpose**: Creates a superuser account programmatically
 
-**Usage**:
-```powershell
-python create_admin.py
-```
-
 **What it does**:
 - Creates superuser with predefined credentials
 - Username: admin
@@ -396,11 +365,6 @@ python create_admin.py
 ### set_existing_products_online.py
 
 **Purpose**: Sets all products to online status
-
-**Usage**:
-```powershell
-python set_existing_products_online.py
-```
 
 **What it does**:
 - Updates all products to `is_online=True`
@@ -445,5 +409,5 @@ python db_delete_all_records.py
 python restore_database.py
 ```
 
----
-
+`Tags: Django,` <br>
+`date: 15-12-2025` <br>
