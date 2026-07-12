@@ -1,3 +1,8 @@
+"""
+Create Sample Reviews
+Creates a single test customer ('customer1') and adds sample reviews
+(ratings + comments) to the first 10 products in the database.
+"""
 import os
 import django
 

@@ -1,3 +1,8 @@
+"""
+Check Product 762
+Looks up product ID 762, checks its online status, and searches for
+products with the slug 'air-compressor-50l-25hp' or similar names.
+"""
 import os
 import django
 

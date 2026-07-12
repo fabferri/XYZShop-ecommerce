@@ -1,3 +1,8 @@
+"""
+Product Template Tags
+Custom template filters for product templates.
+Provides get_item filter for dictionary lookups in templates.
+"""
 from django import template
 
 register = template.Library()

@@ -1,7 +1,11 @@
+"""
+Demo Warehouse Functionality
+Creates test products in different warehouse states (online vs. offline)
+and demonstrates querying by is_online status. Cleans up test data at the end.
+"""
 import os
 import django
 
-# Setup Django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xyz_store.settings')
 django.setup()
 

@@ -1,8 +1,12 @@
+"""
+Set Cost Prices
+Sets cost_price for every product to 65% of its selling price, giving
+a ~54% retail margin typical for hardware/tools.
+"""
 import os
 import django
 from decimal import Decimal
 
-# Setup Django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xyz_store.settings')
 django.setup()
 

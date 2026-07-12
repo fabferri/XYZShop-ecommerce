@@ -1,3 +1,9 @@
+"""
+Create Orders from Reviews
+Generates orders for every reviewed product so that each review is backed
+by a purchase. Creates Order + OrderItem + Sale records with random
+addresses, payment methods, and delivery statuses.
+"""
 import os
 import django
 import random

@@ -1,3 +1,8 @@
+"""
+Alternative Custom Admin Site
+Alternative admin site implementation with dashboard statistics
+and an exported admin_site instance.
+"""
 from django.contrib import admin
 from django.contrib.admin import AdminSite
 from django.utils.html import format_html

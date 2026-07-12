@@ -1,3 +1,8 @@
+"""
+Orders Admin
+Admin configuration for Order and OrderItem models with inline items,
+status editing, payment info, user details, and date hierarchy.
+"""
 from django.contrib import admin
 from .models import Order, OrderItem
 

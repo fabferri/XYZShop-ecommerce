@@ -536,6 +536,9 @@
                 <div class="user-menu">
                     {% if user.is_authenticated %}
                         <span class="user-welcome">Hello, {{ user.first_name|default:user.username }}!</span>
+                        {% if user.is_staff %}
+                        <a href="/admin/" style="background: #e74c3c; padding: 5px 12px; border-radius: 20px; color: white; text-decoration: none; font-weight: bold;">Admin Panel</a>
+                        {% endif %}
                         <a href="{% url 'accounts:profile' %}">My Account</a>
                         <a href="{% url 'accounts:order_history' %}">Orders</a>
                         <a href="{% url 'accounts:logout' %}">Logout</a>

@@ -1,3 +1,8 @@
+"""
+Verify Reviews
+Prints a summary of the product rating system: total products, products
+with reviews, total review count, and a sample of rated products with stars.
+"""
 import os
 import django
 

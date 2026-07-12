@@ -1,5 +1,12 @@
+"""
+Products Admin
+Admin configuration for Category, Product, Sale, ProductPriceHistory,
+and ProductReview with image previews, margin displays, inline history/reviews,
+and bulk online/warehouse actions.
+"""
 from django.contrib import admin
 from django.utils.html import format_html
+from django.utils.safestring import mark_safe
 from .models import Category, Product, Sale, ProductPriceHistory, ProductReview
 
 # Register your models here.
@@ -115,7 +122,7 @@ class ProductAdmin(admin.ModelAdmin):
     def image_preview(self, obj):
         if obj.image:
             return format_html('<img src="{}" style="width: 50px; height: 50px; object-fit: cover; border-radius: 5px;" />', obj.image.url)
-        return format_html('<span style="color: #999;">No Image</span>')
+        return mark_safe('<span style="color: #999;">No Image</span>')
     image_preview.short_description = 'Image'
     
     def selling_price_display(self, obj):
@@ -162,7 +169,7 @@ class ProductAdmin(admin.ModelAdmin):
         count = obj.get_rating_count()
         
         if count == 0:
-            return format_html('<span style="color: #999;">No reviews</span>')
+            return mark_safe('<span style="color: #999;">No reviews</span>')
         
         # Calculate full stars and half star
         full_stars = int(avg_rating)

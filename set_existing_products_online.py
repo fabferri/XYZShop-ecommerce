@@ -1,9 +1,11 @@
-# Script to set all existing products to online status
-#
+"""
+Set All Products Online
+Updates every product in the database to is_online=True, making the
+entire catalog visible to customers on the storefront.
+"""
 import os
 import django
 
-# Setup Django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xyz_store.settings')
 django.setup()
 

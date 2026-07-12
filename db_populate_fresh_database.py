@@ -1,7 +1,9 @@
 """
-Populate Fresh Database Script
-This script adds all products to a fresh XYZShop database.
-Run this after creating a new database with: python manage.py migrate
+Populate Fresh Database (Warehouse Only)
+Deletes all existing products/categories and creates a small set of
+sample products marked as warehouse-only (is_online=False).
+Useful for testing warehouse management functionality.
+Run after: python manage.py migrate
 """
 
 import os

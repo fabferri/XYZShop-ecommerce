@@ -1,3 +1,8 @@
+"""
+Rename Test Category to Sealants
+Renames the 'Test' category (slug='test') to 'Sealants' (slug='sealants').
+If the Test category doesn't exist, creates a new Sealants category instead.
+"""
 import os
 import django
 
@@ -16,7 +21,7 @@ def main():
         test_category.slug = 'sealants'
         test_category.save()
         
-        print(f"✅ Successfully renamed 'Test' category to 'Sealants'")
+        print(f" Successfully renamed 'Test' category to 'Sealants'")
         
         # Count products in this category
         product_count = Product.objects.filter(category=test_category).count()

@@ -1,3 +1,8 @@
+"""
+Show Review URLs
+Lists all products that have customer reviews, showing their average
+star rating, review count, and the URL to view each product page.
+"""
 import os
 import django
 

@@ -1,3 +1,7 @@
+"""
+Management Command: populate_db
+Populates the database with sample categories and products for development.
+"""
 from django.core.management.base import BaseCommand
 from products.models import Category, Product
 

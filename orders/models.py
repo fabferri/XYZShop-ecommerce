@@ -1,3 +1,8 @@
+"""
+Orders Models
+Order and OrderItem models for customer orders with payment method,
+status tracking, and cost calculation.
+"""
 from django.db import models
 from django.contrib.auth.models import User
 from products.models import Product

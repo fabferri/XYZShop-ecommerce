@@ -1,29 +1,73 @@
+"""
+Orders Views
+Function-based views for order creation from cart, payment simulation,
+and payment confirmation page.
+"""
 from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib import messages
+from django.db import transaction
+from django.db.models import F
 from .models import OrderItem, Order
 from .forms import OrderCreateForm, PaymentForm
+from products.models import Product
 from cart.cart import Cart
 import uuid
 
-# Create your views here.
+
+class InsufficientStock(Exception):
+    """Raised when a cart item's quantity exceeds available product stock."""
+
+    def __init__(self, product_name):
+        self.product_name = product_name
+        super().__init__(product_name)
+
 
 def order_create(request):
     cart = Cart(request)
     if request.method == 'POST':
         form = OrderCreateForm(request.POST)
         if form.is_valid():
-            order = form.save(commit=False)
-            # Link order to user if authenticated
-            if request.user.is_authenticated:
-                order.user = request.user
-            order.save()
-            for item in cart:
-                OrderItem.objects.create(
-                    order=order,
-                    product=item['product'],
-                    price=item['price'],
-                    quantity=item['quantity']
+            if len(cart) == 0:
+                messages.error(request, 'Your cart is empty.')
+                return redirect('cart:cart_detail')
+            try:
+                with transaction.atomic():
+                    # Lock the product rows to prevent overselling under concurrency.
+                    product_ids = [item['product'].id for item in cart]
+                    locked = {
+                        p.id: p for p in
+                        Product.objects.select_for_update().filter(id__in=product_ids)
+                    }
+                    # Validate stock before creating the order.
+                    for item in cart:
+                        product = locked.get(item['product'].id)
+                        if product is None or product.stock < item['quantity']:
+                            raise InsufficientStock(item['product'].name)
+
+                    order = form.save(commit=False)
+                    if request.user.is_authenticated:
+                        order.user = request.user
+                    order.save()
+
+                    for item in cart:
+                        product = locked[item['product'].id]
+                        OrderItem.objects.create(
+                            order=order,
+                            product=product,
+                            price=item['price'],
+                            quantity=item['quantity'],
+                        )
+                        # Atomic decrement at the database level.
+                        Product.objects.filter(id=product.id).update(
+                            stock=F('stock') - item['quantity']
+                        )
+            except InsufficientStock as exc:
+                messages.error(
+                    request,
+                    f'Sorry, "{exc.product_name}" does not have enough stock.',
                 )
+                return redirect('cart:cart_detail')
+
             # clear the cart
             cart.clear()
             # Redirect to payment page

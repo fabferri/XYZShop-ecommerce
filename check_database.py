@@ -1,5 +1,8 @@
 """
 Check Database Status
+Prints a summary of all database tables: product count, category count,
+order count, user count, review count, price history entries, and sales.
+Useful for quick verification after restore or data operations.
 """
 import os
 import django

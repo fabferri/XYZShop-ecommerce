@@ -1,3 +1,7 @@
+"""
+Orders App Configuration
+Connects the orders signal handlers on app ready.
+"""
 from django.apps import AppConfig
 
 

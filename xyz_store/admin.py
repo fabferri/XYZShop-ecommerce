@@ -1,3 +1,8 @@
+"""
+Custom Admin Site
+Defines CustomAdminSite with a statistics dashboard showing product counts,
+stock status, order statistics, revenue, and user summaries.
+"""
 from django.contrib import admin
 
 class CustomAdminSite(admin.AdminSite):

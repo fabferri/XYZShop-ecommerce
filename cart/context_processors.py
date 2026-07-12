@@ -1,3 +1,7 @@
+"""
+Cart Context Processor
+Makes the Cart instance available as {{ cart }} in all templates.
+"""
 from .cart import Cart
 
 

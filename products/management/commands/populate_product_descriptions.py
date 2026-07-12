@@ -1,3 +1,8 @@
+"""
+Management Command: populate_product_descriptions
+Generates product descriptions by matching product names against
+keyword patterns and assigning category-based fallback text.
+"""
 import time
 from django.core.management.base import BaseCommand
 from products.models import Product

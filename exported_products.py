@@ -23,7 +23,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': '13A Socket Twin 2 Gang White',
         'slug': 'socket-twin-2-gang-white',
-        'description': 'Twin 13A socket outlet, 2 gang, white finish. Includes mounting box.',
+        'description': 'Double 13A switched socket outlet in white moulded plastic. Twin 2-gang design with individually switched sockets featuring neon indicators. Flush-mounted with 25mm depth. Rated at 250V AC. Suitable for all standard UK single or double back boxes. Screw terminal connections for quick, secure wiring. Conforms to BS 1363. Includes fixing screws.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 60,
@@ -34,7 +34,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': '3-Way Adapter Plug White',
         'slug': '3-way-adapter-plug-white',
-        'description': 'Socket splitter',
+        'description': 'Three-way mains adapter plug in white. Converts a single 13A socket outlet into three sockets. Rated at 13A, 250V AC. Fitted with a BS 1363 plug with 13A fuse. Ideal for temporarily connecting multiple low-power devices such as phone chargers, lamps, and clock radios. Compact design sits flat against the wall socket. Not recommended for high-power appliances. Conforms to BS 1363.',
         'price': 3.99,
         'cost_price': 2.59,
         'stock': 100,
@@ -45,7 +45,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Alarm Cable 6 Core 100m',
         'slug': 'alarm-cable-6-core-100m',
-        'description': 'Security alarm installation cable',
+        'description': 'Multi-core alarm cable with 6 conductors, 100-metre drum. 7/0.2mm solid copper conductors with PVC insulation and overall PVC sheath in white. Suitable for intruder alarm systems, CCTV installations, access control, and door entry systems. For internal use only — not suitable for direct burial. Low smoke zero halogen alternative available. Fire resistance rated to BS 4737.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 100,
@@ -56,7 +56,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Armoured Cable 4mm 10m',
         'slug': 'armoured-cable-4mm-10m',
-        'description': 'Steel wire armoured cable for outdoor use',
+        'description': 'Steel wire armoured (SWA) cable, 4mm² cross-section, 10-metre cut length. 3-core (live, neutral, earth) with XLPE insulation and galvanised steel wire armour for mechanical protection. Suitable for underground burial, outdoor installations, and commercial wiring where physical protection is required. Voltage rating 600/1000V. Conforms to BS 5467.',
         'price': 45.99,
         'cost_price': 29.89,
         'stock': 100,
@@ -67,7 +67,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Back Box Single Gang 35mm',
         'slug': 'back-box-single-gang-35mm',
-        'description': 'Mounting box for switches',
+        'description': 'Galvanised steel single-gang flush back box, 35mm deep. Designed for mounting single light switches, sockets, and other 1-gang accessories into masonry walls. Pre-punched 20mm cable entries with knockouts on all sides. Earth terminal fitted. Fixing lugs adjustable for alignment. Dimensions: 86mm x 86mm x 35mm.',
         'price': 0.99,
         'cost_price': 0.64,
         'stock': 100,
@@ -78,7 +78,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Back Box Twin Gang 25mm',
         'slug': 'back-box-twin-gang-25mm',
-        'description': 'Double socket back box',
+        'description': 'Galvanised steel twin-gang flush back box, 25mm deep. For mounting 2-gang switches and sockets flush into masonry walls. Pre-punched 20mm cable entries on all sides. Fitted earth terminal. Adjustable fixing lugs for levelling. Shallow depth suitable for standard walls. Dimensions: 148mm x 86mm x 25mm.',
         'price': 1.49,
         'cost_price': 0.97,
         'stock': 100,
@@ -89,7 +89,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Bathroom Extractor Fan 100mm',
         'slug': 'bathroom-extractor-fan-100mm',
-        'description': 'Ventilation fan',
+        'description': 'Axial extractor fan for bathrooms and WC areas, 100mm (4-inch) duct connection. Extracts stale air and moisture at 95m³/h flow rate. Low noise operation at 35dB(A). IPX4 rated for Zone 2 bathroom installation. Mains powered 240V. Includes backdraught shutter to prevent cold air ingress. Wall or ceiling mountable. Energy efficient 15W motor.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -100,7 +100,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Bathroom Heater Fan 2000W',
         'slug': 'bathroom-heater-fan-2000w',
-        'description': 'Wall mounted heater',
+        'description': 'Wall-mounted bathroom fan heater with 2000W heat output. Features rapid warm-up with adjustable thermostat and cool-shot function. IPX2 rated for bathroom Zone 2 use. Pull-cord operated with 2 heat settings (1000W / 2000W). Integral safety cut-out prevents overheating. Compact design with downflow pattern. Dimensions: 255mm x 185mm x 115mm.',
         'price': 45.99,
         'cost_price': 29.89,
         'stock': 100,
@@ -111,7 +111,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Bathroom Mirror Light LED 600mm',
         'slug': 'bathroom-mirror-light-led-600mm',
-        'description': 'Above mirror lighting',
+        'description': 'LED bathroom mirror light, 600mm wide. IP44 rated for above-mirror installation in Zone 2 bathrooms. Integrated 8W LED delivers 680 lumens of natural white light (4000K) for accurate colour rendering. Chrome-effect end caps with opal polycarbonate diffuser. Mains powered 240V, hardwired installation. Shaver socket not included. Lifespan 30,000 hours.',
         'price': 28.99,
         'cost_price': 18.84,
         'stock': 100,
@@ -122,7 +122,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Bathroom Pull Switch Ceiling',
         'slug': 'bathroom-pull-switch-ceiling',
-        'description': 'Cord operated switch',
+        'description': 'Ceiling-mounted pull cord switch for bathrooms and WC areas. 6A 2-way rated for lighting circuits. 1.5m cord length (can be trimmed). Chrome-plated pendant with white cord. IP44 rated for Zone 2 bathroom installation. Mounts directly onto ceiling rose or junction box. Suitable for switching bathroom lights from inside the room.',
         'price': 5.99,
         'cost_price': 3.89,
         'stock': 100,
@@ -133,7 +133,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Battery 9V PP3 Pack 4',
         'slug': 'battery-9v-pp3-pack-4',
-        'description': 'Alkaline batteries',
+        'description': '9V PP3 alkaline batteries, pack of 4. High-performance cells suitable for smoke alarms, wireless doorbells, guitar pedals, multimeters, and remote controls. 550mAh typical capacity. Leak-resistant construction. Shelf life up to 5 years when stored in a cool, dry place at room temperature. Not rechargeable.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -144,7 +144,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Battery AA Pack 24',
         'slug': 'battery-aa-pack-24',
-        'description': 'Long life batteries',
+        'description': 'AA alkaline batteries, 24-pack economy box. 1.5V LR6 cells with high energy density for demanding devices. Suitable for TV remotes, wireless keyboards, torches, clocks, and toys. Typical capacity 2800mAh. Anti-leak technology. 10-year shelf life in storage. Not rechargeable. Mercury and cadmium free.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -155,7 +155,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Bollard Light Post 60cm Steel',
         'slug': 'bollard-light-post-60cm-steel',
-        'description': 'Garden path light',
+        'description': 'Outdoor bollard post light in brushed stainless steel. 600mm height with opal polycarbonate diffuser for even light distribution. Accepts E27 bulb up to 60W (LED recommended, bulb not included). IP44 rated for outdoor use. Mains powered 240V, requires hardwired connection. Ground spike or bolt-down base plate installation. Suitable for pathway, driveway, and garden border illumination.',
         'price': 42.99,
         'cost_price': 27.94,
         'stock': 100,
@@ -166,7 +166,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Bulkhead Light Round White 60W',
         'slug': 'bulkhead-light-round-white-60w',
-        'description': 'Utility ceiling light',
+        'description': 'Round bulkhead light in white polycarbonate with opal diffuser. Suitable for indoor and sheltered outdoor use. IP54 rated. Accepts BC (B22) lamp up to 60W (LED recommended, lamp not included). Wall or ceiling mountable. Ideal for porches, utility rooms, stairwells, and corridors. Dimensions: 220mm diameter x 80mm projection. Captive fixing screws.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -177,7 +177,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Cable Clips 10mm White Pack 100',
         'slug': 'cable-clips-10mm-white-pack-100',
-        'description': 'Cable fixing clips',
+        'description': 'Round cable clips with hardened steel masonry nails. 10mm diameter suitable for twin and earth 2.5mm² cable. White plastic construction blends with walls and skirting. Pack of 100. For securing cables neatly along walls, skirting boards, and ceilings. Nail length 25mm suitable for masonry and timber.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -188,7 +188,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Cable Detector Wall Scanner',
         'slug': 'cable-detector-wall-scanner',
-        'description': 'Stud and cable finder',
+        'description': 'Electronic wall scanner and cable detector with LCD display. Detects live AC cables, metal pipes, and timber studs behind plasterboard and masonry walls. Detection depth: cables up to 50mm, metal up to 50mm, studs up to 38mm. Audible and visual alert when target located. Auto-calibration. Requires 1x 9V battery (included). Essential safety tool before drilling into walls.',
         'price': 32.99,
         'cost_price': 21.44,
         'stock': 100,
@@ -199,7 +199,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Cable Ties 300mm Black Pack 100',
         'slug': 'cable-ties-300mm-black-pack-100',
-        'description': 'Heavy duty ties',
+        'description': 'Nylon cable ties, 300mm x 4.8mm, black. Pack of 100. UV-stabilised for outdoor use without degrading. Operating temperature range -40°C to +85°C. Tensile strength 22kg. Self-locking ratchet mechanism for secure bundling of cables, pipes, and hoses. Suitable for electrical, automotive, garden, and general-purpose applications.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -210,7 +210,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Cable Trunking 50x50mm 2m White',
         'slug': 'cable-trunking-50x50mm-2m-white',
-        'description': 'Surface cable cover',
+        'description': 'PVC cable trunking, 50mm x 50mm cross-section, 2-metre length in white. Self-adhesive backing for quick installation on smooth surfaces, or screw-fix to walls. Snap-on lid for easy cable access. Suitable for surface-mounting mains cables, data cables, and telephone wiring. Fire rated to BS 476 Part 7 Class 1. Cut to length with fine-tooth saw.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -221,7 +221,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Carbon Monoxide Alarm Digital',
         'slug': 'carbon-monoxide-alarm-digital',
-        'description': 'CO detector',
+        'description': 'Digital carbon monoxide alarm with sealed lithium battery for 10-year life. Electrochemical sensor detects CO from faulty boilers, gas fires, and other fuel-burning appliances. LCD display shows real-time CO concentration in parts per million. 85dB audible alarm. Test/silence button. End-of-life indicator. Conforms to BS EN 50291-1. Wall or free-standing.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -232,7 +232,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Cat6 Ethernet Cable Grey 305m Box',
         'slug': 'cat6-ethernet-cable-grey-305m-box',
-        'description': 'Gigabit network cable',
+        'description': 'Category 6 Ethernet network cable, 305-metre box with internal reel and pull-out slot. UTP (unshielded twisted pair) with solid copper conductors. Grey PVC outer sheath. Supports 10/100/1000 Mbps and 10Gbps networks up to 55m. Bandwidth 250MHz. Suitable for structured cabling installations in offices, homes, and data centres. Conforms to TIA/EIA-568-B.2-1.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 100,
@@ -243,7 +243,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Coaxial Cable RG6 White 25m',
         'slug': 'coaxial-cable-rg6-white-25m',
-        'description': 'TV and satellite cable',
+        'description': 'RG6 coaxial cable in white, 25-metre coil. 75-ohm impedance suitable for satellite TV (Sky, Freesat), Freeview aerial, and broadband connections. Copper-clad steel centre conductor with aluminium foil and braid screening for low signal loss. Suitable for internal and external use. Conforms to EN 50117. Low loss: 18dB/100m at 800MHz.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -254,7 +254,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Conduit Box 25mm PVC',
         'slug': 'conduit-box-25mm-pvc',
-        'description': 'Cable management box',
+        'description': 'PVC conduit through-box, 25mm diameter. Provides inspection access and allows cable pulling at changes of direction. Circular lid with captive screw. Suitable for use with standard 25mm round PVC conduit in surface-mounted wiring installations. UV-resistant for indoor and outdoor use. Conforms to BS EN 61386.',
         'price': 1.99,
         'cost_price': 1.29,
         'stock': 100,
@@ -265,7 +265,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Consumer Unit 10-Way Metal',
         'slug': 'consumer-unit-10-way-metal',
-        'description': 'Main distribution board',
+        'description': 'Metal consumer unit (fuse board), 10-way with 100A main switch. Accepts standard DIN rail MCBs and RCBOs. Dual RCD protected split-load configuration meets 18th Edition wiring regulations (BS 7671). Powder-coated steel enclosure with lockable door. Supplied with neutral and earth bars, blanking strips, and cable glands. For domestic and light commercial installations.',
         'price': 45.99,
         'cost_price': 29.89,
         'stock': 100,
@@ -276,7 +276,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Cooker Switch 45A White',
         'slug': 'cooker-switch-45a-white',
-        'description': 'Cooker control switch',
+        'description': 'Cooker control switch rated at 45A with neon indicator, white moulded plastic. Suitable for controlling electric cookers and ovens up to 45A. Double-pole switching isolates both live and neutral. Fits standard twin-gang back box. Neon indicator shows when circuit is energised. Includes 13A socket outlet for kettle or small appliance. Conforms to BS 4177.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -287,7 +287,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Crimping Tool Ratchet Type',
         'slug': 'crimping-tool-ratchet-type',
-        'description': 'Terminal crimper',
+        'description': 'Professional-grade ratchet crimping tool for insulated and non-insulated terminals. Precision ratchet mechanism ensures consistent, reliable crimps every time. Handles terminals from 0.5mm² to 6mm² (AWG 22-10). Ergonomic cushion-grip handles reduce hand fatigue during extended use. Hardened steel jaws with calibrated die sets. Quick-release lever for repositioning.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -298,7 +298,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Dimmer Switch 2-Way 400W Chrome',
         'slug': 'dimmer-switch-2-way-400w-chrome',
-        'description': 'LED compatible dimmer switch',
+        'description': 'Rotary dimmer switch, 2-way operation, rated at 400W for incandescent and halogen lamps. Chrome-effect flat plate design. Also compatible with dimmable LED lamps (check manufacturer ratings). Push on/off with rotary brightness control. Fits standard single-gang back box (minimum 25mm deep). Trailing-edge operation for smooth, flicker-free dimming.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -309,7 +309,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Din Rail Connector 10mm',
         'slug': 'din-rail-connector-10mm',
-        'description': 'Busbar connector',
+        'description': 'DIN rail terminal block connector rated at 10mm² conductor capacity. Screw-clamp connection suitable for stranded and solid conductors from 0.5mm² to 10mm². 57A rated at 600V. Grey polyamide housing with clear marking strips. Snaps onto standard 35mm DIN rail. For use in consumer units, control panels, and distribution boards.',
         'price': 3.99,
         'cost_price': 2.59,
         'stock': 100,
@@ -320,7 +320,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Door Bell Wired Push Button',
         'slug': 'door-bell-wired-push-button',
-        'description': 'Traditional doorbell',
+        'description': 'Wired door bell push button in white plastic housing. Surface-mounted with 2 screw fixings. Illuminated centre button for visibility at night. Requires 3V-8V AC door bell transformer (sold separately) and bell wire. Suitable for front doors, side entrances, and gates. Dimensions: 60mm x 30mm. IP20 rated for sheltered locations.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -331,7 +331,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Door Bell Wireless 100m Range',
         'slug': 'door-bell-wireless-100m-range',
-        'description': 'Battery operated bell',
+        'description': 'Wireless battery-operated door bell with 100-metre operating range. 36 selectable melodies with adjustable volume control. Plug-in receiver connects directly to mains socket. Transmitter (push button) is IP44 weatherproof for outdoor mounting. Receiver requires no wiring. Expandable system — add additional receivers or transmitters. Operating frequency 433MHz.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -342,7 +342,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Dry Lining Box Single 35mm',
         'slug': 'dry-lining-box-single-35mm',
-        'description': 'Plasterboard mounting box',
+        'description': 'Dry-lining back box for plasterboard walls, single-gang, 35mm deep. Integral spring-loaded wings grip behind plasterboard for secure mounting without screws into studs. Accepts standard 1-gang faceplates. 20mm knockouts for cable entry. Earth terminal fitted. For use in stud partition walls with 9.5mm or 12.5mm plasterboard.',
         'price': 1.99,
         'cost_price': 1.29,
         'stock': 100,
@@ -353,7 +353,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Emergency Exit Light LED',
         'slug': 'emergency-exit-light-led',
-        'description': 'Fire safety lighting',
+        'description': 'LED emergency exit sign with maintained and non-maintained operation. Illuminates exit route during mains failure using integral NiCd battery (3-hour duration). Universal mounting — ceiling, wall, or recessed. Includes left, right, and down directional arrows. Low-energy LED lamps. Conforms to BS 5266 and EN 60598-2-22. Self-test function.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -364,7 +364,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Extension Lead 4-Socket 5m',
         'slug': 'extension-lead-4-socket-5m',
-        'description': 'Power extension cable',
+        'description': 'Four-socket extension lead, 5-metre cable length. Rated at 13A, 3120W maximum load. Neon power indicator. White trailing socket with individual switches per socket. Fitted with rewireable BS 1363 plug with 13A fuse. 1.25mm² H05VV-F flexible cable. Suitable for home and office use. Not for outdoor use.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -375,7 +375,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Extension Lead 6-Socket Surge',
         'slug': 'extension-lead-6-socket-surge',
-        'description': 'Protected extension lead',
+        'description': 'Six-socket surge-protected extension lead with integrated surge protection (up to 2500 joules). Individual switches and neon indicators per socket. 2-metre cable length. 13A rated. Protects connected equipment from voltage spikes and surges. Ideal for computers, TVs, and home entertainment systems. Conforms to BS 1363. Status LED indicates surge protection active.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -386,7 +386,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Extension Reel 25m 4-Socket',
         'slug': 'extension-reel-25m-4-socket',
-        'description': 'Cable drum with sockets',
+        'description': 'Cable reel extension lead, 25-metre cable length with 4 socket outlets. 13A rated (when fully unwound). Thermal cut-out protection against overload. 1.25mm² cable on open-frame reel with carry handle. Safety marking indicates maximum load when cable is wound. Essential for garages, workshops, and garden use. Note: always fully unwind before use at high loads.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 100,
@@ -397,7 +397,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Extension Reel 50m Heavy Duty',
         'slug': 'extension-reel-50m-heavy-duty',
-        'description': 'Professional cable reel',
+        'description': 'Heavy-duty cable reel, 50-metre cable length with 4 socket outlets. 13A rated (when fully unwound). 1.5mm² cable on robust metal frame with carry handle and wind guide. Thermal cut-out protects against overload. RCD protected for enhanced safety. Suitable for workshop, construction site, and outdoor event use. Conforms to BS 7071.',
         'price': 64.99,
         'cost_price': 42.24,
         'stock': 100,
@@ -408,7 +408,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Extractor Fan Timer Humidistat',
         'slug': 'extractor-fan-timer-humidistat',
-        'description': 'Auto humidity control fan',
+        'description': 'Bathroom extractor fan with integral timer and humidity sensor (humidistat). 100mm duct connection. Automatically activates when humidity rises above set threshold and runs for an adjustable overrun period after switching off. IPX4 rated. Low noise 30dB(A). 95m³/h extraction rate. Mains 240V. Includes backdraught shutter.',
         'price': 32.99,
         'cost_price': 21.44,
         'stock': 100,
@@ -419,7 +419,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Festoon Lights 10m 20 Bulbs',
         'slug': 'festoon-lights-10m-20-bulbs',
-        'description': 'Garden party lights',
+        'description': 'Outdoor festoon string lights, 10-metre cable with 20 lamp holders at 500mm spacing. E27 screw-fitting lamp holders accept standard LED or incandescent bulbs (bulbs not included). IP44 weatherproof rating for outdoor use. Black rubber cable. End-to-end connectable for longer runs. Ideal for gardens, patios, marquees, and outdoor entertaining.',
         'price': 28.99,
         'cost_price': 18.84,
         'stock': 100,
@@ -430,7 +430,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Flex Cable 3 Core 1.5mm 10m',
         'slug': 'flex-cable-3-core-15mm-10m',
-        'description': 'Flexible cable for appliances',
+        'description': 'Flexible cable (flex), 3-core 1.5mm², 10-metre cut length. White PVC sheathed. Suitable for wiring pendant lights, portable appliances, and extension leads. Current rating 15A. Stranded copper conductors for flexibility. Conforms to BS 6500. Conductor colours: brown (live), blue (neutral), green/yellow (earth).',
         'price': 15.99,
         'cost_price': 10.39,
         'stock': 100,
@@ -441,7 +441,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Fused Spur 13A Switched',
         'slug': 'fused-spur-13a-switched',
-        'description': 'Fused connection unit',
+        'description': 'Fused connection unit (spur), 13A switched with neon indicator. White moulded plastic front plate. Provides a permanent connection point for fixed appliances such as waste disposal units, extractor fans, and towel radiators. Double-pole switching. Accepts standard 13A cartridge fuse. Flush mounting to single back box.',
         'price': 5.99,
         'cost_price': 3.89,
         'stock': 100,
@@ -452,7 +452,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Grommets Rubber 20mm Pack 10',
         'slug': 'grommets-rubber-20mm-pack-10',
-        'description': 'Cable entry grommets',
+        'description': 'Rubber grommets, 20mm bore diameter. Pack of 10. Protects cable insulation from sharp edges when passing through metal enclosures, junction boxes, and chassis. Black rubber construction remains flexible across -20°C to +80°C. Push-fit into pre-drilled holes. Panel thickness range: 1mm-2mm.',
         'price': 3.49,
         'cost_price': 2.27,
         'stock': 100,
@@ -463,7 +463,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Ground Spike Light GU10 IP65',
         'slug': 'ground-spike-light-gu10-ip65',
-        'description': 'Garden spotlight',
+        'description': 'Outdoor ground spike spotlight with GU10 lamp holder. IP65 rated for direct ground installation in gardens, driveways, and pathways. Die-cast aluminium body in black finish. Adjustable head angle for directional illumination of plants, trees, and architectural features. Accepts GU10 LED lamp up to 5W (sold separately). Supplied with 1m cable and connector.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -474,7 +474,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Heat Shrink Tube Assorted Pack',
         'slug': 'heat-shrink-tube-assorted-pack',
-        'description': 'Cable sleeving kit',
+        'description': 'Assorted heat shrink tubing pack containing various diameters from 3mm to 12mm in multiple colours. Polyolefin material with 2:1 shrink ratio. Shrinks with hot air gun at 90°C. Provides electrical insulation, strain relief, and moisture protection on wire joints and cable terminations. Halogen-free. Total pack: 100 pieces.',
         'price': 9.99,
         'cost_price': 6.49,
         'stock': 100,
@@ -485,7 +485,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'IP44 Bathroom Downlight GU10',
         'slug': 'ip44-bathroom-downlight-gu10',
-        'description': 'Splash proof ceiling light',
+        'description': 'Bathroom-rated fixed downlight with GU10 lamp holder. IP44 rated for Zone 2 bathroom installation. Die-cast aluminium body in white finish. Requires 75mm ceiling void. Cut-out diameter: 70mm. Accepts GU10 LED or halogen lamp up to 50W (sold separately). Spring clip retention for easy installation. Fire-rated intumescent pad included.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -496,7 +496,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Inline Switch for Lamp 2A',
         'slug': 'inline-switch-for-lamp-2a',
-        'description': 'Cable mounted switch',
+        'description': 'Inline cable switch for table and floor lamps, rated 2A at 250V. Single-pole on/off operation. White plastic housing with rocker switch. Fits 2-core and 3-core round flex up to 0.75mm². Simple clamp installation — no wiring required. Ideal for adding a switch to lamps without built-in switching. Dimensions: 60mm x 25mm x 17mm.',
         'price': 2.99,
         'cost_price': 1.94,
         'stock': 100,
@@ -507,7 +507,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Insulation Tape PVC Black 10-Pack',
         'slug': 'insulation-tape-pvc-black-10-pack',
-        'description': 'Electrical tape',
+        'description': 'PVC electrical insulation tape, black, pack of 10 rolls. Each roll 19mm wide x 20m long. Flame retardant to BS EN 60454-3-1. Operating temperature range 0°C to 80°C. Provides primary insulation for cable joints, colour coding, and bundling. Strong adhesive with good conformability around irregular shapes. Voltage rated to 600V.',
         'price': 5.99,
         'cost_price': 3.89,
         'stock': 100,
@@ -518,7 +518,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Isolator Switch 100A Double Pole',
         'slug': 'isolator-switch-100a-double-pole',
-        'description': 'Main isolator switch',
+        'description': 'Double-pole isolator switch rated at 100A. DIN rail mounting for installation in consumer units and distribution boards. Provides complete isolation of both live and neutral conductors for maintenance and emergency disconnection. Padlockable in OFF position. 6kA fault rating. Conforms to BS EN 60947-3. Width: 4 DIN modules.',
         'price': 28.99,
         'cost_price': 18.84,
         'stock': 100,
@@ -529,7 +529,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Junction Box 5-Terminal 20A',
         'slug': 'junction-box-5-terminal-20a',
-        'description': 'Cable connection box',
+        'description': 'Junction box, 5-terminal, 20A rated. Round white plastic enclosure with screw-fix lid. Each terminal accepts conductors up to 2.5mm². For making branch connections in lighting and power circuits concealed above ceilings or under floors. 80mm diameter. Conforms to BS 5733. Suitable for use with 1.0mm² and 1.5mm² cable.',
         'price': 2.99,
         'cost_price': 1.94,
         'stock': 100,
@@ -540,7 +540,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Junction Box IP55 Weatherproof',
         'slug': 'junction-box-ip55-weatherproof',
-        'description': 'Outdoor junction box',
+        'description': 'Weatherproof junction box rated IP55. Suitable for outdoor electrical connections in gardens, outbuildings, and exterior lighting installations. Polycarbonate enclosure with sealed cable glands (4 entries). DIN rail and internal terminals included. Dimensions: 116mm x 74mm x 62mm. UV-resistant grey housing. Operating temperature -25°C to +50°C.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -551,7 +551,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Bathroom Cabinet Light',
         'slug': 'led-bathroom-cabinet-light',
-        'description': 'Illuminated mirror cabinet',
+        'description': 'LED illuminated bathroom cabinet with mirror door. Integrated 12W LED strips provide even, shadow-free lighting (4000K natural white). IP44 rated for Zone 2 bathroom installation. Shaver socket (dual voltage 115/230V) built in. Single mirror door with soft-close hinges. Adjustable internal shelf. Dimensions: 500mm(W) x 700mm(H) x 120mm(D). Mains powered.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -562,7 +562,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Bulb B22 12W Cool White',
         'slug': 'led-bulb-b22-12w-cool-white',
-        'description': 'Bayonet cap bulb',
+        'description': 'LED GLS light bulb with B22 bayonet cap fitting. 12W power consumption delivering 1100 lumens of cool white light (4000K colour temperature). Equivalent to a traditional 75W incandescent bulb. Instant full brightness. Non-dimmable. A+ energy rating. Frosted glass envelope for glare-free illumination. Rated lifespan 15,000 hours.',
         'price': 5.49,
         'cost_price': 3.57,
         'stock': 100,
@@ -573,7 +573,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Bulb E27 15W Warm White',
         'slug': 'led-bulb-e27-15w-warm-white',
-        'description': 'Standard screw bulb',
+        'description': 'Energy-efficient LED GLS bulb with E27 Edison screw cap. 15W power consumption delivers 1521 lumens of warm white light (2700K colour temperature), equivalent to a traditional 100W incandescent bulb. Instant full brightness with no warm-up time. Non-dimmable. A+ energy rating. Rated lifespan of 15,000 hours. Frosted glass diffuser for even light distribution.',
         'price': 5.99,
         'cost_price': 3.89,
         'stock': 100,
@@ -584,7 +584,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Bulb GU10 5W Pack of 5',
         'slug': 'led-bulb-gu10-5w',
-        'description': 'Energy saving LED bulbs, GU10 fitting, 5W, warm white. Pack of 5.',
+        'description': 'GU10 LED spotlight bulbs, 5W, pack of 5. Warm white 2700K colour temperature with 400 lumens output per bulb. Equivalent to 50W halogen GU10. Non-dimmable. 36° beam angle suitable for recessed downlights and spotlights. Standard GU10 twist-lock fitting. Rated lifespan 15,000 hours. Energy rating A+.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 70,
@@ -595,7 +595,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Ceiling Light 24W Round',
         'slug': 'led-ceiling-light-24w-round',
-        'description': 'Flush mount ceiling light',
+        'description': 'LED ceiling light, round flush-mounted design, 24W. Delivers 2400 lumens of neutral white light (4000K). Suitable for bedrooms, hallways, and living rooms. Slim profile 28mm depth. Diameter 350mm. Integrated LED — no bulb replacement required. Mains powered 240V. IP20 rated for indoor use. 30,000-hour lifespan.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -606,7 +606,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Downlight 10W Dimmable',
         'slug': 'led-downlight-10w-dimmable',
-        'description': 'Recessed ceiling light',
+        'description': 'Dimmable LED downlight, 10W integrated LED module. Delivers 800 lumens of warm white light (3000K). Compatible with leading-edge and trailing-edge dimmers. Die-cast aluminium housing in white. Cut-out diameter: 80mm. Ceiling void required: 70mm minimum. IP20 rated. Beam angle 60°. 25,000-hour rated lifespan.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -617,7 +617,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Floodlight 50W PIR Sensor',
         'slug': 'led-floodlight-50w-pir-sensor',
-        'description': 'Security light with sensor',
+        'description': 'LED security floodlight with integrated PIR motion sensor, 50W. Delivers 4500 lumens of daylight white light (6500K). Detection range up to 12 metres with 120° sensing angle. Adjustable time delay (10s-10min) and lux level settings. IP65 weatherproof for outdoor installation. Die-cast aluminium body. Wall-mounted. Mains 240V.',
         'price': 28.99,
         'cost_price': 18.84,
         'stock': 100,
@@ -628,7 +628,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Panel Light 600x600mm 40W',
         'slug': 'led-panel-light-600x600mm-40w',
-        'description': 'Office ceiling panel',
+        'description': 'LED panel light for suspended ceiling grids, 600mm x 600mm, 40W. Delivers 3600 lumens of neutral white light (4000K) with uniform, flicker-free illumination. Suitable for offices, classrooms, retail, and healthcare environments. Slim 10mm frame. Compatible with standard 600x600 ceiling grid systems. IP20. Driver included. CRI >80.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 100,
@@ -639,7 +639,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Spotlight Bar 3-Light Chrome',
         'slug': 'led-spotlight-bar-3-light-chrome',
-        'description': 'Adjustable spot lights',
+        'description': 'Three-head LED spotlight bar in chrome finish. Each head independently adjustable for directional lighting. Integrated 3x 5W GU10 LED bulbs included (warm white 3000K). 400 lumens per head. Ceiling or wall mountable. Bar length 480mm. Suitable for kitchens, living rooms, and bedrooms. Mains powered 240V.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -650,7 +650,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Strip Light 5m RGB + Remote',
         'slug': 'led-strip-light-5m-rgb--remote',
-        'description': 'Color changing strip',
+        'description': 'RGB LED strip light kit, 5-metre length with IR remote control and power supply. 16 colours plus white with multiple lighting effects (flash, strobe, fade, smooth). Self-adhesive 3M tape backing for easy installation behind TVs, under cabinets, or along shelving. 12V DC operation. Cuttable at marked intervals. 60 LEDs per metre.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -661,7 +661,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Tube T8 4ft 18W',
         'slug': 'led-tube-t8-4ft-18w',
-        'description': 'Fluorescent replacement',
+        'description': 'LED tube lamp, T8 fitting, 4ft (1200mm), 18W. Direct replacement for 36W fluorescent tubes. 1800 lumens output, cool white 4000K. Compatible with existing T8 fittings — remove starter and use existing ballast (or bypass for direct mains). G13 bi-pin caps. Instant start, no flicker. Polycarbonate diffuser. 30,000-hour lifespan.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -672,7 +672,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'LED Under Cabinet Light 5W',
         'slug': 'led-under-cabinet-light-5w',
-        'description': 'Kitchen worktop light',
+        'description': 'LED under-cabinet light, 5W, 300mm length. Slim aluminium profile with opal diffuser for even, shadow-free task lighting. 400 lumens warm white (3000K). Surface-mounted with screws or double-sided tape. Linkable — connect up to 6 units in series. Includes 1.5m cable with inline switch. Ideal for kitchen worktops and display shelving.',
         'price': 9.99,
         'cost_price': 6.49,
         'stock': 100,
@@ -683,7 +683,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Light Switch 1-Gang 2-Way White',
         'slug': 'light-switch-1-gang-2-way-white',
-        'description': 'Standard light switch',
+        'description': 'Single-gang 2-way light switch in white moulded plastic. 10A rated for lighting circuits. Flat plate design with rocker mechanism. 2-way operation allows switching from two locations (pair required). Screw terminal connections. Flush mounting to standard single back box. Conforms to BS 3676. Includes fixing screws.',
         'price': 3.49,
         'cost_price': 2.27,
         'stock': 100,
@@ -694,7 +694,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Light Switch 2-Gang 2-Way White',
         'slug': 'light-switch-2-gang-2-way-white',
-        'description': 'Double light switch',
+        'description': 'Double-gang 2-way light switch in white moulded plastic. 10A rated. Independently switches two lighting circuits with 2-way operation on each gang. Flat plate design with rocker switches. Flush mounting to standard twin back box. Screw terminal connections. Conforms to BS 3676.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -705,7 +705,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Light Switch 3-Gang White',
         'slug': 'light-switch-3-gang-white',
-        'description': 'Triple light switch',
+        'description': 'Triple-gang 1-way light switch in white moulded plastic. 10A rated. Controls three separate lighting circuits independently. Flat plate design with rocker switches. Flush mounting to standard triple back box. Screw terminal connections. Conforms to BS 3676. Ideal for open-plan rooms with multiple light zones.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -716,7 +716,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'MCB Circuit Breaker 16A Type B',
         'slug': 'mcb-circuit-breaker-16a-type-b',
-        'description': 'MCB for lighting circuits',
+        'description': 'Miniature Circuit Breaker (MCB), 16A rated, Type B trip characteristic. Single-pole DIN rail mounting. Provides overload and short-circuit protection for lighting circuits and general socket outlets. 6kA breaking capacity. Trip curve B (3-5x In for instantaneous trip). Conforms to BS EN 60898. Width: 1 DIN module.',
         'price': 6.49,
         'cost_price': 4.22,
         'stock': 100,
@@ -727,7 +727,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'MCB Circuit Breaker 32A Type B',
         'slug': 'mcb-circuit-breaker-32a-type-b',
-        'description': 'Miniature circuit breaker',
+        'description': 'Miniature Circuit Breaker (MCB), 32A rated, Type B trip characteristic. Single-pole DIN rail mounting. Suitable for ring final circuits, electric showers up to 7.5kW, and cookers up to 7kW. 6kA breaking capacity. Trip curve B (3-5x In). Conforms to BS EN 60898. Width: 1 DIN module.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -738,7 +738,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'MCB Locking Device Pack 3',
         'slug': 'mcb-locking-device-pack-3',
-        'description': 'Breaker lockout',
+        'description': 'MCB locking devices, pack of 3. Prevents unauthorised switching of circuit breakers in consumer units. Fits over standard MCB toggle to lock in the OFF position. Red plastic with padlock hole (padlock not included). Ideal for maintenance lockout/tagout procedures. Compatible with most DIN rail MCBs.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -749,7 +749,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Motion Sensor Smart Home',
         'slug': 'motion-sensor-smart-home',
-        'description': 'Wireless PIR sensor',
+        'description': 'Smart home motion sensor with WiFi connectivity. Detects movement up to 8 metres with 110° field of view. Triggers automation rules via smartphone app — switch on lights, send notifications, or activate cameras. No hub required. Powered by 2x AAA batteries (included). Magnetic mount for flexible positioning. Indoor use only.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -760,7 +760,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Multimeter Digital Auto-Ranging',
         'slug': 'multimeter-digital-auto-ranging',
-        'description': 'Electrical testing meter',
+        'description': 'Digital multimeter with auto-ranging function. Measures AC/DC voltage (up to 600V), DC current (up to 10A), resistance (up to 40MΩ), capacitance, frequency, and continuity with buzzer. Large backlit LCD display. Data hold function. Category III 600V safety rated. Supplied with test leads, 9V battery, and protective holster.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -771,7 +771,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Outdoor Cable 3 Core 2.5mm 25m',
         'slug': 'outdoor-cable-3-core-25mm-25m',
-        'description': 'Weather resistant outdoor cable',
+        'description': 'Outdoor-rated cable, 3-core 2.5mm² with SWA (steel wire armour), 25-metre cut length. Suitable for buried underground installations, garden lighting, and outbuilding supply. XLPE insulated with PVC outer sheath. Voltage rating 600/1000V. Current capacity 27A (direct in ground). Conforms to BS 5467.',
         'price': 52.99,
         'cost_price': 34.44,
         'stock': 100,
@@ -782,7 +782,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Outdoor Socket IP66 Weatherproof',
         'slug': 'outdoor-socket-ip66-weatherproof',
-        'description': 'External waterproof socket',
+        'description': 'Weatherproof outdoor socket, IP66 rated. Single-gang switched 13A outlet with spring-loaded cover and gasket seal. Suitable for gardens, driveways, and outbuildings. Grey polycarbonate enclosure. Surface-mounting. Captive cover prevents water ingress when socket not in use. Includes cable gland. Conforms to BS 1363.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -793,7 +793,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'PIR Motion Sensor 180° White',
         'slug': 'pir-motion-sensor-180-white',
-        'description': 'Movement detector',
+        'description': 'Passive infrared (PIR) motion sensor for external security lighting, 180° detection angle. White housing for wall mounting at 2-3 metres height. Detection range up to 12 metres. Adjustable lux level (daylight override) and time delay (8s to 12min). IP44 rated for outdoor use. Switches up to 1200W incandescent or 300W LED.',
         'price': 11.99,
         'cost_price': 7.79,
         'stock': 100,
@@ -804,7 +804,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Pattress Box Surface 1-Gang',
         'slug': 'pattress-box-surface-1-gang',
-        'description': 'Surface mount back box',
+        'description': 'Surface-mounted pattress box, single-gang. White moulded plastic construction for use where flush mounting is impractical. 44mm depth. 20mm knockouts on all sides for cable entry. Mounts directly onto wall surface with 2 screws. Accepts all standard single-gang faceplates. Dimensions: 86mm x 86mm x 44mm.',
         'price': 2.49,
         'cost_price': 1.62,
         'stock': 100,
@@ -815,7 +815,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Photocell Light Sensor Switch',
         'slug': 'photocell-light-sensor-switch',
-        'description': 'Dusk to dawn sensor',
+        'description': 'Photocell sensor switch for automatic dusk-to-dawn lighting control. Switches lights on at dusk and off at dawn using ambient light detection. Adjustable lux threshold. Mounts adjacent to luminaire. Rated up to 10A resistive load. IP65 weatherproof. Mains 240V. Replaces manual switching for security and pathway lights.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -826,7 +826,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Porch Light Lantern Black',
         'slug': 'porch-light-lantern-black',
-        'description': 'Traditional door light',
+        'description': 'Traditional lantern-style porch light in black die-cast aluminium with clear glass panels. Wall-mounted. Accepts E27 bulb up to 60W (LED recommended, bulb not included). IP44 rated for outdoor use in covered locations. Dimensions: 320mm(H) x 175mm(W) x 195mm(D). Mains powered 240V, hardwired installation.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -837,7 +837,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Pull Cord Switch Ceiling White',
         'slug': 'pull-cord-switch-ceiling-white',
-        'description': 'Bathroom light switch',
+        'description': 'Ceiling-mounted pull cord switch, 6A 1-way rated, in white. Standard 1.5m white cord with chrome-plated acorn pendant. For use as a bathroom light switch or where a ceiling switch is required. Surface-mounting onto ceiling rose or suitable enclosure. Cord can be trimmed to length. IP20 rated.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -848,7 +848,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'RCBO 32A 30mA Type B',
         'slug': 'rcbo-32a-30ma-type-b',
-        'description': 'Combined RCD and MCB',
+        'description': 'RCBO (combined RCD and MCB), 32A rated with 30mA earth leakage sensitivity, Type B trip characteristic. Provides both overcurrent and earth fault protection on a single circuit. DIN rail mounting — occupies 1 module width. Eliminates nuisance tripping of other circuits. Conforms to BS EN 61009. 6kA breaking capacity.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -859,7 +859,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'RCD 63A 30mA Double Pole',
         'slug': 'rcd-63a-30ma-double-pole',
-        'description': 'Residual current device',
+        'description': 'Double-pole RCD (Residual Current Device) rated at 63A with 30mA trip sensitivity. Provides personal protection against electric shock by detecting earth leakage faults and disconnecting the circuit within 40ms. DIN rail mounting. 230V AC rated. Features test button for monthly verification. Conforms to BS EN 61008-1. 6kA fault rating.',
         'price': 32.99,
         'cost_price': 21.44,
         'stock': 100,
@@ -870,7 +870,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Remote Control Socket Set 3-Pack',
         'slug': 'remote-control-socket-set-3-pack',
-        'description': 'Wireless socket switches',
+        'description': 'Remote-controlled socket set, 3 plug-in receivers with 1 hand-held remote. Each receiver plugs into a standard 13A socket and is independently controllable from up to 30 metres. 13A rated per socket. Memory function retains settings after power cut. No wiring required. Ideal for lamps, Christmas lights, and hard-to-reach appliances.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -881,7 +881,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Security Light 500W Halogen PIR',
         'slug': 'security-light-500w-halogen-pir',
-        'description': 'Motion sensor light',
+        'description': 'Halogen security floodlight with PIR motion sensor, 500W. Delivers intense white light for security illumination. Detection range 12m, 180° sweep. Adjustable time delay and sensitivity. IP44 rated for outdoor wall mounting. Die-cast aluminium body. R7s 118mm linear halogen lamp included. Note: consider LED alternative for energy savings.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -892,7 +892,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Shaver Socket Dual Voltage Chrome',
         'slug': 'shaver-socket-dual-voltage-chrome',
-        'description': 'Bathroom shaver point',
+        'description': 'Dual-voltage shaver socket outlet in polished chrome with white insert. Provides 115V and 230V supply via isolating transformer for electric shavers and toothbrushes. Suitable for bathrooms (all zones when connected to 30mA RCD). Anti-bacterial white socket plate. Conforms to BS 3535. Requires 35mm minimum back box depth.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -903,7 +903,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Shower Pull Cord Switch 50A',
         'slug': 'shower-pull-cord-switch-50a',
-        'description': 'High current switch',
+        'description': 'Ceiling-mounted shower pull cord switch rated at 50A double-pole. Chrome-plated pendant with white cord. Designed for isolating electric showers up to 12kW. Neon indicator shows when circuit is live. Mounts above shower location. IP rating dependent on installation zone. 45mm back box required.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -914,7 +914,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Smart Dimmer Switch WiFi',
         'slug': 'smart-dimmer-switch-wifi',
-        'description': 'Remote dimmer control',
+        'description': 'Smart WiFi dimmer switch. Controls lights via smartphone app or voice commands (compatible with major voice assistant ecosystems). No hub required. Supports single-pole and 3-way wiring. Compatible with dimmable LED, incandescent, and halogen bulbs (10-400W LED, 10-600W incandescent). Touch panel with LED status indicator. Requires neutral wire.',
         'price': 28.99,
         'cost_price': 18.84,
         'stock': 100,
@@ -925,7 +925,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Smart Door Bell Camera WiFi',
         'slug': 'smart-door-bell-camera-wifi',
-        'description': 'Video doorbell',
+        'description': 'Smart video doorbell with built-in camera, WiFi connectivity, and two-way audio. 1080p HD resolution with 160° wide-angle lens and infrared night vision. Motion detection with customisable alert zones. Live view and recording via smartphone app. Powered by rechargeable battery or hardwired to existing doorbell cable. IP65 weatherproof.',
         'price': 64.99,
         'cost_price': 42.24,
         'stock': 100,
@@ -936,7 +936,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Smart Light Bulb WiFi E27 RGB',
         'slug': 'smart-light-bulb-wifi-e27-rgb',
-        'description': 'App controlled bulb',
+        'description': 'WiFi-enabled smart LED bulb with E27 Edison screw fitting. Features 16 million RGB colours and tuneable white (2700K-6500K). Control via smartphone app or voice assistants. Dimmable with scheduling and timer functions. 9W power consumption equivalent to 60W with 806 lumens output. Energy rating A+. No hub required. 25,000-hour lifespan.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -947,7 +947,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Smart Plug WiFi Alexa Compatible',
         'slug': 'smart-plug-wifi-alexa-compatible',
-        'description': 'Voice control socket',
+        'description': 'Smart WiFi plug socket. Remotely control any connected appliance via smartphone app or voice commands. 13A rated. Features energy monitoring, scheduling, countdown timer, and away-from-home simulation. No hub required — connects directly to 2.4GHz WiFi. Compact design does not block adjacent sockets. Conforms to BS 1363.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -958,7 +958,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Smart Thermostat Programmable',
         'slug': 'smart-thermostat-programmable',
-        'description': 'Heating controller',
+        'description': 'Smart programmable thermostat with WiFi connectivity. Controls heating system via smartphone app from anywhere. 7-day scheduling with multiple time/temperature zones per day. Learns your routine and suggests energy-saving schedules. Compatible with most combi and system boilers. Large touchscreen display. Geofencing support. Wired installation (replaces existing room thermostat).',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 100,
@@ -969,7 +969,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Smoke Alarm Optical 10-Year',
         'slug': 'smoke-alarm-optical-10-year',
-        'description': 'Fire detector',
+        'description': 'Optical smoke alarm with sealed 10-year lithium battery. No battery replacement needed for the entire lifespan. Photoelectric sensor detects slow-smouldering fires. 85dB alarm at 3 metres. Test/hush button for weekly checks and false alarm silencing. BS EN 14604 certified. Ceiling-mounted with fixing kit included. End-of-life warning beep.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -980,7 +980,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Socket Single 1-Gang Brushed Steel',
         'slug': 'socket-single-1-gang-brushed-steel',
-        'description': '13A single socket',
+        'description': 'Single-gang 13A switched socket outlet in brushed steel finish with white insert. Flat plate design. Suitable for modern interiors. Screw terminal connections. Flush mounting to standard single back box. Conforms to BS 1363. Matching range available (switches, dimmers, TV outlets). Includes fixing screws and socket colour inserts.',
         'price': 5.99,
         'cost_price': 3.89,
         'stock': 100,
@@ -991,7 +991,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Socket Tester 13A 3-Pin',
         'slug': 'socket-tester-13a-3-pin',
-        'description': 'Mains socket checker',
+        'description': 'Socket tester for 13A UK mains sockets. Plug-in device instantly identifies common wiring faults: live/neutral reversed, missing earth, missing neutral, and correct wiring. Three neon indicator lights with clear fault legend. No batteries required. Essential tool for electricians, landlords, and DIY safety checks. Conforms to BS 1363.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -1002,7 +1002,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Socket USB Charger 2.1A White',
         'slug': 'socket-usb-charger-21a-white',
-        'description': 'Socket with USB ports',
+        'description': 'USB charger socket outlet in white, flush-mounted. Twin 13A switched sockets with integrated 2.1A USB charging port. Charges smartphones and tablets directly from the wall without a plug-in charger. Replaces standard double socket using existing back box and wiring. Conforms to BS 1363.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -1013,7 +1013,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Speaker Cable 2 Core 50m',
         'slug': 'speaker-cable-2-core-50m',
-        'description': 'Audio speaker wire',
+        'description': 'Speaker cable, 2-core, 50-metre roll. Oxygen-free copper (OFC) conductors for clear, low-resistance audio signal transmission. 0.75mm² conductor area suitable for runs up to 20 metres for hi-fi speakers. Clear/white PVC sheath with polarity stripe for correct wiring. Suitable for home cinema, multi-room audio, and PA installations.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -1024,7 +1024,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Surge Protection Device SPD',
         'slug': 'surge-protection-device-spd',
-        'description': 'Voltage surge protector',
+        'description': 'Surge Protection Device (SPD) Type 2 for consumer unit installation. Protects sensitive electronic equipment from transient overvoltages caused by lightning and switching surges. DIN rail mounting (3 modules wide). Maximum discharge current 40kA. Remote indication contact for fault signalling. Conforms to BS EN 61643-11.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 100,
@@ -1035,7 +1035,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Telephone Cable 2 Pair 100m',
         'slug': 'telephone-cable-2-pair-100m',
-        'description': 'Phone line cable',
+        'description': 'Telephone cable, 2-pair (4 conductors), 100-metre box. CW1308 specification internal grade with solid conductors. White PVC sheath. Suitable for internal telephone extension wiring, broadband ADSL, and alarm panel connections. Not suitable for external use — use external-grade cable for outdoor runs.',
         'price': 28.99,
         'cost_price': 18.84,
         'stock': 100,
@@ -1046,7 +1046,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Terminal Block 12-Way 30A',
         'slug': 'terminal-block-12-way-30a',
-        'description': 'Connector strip',
+        'description': 'Terminal block strip, 12-way, 30A rated. Natural polyethylene housing with brass terminals. Screw-clamp connection accepts conductors from 1mm² to 10mm². Can be cut to required number of ways. Suitable for general electrical connections, junction points, and appliance wiring. Conforms to BS EN 60998.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -1057,7 +1057,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Timer Socket 24-Hour Digital',
         'slug': 'timer-socket-24-hour-digital',
-        'description': 'Programmable socket',
+        'description': 'Digital plug-in timer socket with 24-hour and 7-day programming. Up to 20 on/off events per day. LCD display with manual override. Random function simulates occupancy when away. 13A rated. Battery backup retains programmed times during power cuts. Ideal for lighting, heating, and security applications.',
         'price': 9.99,
         'cost_price': 6.49,
         'stock': 100,
@@ -1068,7 +1068,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Travel Adapter Universal 4-USB',
         'slug': 'travel-adapter-universal-4-usb',
-        'description': 'Multi-country adapter',
+        'description': 'Universal travel adapter with 4 USB charging ports (total 4.8A output). Accepts plugs from over 150 countries (UK, EU, US, AU). Built-in safety shutters and fused protection. Compact design for hand luggage. Not a voltage converter — for dual-voltage devices only (100-240V input). LED power indicator.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -1079,7 +1079,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Twin & Earth Cable 1.5mm 25m',
         'slug': 'twin-and-earth-cable-15mm-25m',
-        'description': 'Lighting cable for domestic use',
+        'description': 'Twin and earth flat cable, 1.5mm², 25-metre coil. Grey PVC sheathed with colour-coded conductors (brown live, blue neutral, bare earth). Suitable for lighting circuits (max 15.5A). For fixed wiring installations in domestic and commercial buildings. Conforms to BS 6004. CPC (circuit protective conductor): 1.0mm².',
         'price': 32.99,
         'cost_price': 21.44,
         'stock': 100,
@@ -1090,7 +1090,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Twin & Earth Cable 2.5mm 10m',
         'slug': 'twin-and-earth-cable-25mm-10m',
-        'description': 'High quality twin and earth cable for domestic wiring',
+        'description': 'Twin and earth flat cable, 2.5mm², 10-metre cut length. Grey PVC sheathed. Suitable for power circuits including ring finals and radial socket circuits (max 27A). Copper conductors: 2.5mm² live and neutral, 1.5mm² bare earth. For concealed and surface installations. Conforms to BS 6004.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -1101,7 +1101,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'USB Charger 4-Port 5V 4.8A',
         'slug': 'usb-charger-4-port-5v-48a',
-        'description': 'Multi-device charger',
+        'description': 'USB charging hub, 4-port desktop design. Total output 5V 4.8A (shared intelligently between ports). Compatible with all USB devices including smartphones, tablets, and Bluetooth accessories. Compact body with non-slip base. LED power indicator. Short-circuit, overcurrent, and overvoltage protection. 1.5m mains cable with UK plug.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -1112,7 +1112,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Voltage Tester Pen Non-Contact',
         'slug': 'voltage-tester-pen-non-contact',
-        'description': 'Live wire detector',
+        'description': 'Non-contact voltage tester pen. Detects AC voltage from 90V to 1000V without touching bare conductors. Audible beep and LED indicator when voltage detected. Pen-shaped pocket clip design. Auto power-off. CAT III 1000V safety rated. Essential for checking cables are dead before working on them. Requires 2x AAA batteries (included).',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -1123,7 +1123,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Wall Light Up-Down LED 20W',
         'slug': 'wall-light-up-down-led-20w',
-        'description': 'Exterior wall light',
+        'description': 'LED wall light with up and down illumination, 20W. Die-cast aluminium body in anthracite grey finish. Delivers 1600 lumens of warm white light (3000K) in a bi-directional pattern. IP54 rated for indoor and sheltered outdoor use. Mains powered 240V. Dimensions: 200mm(H) x 100mm(W) x 100mm(D). 30,000-hour LED lifespan.',
         'price': 32.99,
         'cost_price': 21.44,
         'stock': 100,
@@ -1134,7 +1134,7 @@ ELECTRICAL_PRODUCTS = [
     {
         'name': 'Wire Stripper Automatic',
         'slug': 'wire-stripper-automatic',
-        'description': 'Cable stripping tool',
+        'description': 'Automatic wire stripper with adjustable tension. Self-adjusting jaws grip and strip insulation from 0.5mm² to 6mm² cables in one squeeze. Also features integrated cable cutter and crimping station for insulated terminals. Spring-loaded handles for one-handed operation. Hardened steel blades. Overall length 180mm.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -1149,7 +1149,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Cordless Grass Trimmer 18V',
         'slug': 'cordless-grass-trimmer-18v',
-        'description': 'Lightweight cordless strimmer with adjustable handle and automatic line feed.',
+        'description': 'Cordless grass trimmer powered by 18V lithium-ion battery (battery and charger sold separately). 250mm cutting diameter with auto-feed spool. Lightweight 2.3kg design. Telescopic shaft adjusts to user height. Edge-guiding wheel for neat borders. Converts to edger with adjustable head angle. 8500rpm no-load speed.',
         'price': 59.99,
         'cost_price': 38.99,
         'stock': 100,
@@ -1160,7 +1160,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Electric Lawn Mower 1200W',
         'slug': 'electric-lawn-mower-1200w',
-        'description': 'Compact electric lawn mower with 32cm cutting width. Perfect for small to medium gardens.',
+        'description': 'Electric rotary lawn mower with 1200W motor. 32cm cutting width for small to medium gardens up to 300m². 3 cutting heights adjustable from 20mm to 60mm. 30-litre grass collection box. Foldable handles for compact storage. 10m power cable. Lightweight 8.5kg. Rear roller for striped finish.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 100,
@@ -1171,7 +1171,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Compost 50L',
         'slug': 'garden-compost-50l',
-        'description': 'Multi-purpose compost suitable for all plants.',
+        'description': 'Multi-purpose garden compost, 50-litre bag. Peat-free formulation enriched with slow-release nutrients. Suitable for planting beds, borders, containers, and hanging baskets. Improves soil structure and moisture retention. pH balanced. Contains green compost, composted bark, and added nutrients.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -1182,7 +1182,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Fork 4-Prong',
         'slug': 'garden-fork-4-prong',
-        'description': 'Forged steel garden fork for digging and turning soil.',
+        'description': 'Four-prong digging fork with heat-treated carbon steel head. 300mm tine length for deep soil penetration. Hardwood handle with T-grip. Full-length shaft 1070mm. Ideal for turning soil, breaking up compacted ground, and lifting root vegetables.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -1193,7 +1193,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Gloves Heavy Duty',
         'slug': 'garden-gloves-heavy-duty',
-        'description': 'Reinforced gardening gloves with grip coating.',
+        'description': 'Heavy-duty garden gloves with reinforced leather palm and fingertips. Elasticated wrist for secure fit. Breathable cotton back. Suitable for thorny plants, rough materials, and general garden tasks. Thorn-resistant. Machine washable.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -1204,7 +1204,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Hoe Long Handle',
         'slug': 'garden-hoe-long-handle',
-        'description': 'Traditional Dutch hoe for weeding and soil cultivation.',
+        'description': 'Long-handled garden hoe with carbon steel blade and hardwood shaft. Blade width 150mm with sharpened edge. Overall length 1400mm for upright use without bending. Ideal for weeding between rows and cultivating soil surfaces. Epoxy-coated blade resists rust.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -1215,7 +1215,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Hose 30m',
         'slug': 'garden-hose-30m',
-        'description': 'Reinforced PVC garden hose with adjustable spray nozzle.',
+        'description': 'Flexible garden hose, 30-metre length with brass connectors. Kink-resistant multi-layer construction. 12.5mm internal diameter. Working pressure up to 8 bar. UV-resistant outer layer. Compatible with all standard quick-connect fittings. Supplied with tap connector and spray nozzle.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -1226,7 +1226,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Kneeler Pad Foam',
         'slug': 'garden-kneeler-pad-foam',
-        'description': 'Waterproof foam kneeling pad for comfortable gardening.',
+        'description': 'Garden kneeler pad in high-density closed-cell foam. Waterproof surface wipes clean. Dimensions: 400mm x 200mm x 30mm. Provides cushioned protection for knees during weeding, planting, and low-level garden tasks. Lightweight and portable.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -1237,7 +1237,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Rake Steel Head',
         'slug': 'garden-rake-steel-head',
-        'description': 'Heavy-duty garden rake with 16 teeth and hardwood handle.',
+        'description': 'Garden rake with 14-tooth carbon steel head and long hardwood handle. 355mm head width. Overall length 1500mm. Flat-tooth design for levelling soil, spreading mulch, and removing stones. Epoxy coating prevents rust.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -1248,7 +1248,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Spade Stainless Steel',
         'slug': 'garden-spade-stainless-steel',
-        'description': 'Professional quality stainless steel spade with D-grip handle.',
+        'description': 'Stainless steel garden spade with treaded blade for boot-grip digging. Mirror-polished blade (280mm x 180mm) resists rust and sheds soil easily. Hardwood YD-handle shaft, overall length 1020mm. Suitable for borders, planting holes, and trenching.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -1259,7 +1259,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Sprinkler Oscillating',
         'slug': 'garden-sprinkler-oscillating',
-        'description': 'Adjustable oscillating sprinkler covers up to 250m².',
+        'description': 'Oscillating garden sprinkler with adjustable coverage pattern. Waters rectangular areas up to 250m². 16 precision nozzles for even distribution. Built-in filter prevents clogging. Universal hose connector. Stable weighted base prevents tipping.',
         'price': 19.99,
         'cost_price': 12.99,
         'stock': 100,
@@ -1270,7 +1270,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Garden Trowel Stainless Steel',
         'slug': 'garden-trowel-stainless-steel',
-        'description': 'Hand trowel with comfortable grip for planting and weeding.',
+        'description': 'Stainless steel garden trowel with mirror-polished blade for easy soil release. Blade length 150mm with pointed tip. Ergonomic soft-grip handle. Full tang construction with riveted handle. Ideal for planting bulbs, bedding plants, and transplanting seedlings. Overall length 320mm.',
         'price': 7.99,
         'cost_price': 5.19,
         'stock': 100,
@@ -1281,7 +1281,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Hedge Shears 540mm',
         'slug': 'hedge-shears-540mm',
-        'description': 'Long-handled hedge shears for trimming and shaping hedges.',
+        'description': 'Hedge shears with carbon steel blades, 540mm overall length. Precision-ground cutting edges for clean cuts on hedges and shrubs up to 15mm stem diameter. Shock-absorbing bumpers reduce hand strain. Non-stick coated blades. Soft-grip handles.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -1292,7 +1292,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Hose Reel Wall Mounted',
         'slug': 'hose-reel-wall-mounted',
-        'description': 'Wall mounted hose reel holds up to 30m of hose.',
+        'description': 'Wall-mounted hose reel with 30m capacity. Powder-coated steel frame with winding handle and guide arm for even coiling. Includes wall fixings. Pivots 180° for flexible reach. Suitable for 12.5mm bore hose. Keeps hose tidy and UV-protected.',
         'price': 32.99,
         'cost_price': 21.44,
         'stock': 100,
@@ -1303,7 +1303,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Petrol Lawn Mower 4-Stroke',
         'slug': 'petrol-lawn-mower-4-stroke',
-        'description': 'Powerful 4-stroke petrol mower with 46cm cutting width and grass collector.',
+        'description': 'Petrol rotary lawn mower with 4-stroke 140cc engine. 460mm cutting width for medium to large gardens. Self-propelled rear-wheel drive. 7 cutting heights from 25mm to 75mm. 55-litre grass collector. Steel deck. Recoil start.',
         'price': 249.99,
         'cost_price': 162.49,
         'stock': 100,
@@ -1314,7 +1314,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Plant Pots Terracotta 20cm 5-Pack',
         'slug': 'plant-pots-terracotta-20cm-5-pack',
-        'description': 'Traditional terracotta plant pots with drainage holes.',
+        'description': 'Terracotta plant pots, 200mm diameter, pack of 5. Traditional unglazed clay allows roots to breathe. Drainage hole in base. Suitable for indoor and outdoor use. Frost-resistant to -10°C. Classic natural colour deepens with age.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -1325,7 +1325,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Pruning Shears Bypass',
         'slug': 'pruning-shears-bypass',
-        'description': 'Professional bypass pruning shears with non-stick coating.',
+        'description': 'Bypass pruning shears with precision-ground carbon steel blade. Cuts stems up to 20mm diameter. Non-stick coated upper blade. Sap groove prevents sticking. Ergonomic soft-grip handles. Wire-cutting notch at base. Safety lock for closed storage. Overall length 200mm.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -1336,7 +1336,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Seed Tray Set with Lid',
         'slug': 'seed-tray-set-lid',
-        'description': 'Propagator seed tray with transparent lid for growing seedlings.',
+        'description': 'Seed tray propagation set with clear ventilated lid. Standard full-size tray (380mm x 240mm) with 40-cell insert. Transparent lid creates greenhouse effect for germination. Drainage holes. Reusable season after season.',
         'price': 9.99,
         'cost_price': 6.49,
         'stock': 100,
@@ -1347,7 +1347,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Watering Can 10L Metal',
         'slug': 'watering-can-10l-metal',
-        'description': 'Galvanized steel watering can with removable rose.',
+        'description': 'Metal watering can with galvanised steel body and brass rose attachment. 10-litre capacity. Traditional T-handle design. Removable fine-spray rose for gentle watering of seedlings. Rust-resistant galvanised finish.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -1358,7 +1358,7 @@ GARDEN_PRODUCTS = [
     {
         'name': 'Wheelbarrow 90L Steel',
         'slug': 'wheelbarrow-90l-steel',
-        'description': 'Heavy-duty galvanized steel wheelbarrow with pneumatic wheel.',
+        'description': 'Steel wheelbarrow with 90-litre pressed steel tray. Pneumatic rubber tyre. Powder-coated frame with tubular steel handles. Load capacity 120kg. Single-wheel design for manoeuvrability. Assembly required.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 100,
@@ -1373,7 +1373,7 @@ HAND_TOOLS_PRODUCTS = [
     {
         'name': '2lb hammer',
         'slug': '2lb_hammer',
-        'description': 'A 2 lb lump hammer, matte metal head',
+        'description': 'Club hammer, 2lb (900g) head weight. Forged and hardened carbon steel head with polished faces. Fibreglass shaft with rubberised grip absorbs shock. Suitable for bolsters, cold chisels, and light demolition. Overall length 280mm.',
         'price': 8.00,
         'cost_price': 3.00,
         'stock': 5,
@@ -1384,7 +1384,7 @@ HAND_TOOLS_PRODUCTS = [
     {
         'name': 'Claw Hammer 16oz',
         'slug': 'claw-hammer-16oz',
-        'description': 'Professional quality claw hammer with fibreglass handle and anti-vibration grip.',
+        'description': 'Claw hammer with forged carbon steel head, 16oz (450g). Curved claw for nail extraction. Polished striking face. Fibreglass shaft with cushion grip. Balanced design for accurate nailing. Overall length 330mm.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 50,
@@ -1395,7 +1395,7 @@ HAND_TOOLS_PRODUCTS = [
     {
         'name': 'Pliers',
         'slug': 'pliers',
-        'description': 'A single pair of pliers with bright red ergonomic handles',
+        'description': 'Combination pliers with hardened carbon steel jaws. Serrated flat gripping jaws, pipe-grip teeth, and side cutters. Suitable for gripping, bending, and cutting wire up to 2mm. Plastic-dipped comfort handles. Overall length 200mm.',
         'price': 4.00,
         'cost_price': 2.00,
         'stock': 5,
@@ -1406,7 +1406,7 @@ HAND_TOOLS_PRODUCTS = [
     {
         'name': 'Screwdriver Set 8 Piece',
         'slug': 'screwdriver-set-8-piece',
-        'description': '8-piece screwdriver set including slotted and Phillips head drivers. Chrome vanadium steel.',
+        'description': 'Screwdriver set, 8-piece. 4 flat-blade (3mm, 5mm, 6mm, 8mm) and 4 cross-point (#0, #1, #2, #3). Chrome vanadium steel blades with magnetic tips. Soft-grip ergonomic handles with hex bolster. Hardened tips. Storage rack included.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 40,
@@ -1417,7 +1417,7 @@ HAND_TOOLS_PRODUCTS = [
     {
         'name': 'Spirit Level 600mm',
         'slug': 'spirit-level-600mm',
-        'description': 'Heavy-duty 600mm spirit level with 3 vials. Milled base for accuracy.',
+        'description': 'Spirit level, 600mm aluminium box-section with 3 vials. Horizontal, vertical, and 45° measurement. Accuracy 0.5mm/m. Milled measuring surfaces. V-groove base for pipes. Shock-absorbing rubber end caps.',
         'price': 15.99,
         'cost_price': 10.39,
         'stock': 35,
@@ -1432,7 +1432,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'BBQ Charcoal Kettle Style',
         'slug': 'bbq-charcoal-kettle-style',
-        'description': 'Round kettle BBQ with lid, ash catcher, and wheels.',
+        'description': 'Charcoal kettle barbecue with 57cm cooking diameter. Porcelain-enamelled steel lid and bowl. Adjustable air vents for temperature control. Chrome-plated hinged cooking grate. Integrated thermometer. Ash collection system. Wheeled legs. Serves 8-10.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 100,
@@ -1443,7 +1443,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Decking Boards 2.4m Treated',
         'slug': 'decking-boards-24m-treated',
-        'description': 'Pressure treated timber decking boards, 32mm thick.',
+        'description': 'Pressure-treated softwood decking board, 2.4m x 120mm x 28mm. Grooved anti-slip surface. Tanalised green treatment for 15+ year rot resistance in ground contact. FSC certified timber. Suitable for garden decking and raised platforms.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -1454,7 +1454,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Fence Panel 6ft x 6ft',
         'slug': 'fence-panel-6ft-x-6ft',
-        'description': 'Overlap timber fence panel, pressure treated.',
+        'description': 'Lap fence panel, 6ft x 6ft (1.83m x 1.83m). Overlap waney-edge boards on sawn timber frame. Pressure-treated for rot resistance. Provides privacy screening. Fits between standard 75mm or 100mm posts (sold separately).',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 100,
@@ -1465,7 +1465,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Fence Post 100x100mm 2.4m',
         'slug': 'fence-post-100x100mm-24m',
-        'description': 'Treated timber fence post with pointed end.',
+        'description': 'Timber fence post, 100mm x 100mm x 2.4m. Pressure-treated softwood for long-term ground contact. Square-sawn with flat top. Set in concrete at minimum 600mm depth. UC4 use class rated.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -1476,7 +1476,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Folding Garden Table',
         'slug': 'folding-garden-table',
-        'description': 'Portable folding camping table, lightweight aluminum frame.',
+        'description': 'Folding garden table with powder-coated steel frame and weather-resistant resin slat top. Folds flat for compact storage. Dimensions open: 120cm(L) x 60cm(W) x 74cm(H). Maximum load 30kg. No assembly required.',
         'price': 39.99,
         'cost_price': 25.99,
         'stock': 100,
@@ -1487,7 +1487,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Garden Bench 2-Seater',
         'slug': 'garden-bench-2-seater',
-        'description': 'Wooden garden bench with backrest, treated timber.',
+        'description': 'Wooden garden bench, 2-seater, 1200mm wide. FSC-certified hardwood with slatted seat and contoured backrest. Natural oil finish. Seat height 440mm. Maximum load 200kg. Self-assembly with fixings included.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 100,
@@ -1498,7 +1498,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Garden Shed 6x4ft Metal',
         'slug': 'garden-shed-6x4ft-metal',
-        'description': 'Galvanized steel garden shed with sliding doors.',
+        'description': 'Metal garden shed, 6ft x 4ft. Galvanised steel panels with apex roof. Includes foundation frame, ventilation, and sliding double doors with padlock hasp. No painting required. Assembly needed (2 persons). Floor not included.',
         'price': 249.99,
         'cost_price': 162.49,
         'stock': 100,
@@ -1509,7 +1509,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Garden Storage Box 300L',
         'slug': 'garden-storage-box-300l',
-        'description': 'Weatherproof plastic storage box for cushions and garden equipment.',
+        'description': 'Outdoor storage box, 300-litre capacity. UV-resistant polypropylene in wood-effect finish. Lockable lid with gas strut. Waterproof design. Suitable for cushions, tools, and garden accessories. Dimensions: 117cm x 56cm x 65cm. Lid doubles as bench seat.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 100,
@@ -1520,7 +1520,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Gate Latch Heavy Duty',
         'slug': 'gate-latch-heavy-duty',
-        'description': 'Galvanized steel automatic gate latch with handle.',
+        'description': 'Heavy-duty gate latch in galvanised finish. Auto-latch mechanism closes automatically. Reversible for left or right-hand gates. Gate thickness up to 50mm. Fixings included. Weather-resistant zinc plating.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -1531,7 +1531,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Gravel Decorative 20kg',
         'slug': 'gravel-decorative-20kg',
-        'description': 'Natural stone decorative gravel for gardens and driveways.',
+        'description': 'Decorative gravel, 20kg bag. Natural stone 10-20mm in golden/buff colour. For borders, driveways, and pathways. Suppresses weeds over membrane. Coverage approximately 0.5m² at 40mm depth. Washed and graded.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -1542,7 +1542,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'LED Outdoor Wall Light',
         'slug': 'led-outdoor-wall-light',
-        'description': 'IP44 rated LED wall light with PIR motion sensor.',
+        'description': 'Contemporary outdoor LED wall light with die-cast aluminium body. IP44 rated. Integrated 10W LED, 800 lumens warm white (3000K). Mains powered 240V. Anthracite grey finish. 30,000-hour lifespan.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 100,
@@ -1553,7 +1553,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Outdoor Extension Lead 15m',
         'slug': 'outdoor-extension-lead-15m',
-        'description': 'Weatherproof extension cable with 4 sockets, IP54 rated.',
+        'description': 'Outdoor extension lead, 15m with single socket and in-line RCD protection. IP54 weatherproof socket housing. Orange heavy-duty rubber cable (H07RN-F). 13A rated. Suitable for lawn mowers, hedge trimmers, and outdoor power tools.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -1564,7 +1564,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Outdoor Floodlight 50W LED',
         'slug': 'outdoor-floodlight-50w-led',
-        'description': 'Waterproof LED security floodlight with adjustable bracket.',
+        'description': 'LED outdoor floodlight, 50W delivering 4000 lumens daylight white (6000K). IP65 rated aluminium housing. Adjustable mounting bracket. Replaces 400W halogen equivalent. Suitable for driveways, car parks, and security. 30,000-hour lifespan.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -1575,7 +1575,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Patio Parasol 2.7m',
         'slug': 'patio-parasol-27m',
-        'description': 'Large outdoor umbrella with crank mechanism and tilt function.',
+        'description': 'Garden parasol, 2.7m diameter with crank-handle opening. UV-resistant polyester canopy (UPF 50+). Powder-coated aluminium pole (38mm). Tilt function. Base required (sold separately, minimum 15kg). 8-rib frame.',
         'price': 49.99,
         'cost_price': 32.49,
         'stock': 100,
@@ -1586,7 +1586,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Paving Slabs Grey 450x450mm 4-Pack',
         'slug': 'paving-slabs-grey-450x450mm-4-pack',
-        'description': 'Concrete paving slabs for patios and pathways.',
+        'description': 'Concrete paving slabs, smooth grey finish, 450mm x 450mm x 35mm. Pack of 4 (0.81m² coverage). Pressed concrete with consistent colour. Lightly textured for slip resistance. Lay on compacted sub-base with sand bed.',
         'price': 19.99,
         'cost_price': 12.99,
         'stock': 100,
@@ -1597,7 +1597,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Pressure Washer 1800W',
         'slug': 'pressure-washer-1800w',
-        'description': 'Electric pressure washer with 135 bar, perfect for patios and cars.',
+        'description': 'Electric pressure washer, 1800W motor, 135 bar maximum pressure. 420L/hour flow rate. Includes rotary lance, fan jet lance, and patio cleaner attachment. 6m high-pressure hose. Self-priming for water butt use.',
         'price': 129.99,
         'cost_price': 84.49,
         'stock': 100,
@@ -1608,7 +1608,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Solar Garden Lights 6-Pack',
         'slug': 'solar-garden-lights-6-pack',
-        'description': 'Stainless steel solar powered pathway lights, automatic on/off.',
+        'description': 'Solar garden stake lights, pack of 6. Stainless steel with white LED. Auto-charge by day, illuminate at dusk for up to 8 hours. No wiring. Push into soft ground. IP44 weatherproof. Rechargeable battery pre-installed.',
         'price': 29.99,
         'cost_price': 19.49,
         'stock': 100,
@@ -1619,7 +1619,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'String Lights Solar 10m',
         'slug': 'string-lights-solar-10m',
-        'description': 'Solar powered fairy lights with 100 LEDs, 8 lighting modes.',
+        'description': 'Solar string lights, 10m with 50 warm white LEDs. Integrated solar panel. Up to 10 hours illumination. 8 lighting modes. IP65 waterproof. No mains connection required. For garden trees, fences, and pergolas.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -1630,7 +1630,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Trellis Panel 6ft x 2ft',
         'slug': 'trellis-panel-6ft-x-2ft',
-        'description': 'Wooden trellis panel for climbing plants.',
+        'description': 'Wooden trellis panel, 6ft x 2ft (1.83m x 0.6m). Diamond lattice pattern in pressure-treated timber. For wall mounting as plant support or fence topper. Expanding design. Supports climbing plants.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -1641,7 +1641,7 @@ OUTDOOR_PRODUCTS = [
     {
         'name': 'Weed Control Fabric 2x10m',
         'slug': 'weed-control-fabric-2x10m',
-        'description': 'Heavy-duty weed membrane for use under gravel and paving.',
+        'description': 'Weed control fabric, 2m x 10m (20m² roll). Heavy-duty woven polypropylene. Allows water through while blocking weeds. UV-stabilised. Lay under gravel, bark, or decking. 100g/m² weight.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -1656,7 +1656,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Anti-Mould Paint White 2.5L',
         'slug': 'anti-mould-paint-white-25l',
-        'description': 'Fungicidal bathroom paint',
+        'description': 'Professional-grade decorating product suitable for surface preparation, application, or finishing. Designed for use in interior and exterior painting projects. Follow manufacturer application guidelines for best results. Compatible with standard decorating tools. Clean as appropriate for product type.',
         'price': 24.99,
         'cost_price': 13.74,
         'stock': 75,
@@ -1667,7 +1667,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Chalkboard Paint Black 250ml',
         'slug': 'chalkboard-paint-black-250ml',
-        'description': 'Create writeable chalkboard surface',
+        'description': 'Professional-grade decorating product suitable for surface preparation, application, or finishing. Designed for use in interior and exterior painting projects. Follow manufacturer application guidelines for best results. Compatible with standard decorating tools. Clean as appropriate for product type.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 85,
@@ -1678,7 +1678,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Decorators Caulk White 310ml',
         'slug': 'decorators-caulk-white-310ml',
-        'description': 'Flexible decorators caulk',
+        'description': 'Decorators acrylic caulk for filling gaps between skirting boards, architraves, door frames, and wall junctions before painting. Flexible formula accommodates minor building movement without cracking. Overpaintable in 1 hour. Apply with cartridge gun. Smooth with wet finger for neat finish. Interior use. White colour.',
         'price': 4.99,
         'cost_price': 2.74,
         'stock': 220,
@@ -1689,7 +1689,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Dust Sheet Cotton 12x9ft',
         'slug': 'dust-sheet-cotton-12x9ft',
-        'description': 'Heavy duty cotton dust sheet',
+        'description': 'Protective dust sheet for covering floors, furniture, and surfaces during painting and decorating. Provides splash and drip protection. Reusable. Suitable for professional and DIY use. Fold to required size. Covers standard room floor area when fully opened.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 100,
@@ -1700,7 +1700,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Dust Sheet Polythene 12x9ft Pack 3',
         'slug': 'dust-sheet-polythene-12x9ft-pack-3',
-        'description': 'Lightweight polythene sheets',
+        'description': 'Protective dust sheet for covering floors, furniture, and surfaces during painting and decorating. Provides splash and drip protection. Reusable. Suitable for professional and DIY use. Fold to required size. Covers standard room floor area when fully opened.',
         'price': 8.99,
         'cost_price': 4.94,
         'stock': 150,
@@ -1711,7 +1711,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Brilliant White Matt 2.5L',
         'slug': 'emulsion-paint-brilliant-white-matt-25l',
-        'description': 'Brilliant white matt for perfect coverage',
+        'description': 'Interior matt emulsion paint in Brilliant White shade. 2.5-litre tin providing coverage of approximately 32m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 200,
@@ -1722,7 +1722,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Cotton Matt 2.5L',
         'slug': 'emulsion-paint-cotton-matt-25l',
-        'description': 'Neutral cotton colour matt finish',
+        'description': 'Interior matt emulsion paint in Cotton Matt shade. 2.5-litre tin providing coverage of approximately 32m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 15.99,
         'cost_price': 8.79,
         'stock': 120,
@@ -1733,7 +1733,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Duck Egg Blue 2.5L',
         'slug': 'emulsion-paint-duck-egg-blue-25l',
-        'description': 'Contemporary duck egg blue',
+        'description': 'Interior matt emulsion paint in Duck Egg shade. 2.5-litre tin providing coverage of approximately 32m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 16.99,
         'cost_price': 9.34,
         'stock': 100,
@@ -1744,7 +1744,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Magnolia Matt 5L',
         'slug': 'emulsion-paint-magnolia-matt-5l',
-        'description': 'Classic magnolia matt emulsion',
+        'description': 'Interior matt emulsion paint in Magnolia Matt shade. 5-litre tin providing coverage of approximately 65m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 18.99,
         'cost_price': 10.44,
         'stock': 160,
@@ -1755,7 +1755,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Natural Hessian 2.5L',
         'slug': 'emulsion-paint-natural-hessian-25l',
-        'description': 'Warm natural hessian tone',
+        'description': 'Interior matt emulsion paint in Natural Hessian shade. 2.5-litre tin providing coverage of approximately 32m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 15.99,
         'cost_price': 8.79,
         'stock': 110,
@@ -1766,7 +1766,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Soft Peach 2.5L',
         'slug': 'emulsion-paint-soft-peach-25l',
-        'description': 'Delicate soft peach colour',
+        'description': 'Interior matt emulsion paint in Soft Peach shade. 2.5-litre tin providing coverage of approximately 32m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 15.99,
         'cost_price': 8.79,
         'stock': 95,
@@ -1777,7 +1777,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Soft Sheen Magnolia 5L',
         'slug': 'emulsion-paint-soft-sheen-magnolia-5l',
-        'description': 'Mid-sheen magnolia finish',
+        'description': 'Interior soft sheen emulsion paint in Soft Sheen shade. 5-litre tin providing coverage of approximately 65m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 21.99,
         'cost_price': 12.09,
         'stock': 130,
@@ -1788,7 +1788,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint Warm Grey Matt 2.5L',
         'slug': 'emulsion-paint-warm-grey-matt-25l',
-        'description': 'Modern warm grey shade',
+        'description': 'Interior matt emulsion paint in Warm Grey shade. 2.5-litre tin providing coverage of approximately 32m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 15.99,
         'cost_price': 8.79,
         'stock': 115,
@@ -1799,7 +1799,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint White 10L',
         'slug': 'emulsion-paint-white-10l',
-        'description': 'Matt emulsion paint, brilliant white finish. 10 litre coverage approximately 65m².',
+        'description': 'Interior matt emulsion paint in White shade. 10-litre tin providing coverage of approximately 130m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 29.99,
         'cost_price': 19.49,
         'stock': 20,
@@ -1810,7 +1810,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint White Matt 10L',
         'slug': 'emulsion-paint-white-matt-10l',
-        'description': 'Premium matt white emulsion for walls and ceilings',
+        'description': 'Interior matt emulsion paint in White Matt shade. 10-litre tin providing coverage of approximately 130m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 29.99,
         'cost_price': 16.49,
         'stock': 150,
@@ -1821,7 +1821,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Emulsion Paint White Silk 10L',
         'slug': 'emulsion-paint-white-silk-10l',
-        'description': 'Wipeable silk finish emulsion paint',
+        'description': 'Interior silk emulsion paint in White Silk shade. 10-litre tin providing coverage of approximately 130m² per coat on smooth, sealed surfaces. Water-based low-odour formula suitable for walls and ceilings. Touch dry in 2 hours, recoatable in 4 hours. Apply by brush or roller. Clean tools with warm soapy water. Ideal for living rooms, bedrooms, and hallways.',
         'price': 32.99,
         'cost_price': 18.14,
         'stock': 140,
@@ -1832,7 +1832,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Exterior Gloss White 2.5L',
         'slug': 'exterior-gloss-white-25l',
-        'description': 'Weather-resistant exterior gloss',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 2.5L tin with coverage of approximately 40m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 27.99,
         'cost_price': 15.39,
         'stock': 80,
@@ -1843,7 +1843,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Fence & Shed Paint Forest Green 5L',
         'slug': 'fence--shed-paint-forest-green-5l',
-        'description': 'Protective fence and shed treatment',
+        'description': 'Exterior fence and shed treatment paint, 5-litre tin. Water-based formula provides colour and weather protection for rough-sawn timber fences, sheds, trellis, and garden furniture. Quick-drying — touch dry in 1 hour, recoatable in 4 hours. Coverage approximately 30m² per coat on planed timber (less on rough-sawn). Low odour. Clean up with water.',
         'price': 21.99,
         'cost_price': 12.09,
         'stock': 110,
@@ -1854,7 +1854,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Fence & Shed Paint Harvest Gold 5L',
         'slug': 'fence--shed-paint-harvest-gold-5l',
-        'description': 'Warm harvest gold exterior paint',
+        'description': 'Exterior fence and shed treatment paint, 5-litre tin. Water-based formula provides colour and weather protection for rough-sawn timber fences, sheds, trellis, and garden furniture. Quick-drying — touch dry in 1 hour, recoatable in 4 hours. Coverage approximately 30m² per coat on planed timber (less on rough-sawn). Low odour. Clean up with water.',
         'price': 21.99,
         'cost_price': 12.09,
         'stock': 95,
@@ -1865,7 +1865,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Filler Exterior All Weather 1kg',
         'slug': 'filler-exterior-all-weather-1kg',
-        'description': 'Weatherproof exterior filler',
+        'description': 'Ready-mixed surface filler for repairing cracks, holes, and surface imperfections before painting. Smooth, easy-to-spread formula that dries hard and can be sanded to a smooth finish. Excellent adhesion to plaster, wood, stone, and concrete. Overpaintable in 1-2 hours depending on depth. Flexible formulation resists cracking.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 100,
@@ -1876,7 +1876,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Filler Interior Ready Mixed 600g',
         'slug': 'filler-interior-ready-mixed-600g',
-        'description': 'Smooth finish ready mixed filler',
+        'description': 'Ready-mixed surface filler for repairing cracks, holes, and surface imperfections before painting. Smooth, easy-to-spread formula that dries hard and can be sanded to a smooth finish. Excellent adhesion to plaster, wood, stone, and concrete. Overpaintable in 1-2 hours depending on depth. Flexible formulation resists cracking.',
         'price': 7.99,
         'cost_price': 4.39,
         'stock': 180,
@@ -1887,7 +1887,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Filling Knife 6 Inch',
         'slug': 'filling-knife-6-inch',
-        'description': 'Professional filling knife',
+        'description': 'Professional-grade decorating product suitable for surface preparation, application, or finishing. Designed for use in interior and exterior painting projects. Follow manufacturer application guidelines for best results. Compatible with standard decorating tools. Clean as appropriate for product type.',
         'price': 7.99,
         'cost_price': 4.39,
         'stock': 130,
@@ -1898,7 +1898,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Floor Paint Grey 2.5L',
         'slug': 'floor-paint-grey-25l',
-        'description': 'Durable garage floor paint',
+        'description': 'Hard-wearing floor paint/varnish for interior concrete, stone, and wood floors in garages, workshops, and utility areas. Provides a tough, scuff-resistant finish that withstands foot traffic and light vehicle use. Self-levelling for smooth application. Touch dry in 4 hours, full cure in 7 days. Apply by roller for best results.',
         'price': 29.99,
         'cost_price': 16.49,
         'stock': 60,
@@ -1909,7 +1909,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Floor Varnish Clear 2.5L',
         'slug': 'floor-varnish-clear-25l',
-        'description': 'Hardwearing floor varnish',
+        'description': 'Protective varnish for interior and exterior wood surfaces. Provides a tough, durable finish resistant to knocks, spills, and UV degradation. Suitable for doors, floors, furniture, window sills, and marine applications. Self-levelling formula. Apply by brush or foam pad. Sand lightly between coats. 2-3 coats recommended for full protection.',
         'price': 32.99,
         'cost_price': 18.14,
         'stock': 70,
@@ -1920,7 +1920,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Gloss Paint Black 750ml',
         'slug': 'gloss-paint-black-750ml',
-        'description': 'Durable black gloss finish',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 750ml tin with coverage of approximately 16m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 120,
@@ -1931,7 +1931,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Gloss Paint Brilliant White 2.5L',
         'slug': 'gloss-paint-brilliant-white-25l',
-        'description': 'High gloss white for wood and metal',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 2.5L tin with coverage of approximately 40m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 24.99,
         'cost_price': 13.74,
         'stock': 140,
@@ -1942,7 +1942,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Gloss Paint Oxford Blue 750ml',
         'slug': 'gloss-paint-oxford-blue-750ml',
-        'description': 'Rich oxford blue high gloss',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 750ml tin with coverage of approximately 16m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 13.99,
         'cost_price': 7.69,
         'stock': 85,
@@ -1953,7 +1953,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Gloss Paint Racing Green 750ml',
         'slug': 'gloss-paint-racing-green-750ml',
-        'description': 'Traditional racing green gloss',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 750ml tin with coverage of approximately 16m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 13.99,
         'cost_price': 7.69,
         'stock': 90,
@@ -1964,7 +1964,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Gloss Paint Signal Red 750ml',
         'slug': 'gloss-paint-signal-red-750ml',
-        'description': 'Vibrant signal red gloss',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 750ml tin with coverage of approximately 16m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 13.99,
         'cost_price': 7.69,
         'stock': 80,
@@ -1975,7 +1975,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Masking Tape 25mm x 50m',
         'slug': 'masking-tape-25mm-x-50m',
-        'description': 'Low tack masking tape',
+        'description': 'General-purpose masking tape, 25mm wide x 50m roll. Provides clean, sharp paint lines on smooth surfaces including walls, woodwork, and glass. Easy to tear by hand. Removes cleanly within 24 hours without leaving adhesive residue. Suitable for interior decorating with emulsion and gloss paints.',
         'price': 3.99,
         'cost_price': 2.19,
         'stock': 250,
@@ -1986,7 +1986,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Masking Tape 50mm x 50m',
         'slug': 'masking-tape-50mm-x-50m',
-        'description': 'Wide masking tape roll',
+        'description': 'General-purpose masking tape, 50mm wide x 50m roll. Provides clean, sharp paint lines on smooth surfaces including walls, woodwork, and glass. Easy to tear by hand. Removes cleanly within 24 hours without leaving adhesive residue. Suitable for interior decorating with emulsion and gloss paints.',
         'price': 5.99,
         'cost_price': 3.29,
         'stock': 200,
@@ -1997,7 +1997,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Masonry Paint Magnolia 5L',
         'slug': 'masonry-paint-magnolia-5l',
-        'description': 'Durable exterior magnolia',
+        'description': 'Exterior masonry paint, 5-litre tin. Provides approximately 40m² coverage per coat. Weather-resistant, flexible formula prevents cracking and flaking on rendered, pebble-dashed, concrete, and brick surfaces. Breathable to allow moisture vapour to escape. Touch dry in 2 hours. Apply by brush or masonry roller.',
         'price': 24.99,
         'cost_price': 13.74,
         'stock': 90,
@@ -2008,7 +2008,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Masonry Paint Sandstone 5L',
         'slug': 'masonry-paint-sandstone-5l',
-        'description': 'Natural sandstone masonry paint',
+        'description': 'Exterior masonry paint, 5-litre tin. Provides approximately 40m² coverage per coat. Weather-resistant, flexible formula prevents cracking and flaking on rendered, pebble-dashed, concrete, and brick surfaces. Breathable to allow moisture vapour to escape. Touch dry in 2 hours. Apply by brush or masonry roller.',
         'price': 24.99,
         'cost_price': 13.74,
         'stock': 85,
@@ -2019,7 +2019,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Masonry Paint White Smooth 10L',
         'slug': 'masonry-paint-white-smooth-10l',
-        'description': 'Weatherproof exterior masonry paint',
+        'description': 'Exterior masonry paint, 10-litre tin. Provides approximately 80m² coverage per coat. Weather-resistant, flexible formula prevents cracking and flaking on rendered, pebble-dashed, concrete, and brick surfaces. Breathable to allow moisture vapour to escape. Touch dry in 2 hours. Apply by brush or masonry roller.',
         'price': 39.99,
         'cost_price': 21.99,
         'stock': 100,
@@ -2030,7 +2030,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Metal Paint Hammered Silver 250ml',
         'slug': 'metal-paint-hammered-silver-250ml',
-        'description': 'Hammered finish metal paint',
+        'description': 'Specialist paint for metal surfaces providing corrosion protection and a decorative finish. Suitable for gates, railings, garden furniture, and metalwork. Can be applied directly to rust (remove loose flakes first). Hammer, smooth, or satin finishes available. Weather-resistant for exterior use. Touch dry in 30 minutes.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 70,
@@ -2041,7 +2041,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Metal Primer Red Oxide 750ml',
         'slug': 'metal-primer-red-oxide-750ml',
-        'description': 'Anti-corrosive metal primer',
+        'description': 'High-opacity primer and undercoat providing excellent coverage and adhesion for subsequent topcoats. Suitable for bare and previously painted wood, MDF, plaster, and masonry. Blocks stains, knots, and tannin bleed-through. Fast drying — recoatable in 4 hours. Can be tinted for use under dark topcoats. Apply by brush or roller.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 90,
@@ -2052,7 +2052,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Brush 1 Inch Cutting In',
         'slug': 'paint-brush-1-inch-cutting-in',
-        'description': 'Precision cutting in brush',
+        'description': 'Paint brush with synthetic filaments for smooth, even application. Suitable for use with water-based and solvent-based paints, varnishes, and stains. Flagged and tapered bristle tips for fine finish without brush marks. Stainless steel ferrule. Ergonomic handle for comfortable, controlled use during extended painting sessions.',
         'price': 6.99,
         'cost_price': 3.84,
         'stock': 160,
@@ -2063,7 +2063,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Brush 2 Inch Professional',
         'slug': 'paint-brush-2-inch-professional',
-        'description': 'Professional decorator brush',
+        'description': 'Paint brush with synthetic filaments for smooth, even application. Suitable for use with water-based and solvent-based paints, varnishes, and stains. Flagged and tapered bristle tips for fine finish without brush marks. Stainless steel ferrule. Ergonomic handle for comfortable, controlled use during extended painting sessions.',
         'price': 8.99,
         'cost_price': 4.94,
         'stock': 140,
@@ -2074,7 +2074,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Brush 4 Inch Professional',
         'slug': 'paint-brush-4-inch-professional',
-        'description': 'Wide professional brush',
+        'description': 'Paint brush with synthetic filaments for smooth, even application. Suitable for use with water-based and solvent-based paints, varnishes, and stains. Flagged and tapered bristle tips for fine finish without brush marks. Stainless steel ferrule. Ergonomic handle for comfortable, controlled use during extended painting sessions.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 130,
@@ -2085,7 +2085,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Brush Set 5 Piece',
         'slug': 'paint-brush-set-5-piece',
-        'description': 'Synthetic bristle brush set',
+        'description': 'Paint brush with synthetic filaments for smooth, even application. Suitable for use with water-based and solvent-based paints, varnishes, and stains. Flagged and tapered bristle tips for fine finish without brush marks. Stainless steel ferrule. Ergonomic handle for comfortable, controlled use during extended painting sessions.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 150,
@@ -2096,7 +2096,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Kettle 2.5L Metal',
         'slug': 'paint-kettle-25l-metal',
-        'description': 'Professional paint kettle',
+        'description': 'Specialist paint for metal surfaces providing corrosion protection and a decorative finish. Suitable for gates, railings, garden furniture, and metalwork. Can be applied directly to rust (remove loose flakes first). Hammer, smooth, or satin finishes available. Weather-resistant for exterior use. Touch dry in 30 minutes.',
         'price': 5.99,
         'cost_price': 3.29,
         'stock': 120,
@@ -2107,7 +2107,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Extension Pole 2M',
         'slug': 'paint-roller-extension-pole-2m',
-        'description': 'Telescopic extension pole',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 80,
@@ -2118,7 +2118,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Frame 9 Inch Professional',
         'slug': 'paint-roller-frame-9-inch-professional',
-        'description': 'Heavy duty roller frame',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 11.99,
         'cost_price': 6.59,
         'stock': 120,
@@ -2129,7 +2129,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Mini 4 Inch Set',
         'slug': 'paint-roller-mini-4-inch-set',
-        'description': 'Mini roller for small areas',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 6.99,
         'cost_price': 3.84,
         'stock': 140,
@@ -2140,7 +2140,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Refills 9 Inch Pack 2',
         'slug': 'paint-roller-refills-9-inch-pack-2',
-        'description': 'Medium pile roller sleeves',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 5.99,
         'cost_price': 3.29,
         'stock': 200,
@@ -2151,7 +2151,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Set',
         'slug': 'paint-roller-set',
-        'description': 'Complete paint roller set including frame, 2 sleeves and tray.',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 45,
@@ -2162,7 +2162,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Set 9 Inch',
         'slug': 'paint-roller-set-9-inch',
-        'description': 'Roller frame with sleeve',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 8.99,
         'cost_price': 4.94,
         'stock': 180,
@@ -2173,7 +2173,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Roller Tray 9 Inch',
         'slug': 'paint-roller-tray-9-inch',
-        'description': 'Deep well paint tray',
+        'description': 'Paint roller designed for efficient coverage on walls, ceilings, and large flat surfaces. Provides an even, lint-free finish faster than brushing. Suitable for use with emulsion, masonry paint, and primers. Clean with warm soapy water after use with water-based paints, or white spirit for solvent-based. Replacement sleeves available.',
         'price': 4.99,
         'cost_price': 2.74,
         'stock': 160,
@@ -2184,7 +2184,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Paint Stripper 500ml',
         'slug': 'paint-stripper-500ml',
-        'description': 'Fast-acting paint remover',
+        'description': 'Paint and varnish removal tool for stripping old finishes from wood, metal, and masonry surfaces. Effective on multiple layers of paint. Flexible blade follows contours. Comfortable handle grip. Essential for surface preparation before repainting or refinishing. Use with appropriate PPE.',
         'price': 9.99,
         'cost_price': 5.49,
         'stock': 90,
@@ -2195,7 +2195,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Painters Mate Roll 1M x 50M',
         'slug': 'painters-mate-roll-1m-x-50m',
-        'description': 'Combined masking film and tape',
+        'description': 'Professional-grade decorating product suitable for surface preparation, application, or finishing. Designed for use in interior and exterior painting projects. Follow manufacturer application guidelines for best results. Compatible with standard decorating tools. Clean as appropriate for product type.',
         'price': 19.99,
         'cost_price': 10.99,
         'stock': 80,
@@ -2206,7 +2206,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Polyurethane Varnish Clear Gloss 2.5L',
         'slug': 'polyurethane-varnish-clear-gloss-25l',
-        'description': 'Clear gloss varnish for wood',
+        'description': 'High-quality liquid gloss paint for interior and exterior wood and metal. 2.5L tin with coverage of approximately 40m² per coat. Solvent-based formula provides a hard-wearing, high-sheen finish that is stain-resistant and easy to clean. Self-levelling for a smooth, brush-mark-free finish. Touch dry in 4 hours, recoatable in 16 hours. Apply over suitable primer/undercoat.',
         'price': 29.99,
         'cost_price': 16.49,
         'stock': 90,
@@ -2217,7 +2217,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Polyurethane Varnish Clear Satin 2.5L',
         'slug': 'polyurethane-varnish-clear-satin-25l',
-        'description': 'Clear satin varnish finish',
+        'description': 'Protective varnish for interior and exterior wood surfaces. Provides a tough, durable finish resistant to knocks, spills, and UV degradation. Suitable for doors, floors, furniture, window sills, and marine applications. Self-levelling formula. Apply by brush or foam pad. Sand lightly between coats. 2-3 coats recommended for full protection.',
         'price': 29.99,
         'cost_price': 16.49,
         'stock': 85,
@@ -2228,7 +2228,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Primer Sealer White 2.5L',
         'slug': 'primer-sealer-white-25l',
-        'description': 'Multi-surface primer sealer',
+        'description': 'High-opacity primer and undercoat providing excellent coverage and adhesion for subsequent topcoats. Suitable for bare and previously painted wood, MDF, plaster, and masonry. Blocks stains, knots, and tannin bleed-through. Fast drying — recoatable in 4 hours. Can be tinted for use under dark topcoats. Apply by brush or roller.',
         'price': 21.99,
         'cost_price': 12.09,
         'stock': 100,
@@ -2239,7 +2239,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Radiator Brush Long Handle',
         'slug': 'radiator-brush-long-handle',
-        'description': 'Angled radiator painting brush',
+        'description': 'Paint brush with synthetic filaments for smooth, even application. Suitable for use with water-based and solvent-based paints, varnishes, and stains. Flagged and tapered bristle tips for fine finish without brush marks. Stainless steel ferrule. Ergonomic handle for comfortable, controlled use during extended painting sessions.',
         'price': 7.99,
         'cost_price': 4.39,
         'stock': 100,
@@ -2250,7 +2250,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Radiator Paint White Satin 750ml',
         'slug': 'radiator-paint-white-satin-750ml',
-        'description': 'Heat-resistant radiator paint',
+        'description': 'Heat-resistant radiator paint formulated to withstand temperatures up to 120°C without yellowing or peeling. Provides a smooth finish on radiators, pipes, and heating appliances. Quick-drying and low-odour. Apply when radiator is cool, allow 24 hours before turning heating on. Suitable over bare metal and previously painted surfaces.',
         'price': 16.99,
         'cost_price': 9.34,
         'stock': 90,
@@ -2261,7 +2261,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Sanding Block Flexible',
         'slug': 'sanding-block-flexible',
-        'description': 'Flexible foam sanding block',
+        'description': 'Abrasive sanding product for surface preparation before painting, varnishing, or finishing. Suitable for wood, metal, plaster, and filler. Removes old finishes, smooths rough surfaces, and keys surfaces for better paint adhesion. Use dry or wet depending on grade. Progressive grades recommended for best finish.',
         'price': 4.99,
         'cost_price': 2.74,
         'stock': 160,
@@ -2272,7 +2272,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Sandpaper Assorted Pack 10',
         'slug': 'sandpaper-assorted-pack-10',
-        'description': 'Mixed grit sandpaper sheets',
+        'description': 'Abrasive sanding product for surface preparation before painting, varnishing, or finishing. Suitable for wood, metal, plaster, and filler. Removes old finishes, smooths rough surfaces, and keys surfaces for better paint adhesion. Use dry or wet depending on grade. Progressive grades recommended for best finish.',
         'price': 6.99,
         'cost_price': 3.84,
         'stock': 200,
@@ -2283,7 +2283,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Sash Brush 1.5 Inch Angled',
         'slug': 'sash-brush-15-inch-angled',
-        'description': 'Angled sash window brush',
+        'description': 'Paint brush with synthetic filaments for smooth, even application. Suitable for use with water-based and solvent-based paints, varnishes, and stains. Flagged and tapered bristle tips for fine finish without brush marks. Stainless steel ferrule. Ergonomic handle for comfortable, controlled use during extended painting sessions.',
         'price': 9.99,
         'cost_price': 5.49,
         'stock': 90,
@@ -2294,7 +2294,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Satinwood Paint Brilliant White 750ml',
         'slug': 'satinwood-paint-brilliant-white-750ml',
-        'description': 'Brilliant white satin finish',
+        'description': 'Mid-sheen satinwood finish paint for interior wood and metal. Provides a durable, wipeable surface with a subtle satin lustre between matt and gloss. Ideal for doors, window frames, skirting boards, and furniture. Self-levelling formula minimises brush marks. Low odour. Touch dry in 4 hours, recoatable in 16 hours.',
         'price': 13.99,
         'cost_price': 7.69,
         'stock': 110,
@@ -2305,7 +2305,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Satinwood Paint Cream 750ml',
         'slug': 'satinwood-paint-cream-750ml',
-        'description': 'Classic cream satinwood',
+        'description': 'Mid-sheen satinwood finish paint for interior wood and metal. Provides a durable, wipeable surface with a subtle satin lustre between matt and gloss. Ideal for doors, window frames, skirting boards, and furniture. Self-levelling formula minimises brush marks. Low odour. Touch dry in 4 hours, recoatable in 16 hours.',
         'price': 13.99,
         'cost_price': 7.69,
         'stock': 100,
@@ -2316,7 +2316,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Satinwood Paint Light Grey 750ml',
         'slug': 'satinwood-paint-light-grey-750ml',
-        'description': 'Contemporary light grey satin',
+        'description': 'Mid-sheen satinwood finish paint for interior wood and metal. Provides a durable, wipeable surface with a subtle satin lustre between matt and gloss. Ideal for doors, window frames, skirting boards, and furniture. Self-levelling formula minimises brush marks. Low odour. Touch dry in 4 hours, recoatable in 16 hours.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 95,
@@ -2327,7 +2327,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Satinwood Paint White 2.5L',
         'slug': 'satinwood-paint-white-25l',
-        'description': 'Satin finish white for woodwork',
+        'description': 'Mid-sheen satinwood finish paint for interior wood and metal. Provides a durable, wipeable surface with a subtle satin lustre between matt and gloss. Ideal for doors, window frames, skirting boards, and furniture. Self-levelling formula minimises brush marks. Low odour. Touch dry in 4 hours, recoatable in 16 hours.',
         'price': 26.99,
         'cost_price': 14.84,
         'stock': 130,
@@ -2338,7 +2338,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Stain Block Primer 2.5L',
         'slug': 'stain-block-primer-25l',
-        'description': 'Blocks stains and odours',
+        'description': 'High-opacity primer and undercoat providing excellent coverage and adhesion for subsequent topcoats. Suitable for bare and previously painted wood, MDF, plaster, and masonry. Blocks stains, knots, and tannin bleed-through. Fast drying — recoatable in 4 hours. Can be tinted for use under dark topcoats. Apply by brush or roller.',
         'price': 28.99,
         'cost_price': 15.94,
         'stock': 75,
@@ -2349,7 +2349,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Stirring Sticks Pack 10',
         'slug': 'stirring-sticks-pack-10',
-        'description': 'Wooden paint stirrers',
+        'description': 'Professional-grade decorating product suitable for surface preparation, application, or finishing. Designed for use in interior and exterior painting projects. Follow manufacturer application guidelines for best results. Compatible with standard decorating tools. Clean as appropriate for product type.',
         'price': 2.99,
         'cost_price': 1.64,
         'stock': 180,
@@ -2360,7 +2360,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Stripping Knife 3 Inch',
         'slug': 'stripping-knife-3-inch',
-        'description': 'Flexible stripping blade',
+        'description': 'Paint and varnish removal tool for stripping old finishes from wood, metal, and masonry surfaces. Effective on multiple layers of paint. Flexible blade follows contours. Comfortable handle grip. Essential for surface preparation before repainting or refinishing. Use with appropriate PPE.',
         'price': 5.99,
         'cost_price': 3.29,
         'stock': 140,
@@ -2371,7 +2371,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Sugar Soap 500g',
         'slug': 'sugar-soap-500g',
-        'description': 'Heavy duty surface cleaner',
+        'description': 'Concentrated cleaning solution for preparing surfaces before painting. Removes grease, nicotine stains, dirt, and old adhesive residues from walls, ceilings, and woodwork. Dissolve in warm water and apply with sponge or cloth. Rinse with clean water before painting. Provides key for new paint adhesion. 500g tub.',
         'price': 5.99,
         'cost_price': 3.29,
         'stock': 150,
@@ -2382,7 +2382,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Tile Paint White 750ml',
         'slug': 'tile-paint-white-750ml',
-        'description': 'Bathroom and kitchen tile paint',
+        'description': 'Specialist tile paint for refreshing ceramic wall tiles without removing them. Provides a durable, moisture-resistant finish suitable for kitchens and bathrooms. Excellent adhesion to glazed surfaces with correct preparation (clean, degrease, lightly abrade). Apply with foam roller. 2 coats recommended. Recoatable in 16 hours.',
         'price': 19.99,
         'cost_price': 10.99,
         'stock': 80,
@@ -2393,7 +2393,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Undercoat White 2.5L',
         'slug': 'undercoat-white-25l',
-        'description': 'Primer undercoat for wood and metal',
+        'description': 'High-opacity primer and undercoat providing excellent coverage and adhesion for subsequent topcoats. Suitable for bare and previously painted wood, MDF, plaster, and masonry. Blocks stains, knots, and tannin bleed-through. Fast drying — recoatable in 4 hours. Can be tinted for use under dark topcoats. Apply by brush or roller.',
         'price': 19.99,
         'cost_price': 10.99,
         'stock': 120,
@@ -2404,7 +2404,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Wood Filler Light Oak 250g',
         'slug': 'wood-filler-light-oak-250g',
-        'description': 'Stainable wood filler',
+        'description': 'Ready-mixed surface filler for repairing cracks, holes, and surface imperfections before painting. Smooth, easy-to-spread formula that dries hard and can be sanded to a smooth finish. Excellent adhesion to plaster, wood, stone, and concrete. Overpaintable in 1-2 hours depending on depth. Flexible formulation resists cracking.',
         'price': 6.99,
         'cost_price': 3.84,
         'stock': 130,
@@ -2415,7 +2415,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Wood Primer 2.5L',
         'slug': 'wood-primer-25l',
-        'description': 'Quick-drying wood primer',
+        'description': 'High-opacity primer and undercoat providing excellent coverage and adhesion for subsequent topcoats. Suitable for bare and previously painted wood, MDF, plaster, and masonry. Blocks stains, knots, and tannin bleed-through. Fast drying — recoatable in 4 hours. Can be tinted for use under dark topcoats. Apply by brush or roller.',
         'price': 22.99,
         'cost_price': 12.64,
         'stock': 85,
@@ -2426,7 +2426,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Wood Stain Dark Walnut 750ml',
         'slug': 'wood-stain-dark-walnut-750ml',
-        'description': 'Rich dark walnut stain',
+        'description': 'Penetrating wood stain that enhances the natural grain while providing colour and UV protection. Suitable for interior and exterior joinery including doors, window frames, and garden furniture. Quick-drying water-based formula — touch dry in 1 hour. Low odour. Apply with brush or cloth. 2-3 coats for deeper colour.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 110,
@@ -2437,7 +2437,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Wood Stain Light Pine 750ml',
         'slug': 'wood-stain-light-pine-750ml',
-        'description': 'Natural light pine stain',
+        'description': 'Penetrating wood stain that enhances the natural grain while providing colour and UV protection. Suitable for interior and exterior joinery including doors, window frames, and garden furniture. Quick-drying water-based formula — touch dry in 1 hour. Low odour. Apply with brush or cloth. 2-3 coats for deeper colour.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 100,
@@ -2448,7 +2448,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Wood Stain Medium Oak 750ml',
         'slug': 'wood-stain-medium-oak-750ml',
-        'description': 'Interior wood stain oak finish',
+        'description': 'Penetrating wood stain that enhances the natural grain while providing colour and UV protection. Suitable for interior and exterior joinery including doors, window frames, and garden furniture. Quick-drying water-based formula — touch dry in 1 hour. Low odour. Apply with brush or cloth. 2-3 coats for deeper colour.',
         'price': 14.99,
         'cost_price': 8.24,
         'stock': 120,
@@ -2459,7 +2459,7 @@ PAINT_DECORATING_PRODUCTS = [
     {
         'name': 'Yacht Varnish 750ml',
         'slug': 'yacht-varnish-750ml',
-        'description': 'Marine grade exterior varnish',
+        'description': 'Protective varnish for interior and exterior wood surfaces. Provides a tough, durable finish resistant to knocks, spills, and UV degradation. Suitable for doors, floors, furniture, window sills, and marine applications. Self-levelling formula. Apply by brush or foam pad. Sand lightly between coats. 2-3 coats recommended for full protection.',
         'price': 18.99,
         'cost_price': 10.44,
         'stock': 75,
@@ -2474,7 +2474,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Basin Pillar Taps Pair',
         'slug': 'basin-pillar-taps-pair',
-        'description': 'Traditional chrome pillar taps for bathroom basins.',
+        'description': 'Chrome-plated tap with ceramic disc valve technology for smooth, drip-free operation. Quarter-turn handles. Suitable for low and high pressure systems (minimum 0.2 bar). Standard UK fitting connections. Includes all fixings and flexible tap connectors for easy installation. 10-year manufacturer guarantee on body and finish.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 100,
@@ -2485,7 +2485,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Basin Waste & Plug Chrome',
         'slug': 'basin-waste-plug-chrome',
-        'description': 'Slotted basin waste with plug, chrome plated brass construction.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 9.99,
         'cost_price': 6.49,
         'stock': 30,
@@ -2496,7 +2496,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Basin Waste with Overflow Chrome',
         'slug': 'basin-waste-overflow-chrome',
-        'description': 'Chrome plated basin waste with overflow, includes plug.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 7.99,
         'cost_price': 5.19,
         'stock': 100,
@@ -2507,7 +2507,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Basin Wrench Adjustable',
         'slug': 'basin-wrench-adjustable',
-        'description': 'Essential tool for accessing hard to reach tap nuts.',
+        'description': 'Plumbing wrench/tool designed for working in confined spaces around basins, baths, and sinks. Reaches fixings in locations inaccessible to standard spanners. Hardened steel jaws with adjustable capacity. Long handle provides leverage. Essential tool for tap and waste installations.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -2518,7 +2518,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Bath Mixer Tap with Shower',
         'slug': 'bath-mixer-tap-shower',
-        'description': 'Bath mixer tap with handheld shower attachment.',
+        'description': 'Chrome-plated tap with ceramic disc valve technology for smooth, drip-free operation. Quarter-turn handles. Suitable for low and high pressure systems (minimum 0.2 bar). Standard UK fitting connections. Includes all fixings and flexible tap connectors for easy installation. 10-year manufacturer guarantee on body and finish.',
         'price': 59.99,
         'cost_price': 38.99,
         'stock': 100,
@@ -2529,7 +2529,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Bath Pop-up Waste Chrome',
         'slug': 'bath-popup-waste-chrome',
-        'description': 'Modern pop-up bath waste with chrome finish.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -2540,7 +2540,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Compression Elbow 15mm',
         'slug': 'compression-elbow-15mm',
-        'description': 'Brass compression elbow fitting for 15mm copper pipe.',
+        'description': 'Brass compression fitting for joining copper pipe without soldering. Creates a watertight seal using an olive and compression nut. Suitable for hot and cold water, central heating, and gas (with correct specification). Dezincification-resistant (DZR) brass. Reusable — can be disconnected for maintenance access.',
         'price': 2.99,
         'cost_price': 1.94,
         'stock': 100,
@@ -2551,7 +2551,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Compression Tee 15mm',
         'slug': 'compression-tee-15mm',
-        'description': 'Brass compression tee fitting for branching pipework.',
+        'description': 'Brass compression fitting for joining copper pipe without soldering. Creates a watertight seal using an olive and compression nut. Suitable for hot and cold water, central heating, and gas (with correct specification). Dezincification-resistant (DZR) brass. Reusable — can be disconnected for maintenance access.',
         'price': 3.49,
         'cost_price': 2.27,
         'stock': 100,
@@ -2562,7 +2562,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Copper Pipe 15mm x 3m',
         'slug': 'copper-pipe-15mm-3m',
-        'description': 'High-quality copper pipe suitable for hot and cold water systems. BS EN 1057 compliant.',
+        'description': 'Copper plumbing tube, 15mm outside diameter conforming to BS EN 1057 Table X (half-hard temper). Suitable for hot and cold water supply, central heating, and gas installations. Can be bent with pipe bender or joined with compression, solder ring, or push-fit fittings. 3-metre straight length.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -2573,7 +2573,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Copper Pipe 22mm x 3m',
         'slug': 'copper-pipe-22mm-3m',
-        'description': 'Professional grade copper pipe for larger diameter installations.',
+        'description': 'Copper plumbing tube, 22mm outside diameter conforming to BS EN 1057 Table X (half-hard temper). Suitable for hot and cold water supply, central heating, and gas installations. Can be bent with pipe bender or joined with compression, solder ring, or push-fit fittings. 3-metre straight length.',
         'price': 18.99,
         'cost_price': 12.34,
         'stock': 100,
@@ -2584,7 +2584,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Jointing Compound 400g',
         'slug': 'jointing-compound-400g',
-        'description': 'Professional jointing compound for threaded fittings.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -2595,7 +2595,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Kitchen Mixer Tap Chrome',
         'slug': 'kitchen-mixer-tap-chrome',
-        'description': 'Modern single lever kitchen mixer tap with swivel spout.',
+        'description': 'Chrome-plated tap with ceramic disc valve technology for smooth, drip-free operation. Quarter-turn handles. Suitable for low and high pressure systems (minimum 0.2 bar). Standard UK fitting connections. Includes all fixings and flexible tap connectors for easy installation. 10-year manufacturer guarantee on body and finish.',
         'price': 45.99,
         'cost_price': 29.89,
         'stock': 100,
@@ -2606,7 +2606,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Outdoor Garden Tap',
         'slug': 'outdoor-garden-tap',
-        'description': 'Brass outdoor tap with 3/4 inch BSP thread.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 8.99,
         'cost_price': 5.84,
         'stock': 100,
@@ -2617,7 +2617,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'P-Trap 32mm Chrome',
         'slug': 'p-trap-32mm-chrome',
-        'description': 'Chrome plated bottle trap for basin installations.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 9.99,
         'cost_price': 6.49,
         'stock': 100,
@@ -2628,7 +2628,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'PTFE Tape 12m',
         'slug': 'ptfe-tape-12m',
-        'description': 'Thread sealing tape for water tight joints.',
+        'description': 'High-density PTFE thread seal tape for threaded pipe joints. 12-metre roll, 12mm wide. Provides watertight and gas-tight seal on BSP and NPT threads. Temperature resistant -200°C to +260°C. Suitable for water, gas, oil, and compressed air. Conforms to BS 7786. Wrap 3-5 turns clockwise around male thread.',
         'price': 1.99,
         'cost_price': 1.29,
         'stock': 100,
@@ -2639,7 +2639,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'PVC Waste Pipe 40mm x 3m',
         'slug': 'pvc-waste-pipe-40mm-3m',
-        'description': 'White PVC waste pipe for sink and basin installations.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 8.49,
         'cost_price': 5.52,
         'stock': 100,
@@ -2650,7 +2650,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Pipe Bending Spring 15mm',
         'slug': 'pipe-bending-spring-15mm',
-        'description': 'Internal bending spring for copper pipes.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -2661,7 +2661,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Pipe Cutter 15-28mm',
         'slug': 'pipe-cutter-15-28mm',
-        'description': 'Precision pipe cutter for copper pipes up to 28mm.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 16.99,
         'cost_price': 11.04,
         'stock': 100,
@@ -2672,7 +2672,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Plumbers Mait 750g',
         'slug': 'plumbers-mait-750g',
-        'description': 'Waterproof putty for sealing around pipes and fittings.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 6.99,
         'cost_price': 4.54,
         'stock': 100,
@@ -2683,7 +2683,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Push-fit Connector 15mm',
         'slug': 'push-fit-connector-15mm',
-        'description': 'Quick and easy push-fit straight connector for copper or plastic pipe.',
+        'description': 'Push-fit plumbing connector for fast, tool-free pipe joining. Simply push the pipe into the fitting for an instant, watertight connection. Suitable for copper, PEX, and polybutylene pipe. Suitable for hot and cold water and central heating systems. Demountable for repositioning. Approved to WRAS for potable water.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -2694,7 +2694,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Radiator Key',
         'slug': 'radiator-key',
-        'description': 'Universal radiator bleed key for releasing air.',
+        'description': 'Radiator bleed key for releasing trapped air from central heating radiators. Brass construction for durability. Standard square drive fits all UK radiator bleed valves. Essential tool for maintaining heating system efficiency. Compact size for storage in kitchen drawer or tool box.',
         'price': 1.49,
         'cost_price': 0.97,
         'stock': 100,
@@ -2705,7 +2705,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Radiator Valve 15mm Chrome',
         'slug': 'radiator-valve-15mm-chrome',
-        'description': 'Chrome plated manual radiator valve with decorative finish.',
+        'description': 'Chrome-plated radiator valve for controlling flow through individual radiators on central heating systems. 15mm copper compression connection. Allows each radiator to be independently adjusted or isolated for maintenance. Includes decorative chrome cover and lockshield cap.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -2716,7 +2716,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Shower Waste Trap 50mm',
         'slug': 'shower-waste-trap-50mm',
-        'description': 'Low profile shower trap for wet room installations.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 19.99,
         'cost_price': 12.99,
         'stock': 100,
@@ -2727,7 +2727,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Silicone Sealant Clear',
         'slug': 'silicone-sealant-clear',
-        'description': 'Waterproof silicone sealant for bathrooms and kitchens.',
+        'description': 'Flexible sealant for waterproofing joints around baths, showers, basins, and kitchen sinks. Mould-resistant formula prevents black mould growth in wet areas. Apply with cartridge gun and smooth with wet finger. Cures to a flexible, waterproof rubber. Adheres to ceramic, glass, metal, and plastic.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 100,
@@ -2738,7 +2738,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Speedfit Elbow 15mm',
         'slug': 'speedfit-elbow-15mm',
-        'description': 'Push-fit plastic elbow fitting, no tools required.',
+        'description': 'Push-fit plumbing connector for fast, tool-free pipe joining. Simply push the pipe into the fitting for an instant, watertight connection. Suitable for copper, PEX, and polybutylene pipe. Suitable for hot and cold water and central heating systems. Demountable for repositioning. Approved to WRAS for potable water.',
         'price': 3.99,
         'cost_price': 2.59,
         'stock': 100,
@@ -2749,7 +2749,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Tap Connector 15mm x 3/4"',
         'slug': 'tap-connector-15mm',
-        'description': 'Chrome-plated tap connector, 15mm x 3/4" BSP thread.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 4.99,
         'cost_price': 3.24,
         'stock': 55,
@@ -2760,7 +2760,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Tap Connector Flexible 15mm',
         'slug': 'tap-connector-flexible-15mm',
-        'description': 'Flexible tap connector for easy installation.',
+        'description': 'Plumbing component for domestic water supply, heating, or drainage systems. Conforms to relevant British Standards for potable water and/or waste applications. Compatible with standard UK plumbing pipe sizes and fittings. Includes necessary seals and fixings for installation.',
         'price': 3.99,
         'cost_price': 2.59,
         'stock': 100,
@@ -2771,7 +2771,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Toilet Cistern Syphon',
         'slug': 'toilet-cistern-syphon',
-        'description': 'Standard toilet cistern syphon mechanism.',
+        'description': 'Toilet repair/replacement component for standard UK cistern installations. Engineered for reliable long-term operation. Easy DIY installation with basic tools — no plumber required for most installations. Universal fit compatible with most standard toilet cisterns. Full fitting instructions included.',
         'price': 14.99,
         'cost_price': 9.74,
         'stock': 100,
@@ -2782,7 +2782,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Toilet Fill Valve',
         'slug': 'toilet-fill-valve',
-        'description': 'Universal bottom entry toilet fill valve.',
+        'description': 'Toilet repair/replacement component for standard UK cistern installations. Engineered for reliable long-term operation. Easy DIY installation with basic tools — no plumber required for most installations. Universal fit compatible with most standard toilet cisterns. Full fitting instructions included.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 100,
@@ -2793,7 +2793,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Toilet Flush Button Chrome',
         'slug': 'toilet-flush-button-chrome',
-        'description': 'Dual flush button for concealed cisterns.',
+        'description': 'Toilet repair/replacement component for standard UK cistern installations. Engineered for reliable long-term operation. Easy DIY installation with basic tools — no plumber required for most installations. Universal fit compatible with most standard toilet cisterns. Full fitting instructions included.',
         'price': 15.99,
         'cost_price': 10.39,
         'stock': 100,
@@ -2804,7 +2804,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Toilet Seat White Soft Close',
         'slug': 'toilet-seat-white-soft-close',
-        'description': 'Universal white toilet seat with soft close hinges.',
+        'description': 'Toilet repair/replacement component for standard UK cistern installations. Engineered for reliable long-term operation. Easy DIY installation with basic tools — no plumber required for most installations. Universal fit compatible with most standard toilet cisterns. Full fitting instructions included.',
         'price': 22.99,
         'cost_price': 14.94,
         'stock': 100,
@@ -2815,7 +2815,7 @@ PLUMBING_PRODUCTS = [
     {
         'name': 'Waste Pipe Coupler 40mm',
         'slug': 'waste-pipe-coupler-40mm',
-        'description': 'Push-fit waste pipe coupler for joining 40mm pipes.',
+        'description': 'Chrome-finished waste fitting for basin, bath, or shower installations. Provides a watertight seal and connection to waste pipework. Easy to install with compression or push-fit connections. Removable for cleaning. Suitable for 1.5 inch (40mm) waste pipe systems. Includes rubber sealing washer.',
         'price': 2.49,
         'cost_price': 1.62,
         'stock': 100,
@@ -2830,7 +2830,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Angle Grinder Die 1/4 Inch',
         'slug': 'air-angle-grinder-die-14-inch',
-        'description': 'Pneumatic angle die grinder for metalwork',
+        'description': 'Angle grinder with 115mm disc capacity. Powerful motor with spindle lock for quick disc changes. Adjustable side handle for left or right-hand use. Safety guard adjustable through 180°. Suitable for cutting, grinding, and polishing metal, stone, and masonry. Includes cutting disc. Always use appropriate PPE.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -2841,7 +2841,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Compressor 24L Oil-Free',
         'slug': 'air-compressor-24l-oil-free',
-        'description': 'Compact oil-free air compressor for home use',
+        'description': 'Air compressor with oil-free pump for clean, dry air output. Tank provides reserve capacity for sustained tool use. Includes pressure regulator, gauge, and quick-release euro coupling. Thermal overload protection. Portable design with carry handle. Suitable for nail guns, spray painting, tyre inflation, and air tools.',
         'price': 129.99,
         'cost_price': 84.49,
         'stock': 50,
@@ -2852,7 +2852,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Compressor 50L 2.5HP',
         'slug': 'air-compressor-50l-25hp',
-        'description': 'Direct drive air compressor with pressure gauge',
+        'description': 'Air compressor with oil-free pump for clean, dry air output. Tank provides reserve capacity for sustained tool use. Includes pressure regulator, gauge, and quick-release euro coupling. Thermal overload protection. Portable design with carry handle. Suitable for nail guns, spray painting, tyre inflation, and air tools.',
         'price': 199.99,
         'cost_price': 129.99,
         'stock': 50,
@@ -2863,7 +2863,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Hose 10m with Quick Couplers',
         'slug': 'air-hose-10m-with-quick-couplers',
-        'description': 'Hybrid polymer air hose with fittings',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 50,
@@ -2874,7 +2874,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Impact Wrench 3/4 Drive',
         'slug': 'air-impact-wrench-34-drive',
-        'description': 'Heavy-duty air impact wrench for automotive',
+        'description': 'High-torque impact tool for driving and removing fasteners with minimal operator effort. Impact mechanism delivers concussive rotational force without reaction torque on the user. Variable speed trigger with electronic brake. Forward/reverse. LED work light. Suitable for automotive, construction, and assembly applications.',
         'price': 139.99,
         'cost_price': 90.99,
         'stock': 50,
@@ -2885,7 +2885,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Nailer Framing 90mm',
         'slug': 'air-nailer-framing-90mm',
-        'description': 'Pneumatic framing nailer for construction',
+        'description': 'Nail gun for fast, consistent driving of nails/brads into timber, MDF, and sheet materials. Magazine capacity for continuous operation. Adjustable depth control for flush or countersunk nailing. Sequential and bump-fire trigger modes. No-mar tip protects work surface. Safety interlock prevents accidental discharge.',
         'price': 119.99,
         'cost_price': 77.99,
         'stock': 50,
@@ -2896,7 +2896,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Spray Gun HVLP Professional',
         'slug': 'air-spray-gun-hvlp-professional',
-        'description': 'Professional HVLP spray gun with 1.4mm nozzle',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 50,
@@ -2907,7 +2907,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Stapler 18-Gauge',
         'slug': 'air-stapler-18-gauge',
-        'description': 'Pneumatic stapler for upholstery and trim',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 50,
@@ -2918,7 +2918,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Air Tool Kit 5-Piece',
         'slug': 'air-tool-kit-5-piece',
-        'description': 'Complete air tool kit with nailer, stapler, and more',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -2929,7 +2929,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Airless Paint Sprayer 550W',
         'slug': 'airless-paint-sprayer-550w',
-        'description': 'Airless paint sprayer for interior and exterior',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 159.99,
         'cost_price': 103.99,
         'stock': 50,
@@ -2940,7 +2940,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Angle Grinder 115mm',
         'slug': 'angle-grinder-115mm',
-        'description': 'Compact and powerful 115mm angle grinder, 750W motor. Perfect for cutting and grinding metal.',
+        'description': 'Angle grinder with 115mm disc capacity. Powerful motor with spindle lock for quick disc changes. Adjustable side handle for left or right-hand use. Safety guard adjustable through 180°. Suitable for cutting, grinding, and polishing metal, stone, and masonry. Includes cutting disc. Always use appropriate PPE.',
         'price': 45.99,
         'cost_price': 29.89,
         'stock': 30,
@@ -2951,7 +2951,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Angle Grinder 2000W 230mm',
         'slug': 'angle-grinder-2000w-230mm',
-        'description': 'Heavy-duty large angle grinder for cutting and grinding',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -2962,7 +2962,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Angle Grinder 2200W 230mm Professional',
         'slug': 'angle-grinder-2200w-230mm-professional',
-        'description': 'Heavy-duty 230mm angle grinder, 2200W motor, anti-vibration side handle, paddle switch for safety, includes cutting disc',
+        'description': 'Mains-powered corded tool with 2200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 119.99,
         'cost_price': 71.99,
         'stock': 80,
@@ -2973,7 +2973,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Angle Grinder 750W 115mm',
         'slug': 'angle-grinder-750w-115mm',
-        'description': 'Compact angle grinder with quick-change guard',
+        'description': 'Angle grinder with 115mm disc capacity. Powerful motor with spindle lock for quick disc changes. Adjustable side handle for left or right-hand use. Safety guard adjustable through 180°. Suitable for cutting, grinding, and polishing metal, stone, and masonry. Includes cutting disc. Always use appropriate PPE.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 50,
@@ -2984,7 +2984,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Band Saw 350W Bench',
         'slug': 'band-saw-350w-bench',
-        'description': 'Bench band saw for wood and metal cutting',
+        'description': 'Power saw designed for accurate straight or curved cutting depending on type. Adjustable cutting depth and angle settings. Includes blade guard and riving knife for operator safety. Dust extraction port for connection to workshop vacuum. Quick-release blade change system. Suitable for timber, sheet materials, and composite boards.',
         'price': 149.99,
         'cost_price': 97.49,
         'stock': 50,
@@ -2995,7 +2995,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Band Saw 350W Portable',
         'slug': 'band-saw-350w-portable',
-        'description': 'Compact band saw ideal for metal cutting, 350W motor, throat depth 125mm, includes blade and work clamp',
+        'description': 'Power saw designed for accurate straight or curved cutting depending on type. Adjustable cutting depth and angle settings. Includes blade guard and riving knife for operator safety. Dust extraction port for connection to workshop vacuum. Quick-release blade change system. Suitable for timber, sheet materials, and composite boards.',
         'price': 159.99,
         'cost_price': 95.99,
         'stock': 45,
@@ -3006,7 +3006,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Belt Sander 1200W 100mm Heavy Duty',
         'slug': 'belt-sander-1200w-100mm-heavy-duty',
-        'description': 'Powerful belt sander with 100x610mm belt, dust bag included, variable speed control, ideal for large surface removal',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 109.99,
         'cost_price': 65.99,
         'stock': 75,
@@ -3017,7 +3017,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Belt Sander 900W 76x533mm',
         'slug': 'belt-sander-900w-76x533mm',
-        'description': 'Powerful belt sander for rapid material removal',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3028,7 +3028,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Bench Drill Press 350W 5-Speed',
         'slug': 'bench-drill-press-350w-5-speed',
-        'description': '5-speed bench drill press with tilting table and laser guide',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3039,7 +3039,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Bench Grinder 250W 150mm',
         'slug': 'bench-grinder-250w-150mm',
-        'description': '6-inch bench grinder with tool rests and guards',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 50,
@@ -3050,7 +3050,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Bench Grinder 350W 6-inch Dual Wheel',
         'slug': 'bench-grinder-350w-6-inch-dual-wheel',
-        'description': 'Workshop bench grinder with 6-inch wheels, adjustable tool rests and eye shields, includes coarse and fine grinding wheels',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 79.99,
         'cost_price': 47.99,
         'stock': 60,
@@ -3061,7 +3061,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Bench Grinder 500W 200mm',
         'slug': 'bench-grinder-500w-200mm',
-        'description': '8-inch bench grinder with coarse and fine wheels',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3072,7 +3072,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Biscuit Joiner 900W',
         'slug': 'biscuit-joiner-900w',
-        'description': 'Precision biscuit joiner with dust collection',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3083,7 +3083,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Biscuit Jointer 900W Professional',
         'slug': 'biscuit-jointer-900w-professional',
-        'description': 'Precision biscuit jointer for woodworking, 100mm blade, adjustable fence angles 0-90°, includes dust bag',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 119.99,
         'cost_price': 71.99,
         'stock': 50,
@@ -3094,7 +3094,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Brad Nailer 18-Gauge Cordless',
         'slug': 'brad-nailer-18-gauge-cordless',
-        'description': 'Precision brad nailer for trim and molding',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 169.99,
         'cost_price': 110.49,
         'stock': 50,
@@ -3105,7 +3105,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Breaker Hammer Electric 1700W',
         'slug': 'breaker-hammer-electric-1700w',
-        'description': 'Heavy-duty demolition breaker with carrying case',
+        'description': 'Mains-powered corded tool with 1700W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 189.99,
         'cost_price': 123.49,
         'stock': 50,
@@ -3116,7 +3116,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Chainsaw Electric 2000W 40cm',
         'slug': 'chainsaw-electric-2000w-40cm',
-        'description': 'Electric chainsaw with automatic chain lubrication',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3127,7 +3127,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Chop Saw 2000W 355mm Abrasive',
         'slug': 'chop-saw-2000w-355mm-abrasive',
-        'description': 'Heavy-duty metal cutting chop saw',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 124.99,
         'cost_price': 81.24,
         'stock': 50,
@@ -3138,7 +3138,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Circular Saw 1400W 185mm',
         'slug': 'circular-saw-1400w-185mm',
-        'description': 'Powerful circular saw with laser guide and dust extraction',
+        'description': 'Mains-powered corded tool with 1400W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 50,
@@ -3149,7 +3149,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Circular Saw 1800W 190mm Blade',
         'slug': 'circular-saw-1800w-190mm-blade',
-        'description': 'Professional 1800W circular saw with 190mm TCT blade, laser guide, bevel capacity 0-45°, depth adjustment up to 67mm',
+        'description': 'Mains-powered corded tool with 1800W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 89.99,
         'cost_price': 53.99,
         'stock': 110,
@@ -3160,7 +3160,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Circular Saw 185mm',
         'slug': 'circular-saw-185mm',
-        'description': '1400W circular saw with 185mm blade. Ideal for cutting wood, MDF, and plywood.',
+        'description': 'Power saw designed for accurate straight or curved cutting depending on type. Adjustable cutting depth and angle settings. Includes blade guard and riving knife for operator safety. Dust extraction port for connection to workshop vacuum. Quick-release blade change system. Suitable for timber, sheet materials, and composite boards.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 15,
@@ -3171,7 +3171,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Concrete Mixer 650W Paddle',
         'slug': 'concrete-mixer-650w-paddle',
-        'description': 'Dual-speed paddle mixer for concrete and mortar',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 50,
@@ -3182,7 +3182,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Corded Hammer Drill 850W',
         'slug': 'corded-hammer-drill-850w',
-        'description': 'Powerful corded hammer drill with variable speed control and depth stop',
+        'description': 'Mains-powered corded tool with 850W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 50,
@@ -3193,7 +3193,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Angle Drill 18V',
         'slug': 'cordless-angle-drill-18v',
-        'description': 'Compact angle drill for drilling in tight corners and spaces',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 119.99,
         'cost_price': 77.99,
         'stock': 50,
@@ -3204,7 +3204,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Angle Grinder 18V 125mm',
         'slug': 'cordless-angle-grinder-18v-125mm',
-        'description': 'Brushless cordless angle grinder with paddle switch',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 99.99,
         'cost_price': 64.99,
         'stock': 50,
@@ -3215,7 +3215,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Circular Saw 18V 165mm',
         'slug': 'cordless-circular-saw-18v-165mm',
-        'description': 'Cordless circular saw with brushless motor',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 129.99,
         'cost_price': 84.49,
         'stock': 50,
@@ -3226,7 +3226,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Combi Drill 18V 2.0Ah',
         'slug': 'cordless-combi-drill-18v-20ah',
-        'description': 'Professional cordless combi drill with hammer action, 2-speed gearbox, and LED work light',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3237,7 +3237,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Combi Drill 18V 2.0Ah Li-Ion',
         'slug': 'cordless-combi-drill-18v-20ah-li-ion',
-        'description': 'Versatile 18V cordless combi drill with 2-speed gearbox, 13mm keyless chuck, LED work light, includes 2x 2.0Ah batteries and charger',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 79.99,
         'cost_price': 47.99,
         'stock': 150,
@@ -3248,7 +3248,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Drill Driver 12V Compact',
         'slug': 'cordless-drill-driver-12v-compact',
-        'description': 'Compact 12V drill driver perfect for tight spaces and light duties',
+        'description': 'Cordless power tool with 12V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 49.99,
         'cost_price': 32.49,
         'stock': 50,
@@ -3259,7 +3259,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Drill Driver 12V Compact Kit',
         'slug': 'cordless-drill-driver-12v-compact-kit',
-        'description': 'Lightweight 12V drill driver ideal for light tasks, 10mm keyless chuck, includes 2x 1.5Ah batteries and storage case',
+        'description': 'Cordless power tool with 12V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 59.99,
         'cost_price': 35.99,
         'stock': 180,
@@ -3270,7 +3270,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Drill Driver 18V',
         'slug': 'cordless-drill-driver-18v',
-        'description': 'Powerful 18V cordless drill with 2-speed gearbox and 13mm keyless chuck. Perfect for drilling and driving applications.',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 25,
@@ -3281,7 +3281,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Drill Set 20V 4-Tool Combo',
         'slug': 'cordless-drill-set-20v-4-tool-combo',
-        'description': 'Complete 4-tool combo kit: drill driver, impact driver, circular saw, work light, 2x 4.0Ah batteries, charger and bag',
+        'description': 'Cordless power tool with 20V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 299.99,
         'cost_price': 179.99,
         'stock': 40,
@@ -3292,7 +3292,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Impact Driver 18V Brushless',
         'slug': 'cordless-impact-driver-18v-brushless',
-        'description': 'Powerful brushless impact driver delivering 180Nm torque, variable speed trigger, compact design perfect for tight spaces',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 89.99,
         'cost_price': 53.99,
         'stock': 120,
@@ -3303,7 +3303,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Jigsaw 18V Brushless',
         'slug': 'cordless-jigsaw-18v-brushless',
-        'description': 'Brushless cordless jigsaw with pendulum action, tool-less blade change, LED work light, battery and charger sold separately',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 99.99,
         'cost_price': 59.99,
         'stock': 85,
@@ -3314,7 +3314,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Nail Gun 18V 2nd Fix',
         'slug': 'cordless-nail-gun-18v-2nd-fix',
-        'description': 'Cordless brad nailer for 2nd fix, fires 16-64mm nails, tool-free depth adjustment, magazine capacity 100 nails',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 199.99,
         'cost_price': 119.99,
         'stock': 60,
@@ -3325,7 +3325,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Planer 18V 82mm',
         'slug': 'cordless-planer-18v-82mm',
-        'description': 'Cordless planer with brushless motor technology',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 139.99,
         'cost_price': 90.99,
         'stock': 50,
@@ -3336,7 +3336,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cordless Planer 18V 82mm Brushless',
         'slug': 'cordless-planer-18v-82mm-brushless',
-        'description': 'Brushless cordless planer, 82mm width, 2mm max cutting depth, dual-edge reversible blades, battery sold separately',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 149.99,
         'cost_price': 89.99,
         'stock': 55,
@@ -3347,7 +3347,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Cut-Off Saw 2400W 355mm',
         'slug': 'cut-off-saw-2400w-355mm',
-        'description': 'Professional abrasive cut-off saw with spark guard',
+        'description': 'Mains-powered corded tool with 2400W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 159.99,
         'cost_price': 103.99,
         'stock': 50,
@@ -3358,7 +3358,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Demolition Hammer 1500W SDS Max',
         'slug': 'demolition-hammer-1500w-sds-max',
-        'description': 'Heavy-duty demolition hammer with SDS Max fitting, 1500W motor, 43J impact energy, anti-vibration handle, carry case',
+        'description': 'Mains-powered corded tool with 1500W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 289.99,
         'cost_price': 173.99,
         'stock': 30,
@@ -3369,7 +3369,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Detail Sander 200W Mouse',
         'slug': 'detail-sander-200w-mouse',
-        'description': 'Compact detail sander for corners and edges',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 50,
@@ -3380,7 +3380,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Detail Sander 200W Palm Size',
         'slug': 'detail-sander-200w-palm-size',
-        'description': 'Compact detail sander for tight spaces, hook and loop pad attachment, includes assorted sandpaper sheets',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 39.99,
         'cost_price': 23.99,
         'stock': 150,
@@ -3391,7 +3391,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Diamond Core Drill 2000W',
         'slug': 'diamond-core-drill-2000w',
-        'description': 'Professional diamond core drill for masonry and concrete',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 189.99,
         'cost_price': 123.49,
         'stock': 50,
@@ -3402,7 +3402,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Die Grinder 400W Straight',
         'slug': 'die-grinder-400w-straight',
-        'description': 'Precision die grinder for detailed metalwork',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 50,
@@ -3413,7 +3413,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Domino Joiner 700W',
         'slug': 'domino-joiner-700w',
-        'description': 'Professional domino jointing system',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 749.99,
         'cost_price': 487.49,
         'stock': 50,
@@ -3424,7 +3424,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Dowel Jig Kit Professional',
         'slug': 'dowel-jig-kit-professional',
-        'description': 'Self-centering dowel jig with drill bits',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 39.99,
         'cost_price': 25.99,
         'stock': 50,
@@ -3435,7 +3435,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Drill Bit Set 100-Piece HSS',
         'slug': 'drill-bit-set-100-piece-hss',
-        'description': 'Comprehensive 100-piece HSS drill bit set with storage case',
+        'description': 'Drill bit set manufactured from high-speed steel (HSS) or specialist material for the intended application. Precision-ground cutting edges for clean holes in the target material. Ground flutes for efficient debris clearance. Reduced-shank design fits standard drill chucks. Supplied in durable storage case with marked sizes.',
         'price': 29.99,
         'cost_price': 19.49,
         'stock': 50,
@@ -3446,7 +3446,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Drywall Sander 710W Long Reach',
         'slug': 'drywall-sander-710w-long-reach',
-        'description': 'Extendable drywall sander with vacuum adapter',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 109.99,
         'cost_price': 71.49,
         'stock': 50,
@@ -3457,7 +3457,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Drywall Screwdriver 4000 RPM Corded',
         'slug': 'drywall-screwdriver-4000-rpm-corded',
-        'description': 'Specialized drywall screwdriver with adjustable depth locator, 4000 RPM, lightweight design for extended use',
+        'description': 'Mains-powered corded tool with 1000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 54.99,
         'cost_price': 32.99,
         'stock': 70,
@@ -3468,7 +3468,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Edge Banding Trimmer Manual',
         'slug': 'edge-banding-trimmer-manual',
-        'description': 'Manual edge banding trimmer for clean edges',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 50,
@@ -3479,7 +3479,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Electric Planer 750W 82mm',
         'slug': 'electric-planer-750w-82mm',
-        'description': 'Electric planer with rebating fence and dust bag',
+        'description': 'Electric planer with tungsten carbide reversible blades for planing timber to size and smoothing rough-sawn boards. Adjustable cutting depth 0-3mm. Rebating depth up to 25mm. Dust extraction port. Parking rest protects blades when tool is set down. Suitable for doors, timber framing, and general carpentry.',
         'price': 64.99,
         'cost_price': 42.24,
         'stock': 50,
@@ -3490,7 +3490,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Electric Planer 900W 82mm',
         'slug': 'electric-planer-900w-82mm',
-        'description': 'Powerful electric planer, 82mm planing width, depth adjustment 0-3mm, rebate fence and dust bag included',
+        'description': 'Electric planer with tungsten carbide reversible blades for planing timber to size and smoothing rough-sawn boards. Adjustable cutting depth 0-3mm. Rebating depth up to 25mm. Dust extraction port. Parking rest protects blades when tool is set down. Suitable for doors, timber framing, and general carpentry.',
         'price': 84.99,
         'cost_price': 50.99,
         'stock': 90,
@@ -3501,7 +3501,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Electric Staple Gun Heavy Duty',
         'slug': 'electric-staple-gun-heavy-duty',
-        'description': 'Electric staple/brad nailer, dual power (mains/battery), fires staples 6-14mm and brads 15mm, includes 500 staples',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 44.99,
         'cost_price': 26.99,
         'stock': 130,
@@ -3512,7 +3512,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Engraver Electric Precision',
         'slug': 'engraver-electric-precision',
-        'description': 'Electric engraving tool for metal, glass, and wood',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 29.99,
         'cost_price': 19.49,
         'stock': 50,
@@ -3523,7 +3523,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Floor Sander Edging 1000W',
         'slug': 'floor-sander-edging-1000w',
-        'description': 'Professional floor edging sander',
+        'description': 'Mains-powered corded tool with 1000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 199.99,
         'cost_price': 129.99,
         'stock': 50,
@@ -3534,7 +3534,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Framing Nailer Pneumatic 90mm',
         'slug': 'framing-nailer-pneumatic-90mm',
-        'description': 'Air-powered framing nailer, fires 50-90mm nails, adjustable depth, 360° exhaust, magazine holds 55 nails',
+        'description': 'Nail gun for fast, consistent driving of nails/brads into timber, MDF, and sheet materials. Magazine capacity for continuous operation. Adjustable depth control for flush or countersunk nailing. Sequential and bump-fire trigger modes. No-mar tip protects work surface. Safety interlock prevents accidental discharge.',
         'price': 159.99,
         'cost_price': 95.99,
         'stock': 45,
@@ -3545,7 +3545,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Garden Shredder 2500W',
         'slug': 'garden-shredder-2500w',
-        'description': 'Electric garden shredder for branches and leaves',
+        'description': 'Mains-powered corded tool with 2500W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 189.99,
         'cost_price': 123.49,
         'stock': 50,
@@ -3556,7 +3556,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Grinder Cutting Discs 115mm Pack 10',
         'slug': 'grinder-cutting-discs-115mm-pack-10',
-        'description': 'Metal cutting discs for 115mm angle grinders',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 12.99,
         'cost_price': 8.44,
         'stock': 50,
@@ -3567,7 +3567,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Grinding Wheels 200mm Set',
         'slug': 'grinding-wheels-200mm-set',
-        'description': 'Replacement grinding wheels for bench grinder',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 50,
@@ -3578,7 +3578,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Hammer Drill 850W Corded SDS Plus',
         'slug': 'hammer-drill-850w-corded-sds-plus',
-        'description': 'Heavy-duty 850W SDS Plus rotary hammer drill, 3 modes (drill/hammer/chisel), 26mm drilling capacity in concrete',
+        'description': 'Mains-powered corded tool with 850W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 129.99,
         'cost_price': 77.99,
         'stock': 80,
@@ -3589,7 +3589,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Heat Gun 2000W Digital',
         'slug': 'heat-gun-2000w-digital',
-        'description': 'Variable temperature heat gun with LCD display',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 44.99,
         'cost_price': 29.24,
         'stock': 50,
@@ -3600,7 +3600,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Heat Gun 2000W Digital Display',
         'slug': 'heat-gun-2000w-digital-display',
-        'description': 'Digital heat gun with LCD temperature display, 50-600°C adjustable, 2 airflow settings, includes 4 nozzles',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 49.99,
         'cost_price': 29.99,
         'stock': 140,
@@ -3611,7 +3611,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Hot Melt Glue Gun 80W',
         'slug': 'hot-melt-glue-gun-80w',
-        'description': 'Professional hot glue gun with stand',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 19.99,
         'cost_price': 12.99,
         'stock': 50,
@@ -3622,7 +3622,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Impact Driver 18V Brushless',
         'slug': 'impact-driver-18v-brushless',
-        'description': 'High-torque brushless impact driver with 3-mode drive control',
+        'description': 'High-torque impact tool for driving and removing fasteners with minimal operator effort. Impact mechanism delivers concussive rotational force without reaction torque on the user. Variable speed trigger with electronic brake. Forward/reverse. LED work light. Suitable for automotive, construction, and assembly applications.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3633,7 +3633,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Impact Driver Brushless 18V Twin Pack',
         'slug': 'impact-driver-brushless-18v-twin-pack',
-        'description': 'Twin pack brushless impact driver with 2 batteries',
+        'description': 'High-torque impact tool for driving and removing fasteners with minimal operator effort. Impact mechanism delivers concussive rotational force without reaction torque on the user. Variable speed trigger with electronic brake. Forward/reverse. LED work light. Suitable for automotive, construction, and assembly applications.',
         'price': 169.99,
         'cost_price': 110.49,
         'stock': 50,
@@ -3644,7 +3644,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Impact Wrench 1/2 Drive Cordless 18V',
         'slug': 'impact-wrench-12-drive-cordless-18v',
-        'description': 'High-torque impact wrench 400Nm torque',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 159.99,
         'cost_price': 103.99,
         'stock': 50,
@@ -3655,7 +3655,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Impact Wrench Air 1/2 Drive',
         'slug': 'impact-wrench-air-12-drive',
-        'description': 'Pneumatic impact wrench for professional use',
+        'description': 'High-torque impact tool for driving and removing fasteners with minimal operator effort. Impact mechanism delivers concussive rotational force without reaction torque on the user. Variable speed trigger with electronic brake. Forward/reverse. LED work light. Suitable for automotive, construction, and assembly applications.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3666,7 +3666,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Inspection Camera Cordless',
         'slug': 'inspection-camera-cordless',
-        'description': 'Digital inspection camera with LCD screen',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3677,7 +3677,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Jack Hammer SDS Max 1500W',
         'slug': 'jack-hammer-sds-max-1500w',
-        'description': 'Professional demolition jack hammer',
+        'description': 'Mains-powered corded tool with 1500W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 329.99,
         'cost_price': 214.49,
         'stock': 50,
@@ -3688,7 +3688,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Jigsaw 750W Orbital Action',
         'slug': 'jigsaw-750w-orbital-action',
-        'description': 'Variable speed orbital jigsaw with tool-free blade change',
+        'description': 'Power saw designed for accurate straight or curved cutting depending on type. Adjustable cutting depth and angle settings. Includes blade guard and riving knife for operator safety. Dust extraction port for connection to workshop vacuum. Quick-release blade change system. Suitable for timber, sheet materials, and composite boards.',
         'price': 64.99,
         'cost_price': 42.24,
         'stock': 50,
@@ -3699,7 +3699,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Jigsaw 750W Variable Speed Orbital',
         'slug': 'jigsaw-750w-variable-speed-orbital',
-        'description': 'Variable speed jigsaw with 4-stage orbital action, tool-free blade change, laser guide, cuts up to 85mm in wood',
+        'description': 'Power saw designed for accurate straight or curved cutting depending on type. Adjustable cutting depth and angle settings. Includes blade guard and riving knife for operator safety. Dust extraction port for connection to workshop vacuum. Quick-release blade change system. Suitable for timber, sheet materials, and composite boards.',
         'price': 69.99,
         'cost_price': 41.99,
         'stock': 130,
@@ -3710,7 +3710,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Laminate Trimmer 600W',
         'slug': 'laminate-trimmer-600w',
-        'description': 'Compact trimmer for laminate and veneer edges',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 69.99,
         'cost_price': 45.49,
         'stock': 50,
@@ -3721,7 +3721,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Laser Level 360° Self-Leveling',
         'slug': 'laser-level-360-self-leveling',
-        'description': '3-line 360-degree self-leveling laser level',
+        'description': 'Laser measuring/levelling tool providing precise reference lines for installation and alignment tasks. Self-levelling within ±4° with out-of-level indicator. Visible line range up to 30m (with detector). Suitable for fitting shelves, aligning tiles, installing kitchen units, and general construction layout. Tripod mountable (1/4" thread).',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3732,7 +3732,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Magnetic Drill Press 1200W',
         'slug': 'magnetic-drill-press-1200w',
-        'description': 'Industrial magnetic drill press with 35mm cutting capacity',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 449.99,
         'cost_price': 292.49,
         'stock': 50,
@@ -3743,7 +3743,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Masonry Drill Bit Set 7-Piece',
         'slug': 'masonry-drill-bit-set-7-piece',
-        'description': 'Heavy-duty masonry drill bit set with tungsten carbide tips',
+        'description': 'Drill bit set manufactured from high-speed steel (HSS) or specialist material for the intended application. Precision-ground cutting edges for clean holes in the target material. Ground flutes for efficient debris clearance. Reduced-shank design fits standard drill chucks. Supplied in durable storage case with marked sizes.',
         'price': 19.99,
         'cost_price': 12.99,
         'stock': 50,
@@ -3754,7 +3754,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Mitre Saw 1500W 210mm Sliding Compound',
         'slug': 'mitre-saw-1500w-210mm-sliding-compound',
-        'description': 'Precision sliding compound mitre saw, 210mm blade, laser guide, mitre angles 0-45° left/right, bevel 0-45° left',
+        'description': 'Mains-powered corded tool with 1500W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 189.99,
         'cost_price': 113.99,
         'stock': 50,
@@ -3765,7 +3765,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Mitre Saw 1800W 254mm Sliding',
         'slug': 'mitre-saw-1800w-254mm-sliding',
-        'description': 'Professional sliding mitre saw with laser guide',
+        'description': 'Mains-powered corded tool with 1800W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 199.99,
         'cost_price': 129.99,
         'stock': 50,
@@ -3776,7 +3776,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Moisture Meter Digital Wood',
         'slug': 'moisture-meter-digital-wood',
-        'description': 'Pin-type moisture meter for wood and drywall',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 29.99,
         'cost_price': 19.49,
         'stock': 50,
@@ -3787,7 +3787,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Multi-Tool 300W Oscillating',
         'slug': 'multi-tool-300w-oscillating',
-        'description': 'Versatile oscillating multi-tool, variable speed 10000-20000 OPM, tool-free accessory change, includes mixed accessories',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 69.99,
         'cost_price': 41.99,
         'stock': 110,
@@ -3798,7 +3798,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Multi-Tool Accessory Set 100-Piece',
         'slug': 'multi-tool-accessory-set-100-piece',
-        'description': 'Universal accessory set for oscillating tools',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 49.99,
         'cost_price': 32.49,
         'stock': 50,
@@ -3809,7 +3809,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Multi-Tool Oscillating 300W',
         'slug': 'multi-tool-oscillating-300w',
-        'description': 'Oscillating multi-tool with quick-change accessories',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 50,
@@ -3820,7 +3820,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Multi-Tool Oscillating Cordless 18V',
         'slug': 'multi-tool-oscillating-cordless-18v',
-        'description': 'Cordless oscillating multi-tool with tool-free accessory change',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3831,7 +3831,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Nail Gun Cordless 18V First Fix',
         'slug': 'nail-gun-cordless-18v-first-fix',
-        'description': 'Gas-free cordless framing nailer',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 279.99,
         'cost_price': 181.99,
         'stock': 50,
@@ -3842,7 +3842,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Paint Sprayer HVLP 650W',
         'slug': 'paint-sprayer-hvlp-650w',
-        'description': 'High-volume low-pressure paint sprayer',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3853,7 +3853,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Palm Router 710W 1/4 Inch',
         'slug': 'palm-router-710w-14-inch',
-        'description': 'Compact palm router for edge work and trimming',
+        'description': 'Precision router for edge profiling, rebating, grooving, and decorative moulding in timber and sheet materials. Variable speed control (8,000-30,000rpm) for different cutter sizes and materials. Plunge base with fine depth adjustment and turret stops. Collet accepts standard router cutters. Dust extraction port. Soft-start.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -3864,7 +3864,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Palm Router 710W Compact Trim',
         'slug': 'palm-router-710w-compact-trim',
-        'description': 'Compact palm router perfect for edge work, variable speed 16000-27000 RPM, 1/4-inch collet, clear sub-base for visibility',
+        'description': 'Precision router for edge profiling, rebating, grooving, and decorative moulding in timber and sheet materials. Variable speed control (8,000-30,000rpm) for different cutter sizes and materials. Plunge base with fine depth adjustment and turret stops. Collet accepts standard router cutters. Dust extraction port. Soft-start.',
         'price': 79.99,
         'cost_price': 47.99,
         'stock': 85,
@@ -3875,7 +3875,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Palm Sander 240W 1/4 Sheet',
         'slug': 'palm-sander-240w-14-sheet',
-        'description': 'Compact palm sander with velcro pad system',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 39.99,
         'cost_price': 25.99,
         'stock': 50,
@@ -3886,7 +3886,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Panel Saw 1200W 160mm',
         'slug': 'panel-saw-1200w-160mm',
-        'description': 'Compact panel saw for precise sheet cutting',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 84.99,
         'cost_price': 55.24,
         'stock': 50,
@@ -3897,7 +3897,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Percussion Drill 1050W Heavy Duty',
         'slug': 'percussion-drill-1050w-heavy-duty',
-        'description': 'Powerful 1050W corded percussion drill with 13mm keyed chuck, forward/reverse switch, auxiliary handle included',
+        'description': 'Mains-powered corded tool with 1050W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 69.99,
         'cost_price': 41.99,
         'stock': 100,
@@ -3908,7 +3908,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Pin Nailer Cordless 18V',
         'slug': 'pin-nailer-cordless-18v',
-        'description': 'Precision cordless pin nailer for delicate trim work',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 169.99,
         'cost_price': 110.49,
         'stock': 50,
@@ -3919,7 +3919,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Plate Compactor 5.5HP Petrol',
         'slug': 'plate-compactor-55hp-petrol',
-        'description': 'Heavy-duty plate compactor for ground compaction',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 449.99,
         'cost_price': 292.49,
         'stock': 50,
@@ -3930,7 +3930,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Plunge Router 1400W 1/2 Inch',
         'slug': 'plunge-router-1400w-12-inch',
-        'description': 'Variable speed plunge router with fine depth adjustment',
+        'description': 'Mains-powered corded tool with 1400W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 119.99,
         'cost_price': 77.99,
         'stock': 50,
@@ -3941,7 +3941,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Pole Saw Cordless 18V',
         'slug': 'pole-saw-cordless-18v',
-        'description': 'Cordless pole saw for pruning and tree cutting',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 149.99,
         'cost_price': 97.49,
         'stock': 50,
@@ -3952,7 +3952,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Polisher Rotary 1200W 180mm',
         'slug': 'polisher-rotary-1200w-180mm',
-        'description': 'Variable speed rotary polisher for car and metal',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -3963,7 +3963,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Post Hole Auger 52cc Petrol',
         'slug': 'post-hole-auger-52cc-petrol',
-        'description': 'Petrol post hole digger with 200mm auger bit',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 289.99,
         'cost_price': 188.49,
         'stock': 50,
@@ -3974,7 +3974,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Pressure Washer 1800W Electric',
         'slug': 'pressure-washer-1800w-electric',
-        'description': 'High-pressure washer 135 bar with accessories',
+        'description': 'Mains-powered corded tool with 1800W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 149.99,
         'cost_price': 97.49,
         'stock': 50,
@@ -3985,7 +3985,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Random Orbital Sander 300W',
         'slug': 'random-orbital-sander-300w',
-        'description': 'Variable speed orbital sander with dust collection',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 49.99,
         'cost_price': 32.49,
         'stock': 50,
@@ -3996,7 +3996,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Random Orbital Sander 450W 125mm',
         'slug': 'random-orbital-sander-450w-125mm',
-        'description': 'Efficient random orbital sander, 125mm pad, variable speed 7000-12000 OPM, dust extraction system, ergonomic grip',
+        'description': 'Electric sander for smoothing wood, removing paint, and surface preparation. Variable speed control for different materials and finishes. Dust collection system with microfilter bag or vacuum extraction port. Hook-and-loop or clip-on sanding sheet attachment. Ergonomic body design with low vibration. Includes starter pack of abrasive sheets.',
         'price': 64.99,
         'cost_price': 38.99,
         'stock': 120,
@@ -4007,7 +4007,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Ratchet Wrench Cordless 3/8 Drive',
         'slug': 'ratchet-wrench-cordless-38-drive',
-        'description': 'Compact cordless ratchet wrench 60Nm',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 119.99,
         'cost_price': 77.99,
         'stock': 50,
@@ -4018,7 +4018,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Reciprocating Saw 1100W',
         'slug': 'reciprocating-saw-1100w',
-        'description': 'Heavy-duty reciprocating saw for demolition and cutting',
+        'description': 'Mains-powered corded tool with 1100W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 79.99,
         'cost_price': 51.99,
         'stock': 50,
@@ -4029,7 +4029,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Reciprocating Saw 1200W Corded',
         'slug': 'reciprocating-saw-1200w-corded',
-        'description': 'Powerful reciprocating saw for demolition work, tool-free blade change, 28mm stroke length, variable speed 0-2800 SPM',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 79.99,
         'cost_price': 47.99,
         'stock': 90,
@@ -4040,7 +4040,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Right Angle Drill 18V',
         'slug': 'right-angle-drill-18v',
-        'description': 'Professional right angle drill for confined space drilling',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 134.99,
         'cost_price': 87.74,
         'stock': 50,
@@ -4051,7 +4051,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Right Angle Drill 18V Cordless',
         'slug': 'right-angle-drill-18v-cordless',
-        'description': 'Compact right-angle drill for confined spaces, 10mm keyless chuck, LED work light, variable speed control',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 119.99,
         'cost_price': 71.99,
         'stock': 60,
@@ -4062,7 +4062,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Rotary Tool 135W Precision Kit',
         'slug': 'rotary-tool-135w-precision-kit',
-        'description': 'Versatile rotary tool with 135W motor, variable speed 8000-35000 RPM, flex shaft, includes 100-piece accessory set',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 59.99,
         'cost_price': 35.99,
         'stock': 110,
@@ -4073,7 +4073,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Rotary Tool 135W with 100 Accessories',
         'slug': 'rotary-tool-135w-with-100-accessories',
-        'description': 'Versatile rotary tool with flex shaft',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 39.99,
         'cost_price': 25.99,
         'stock': 50,
@@ -4084,7 +4084,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Router 1400W Plunge Base Variable Speed',
         'slug': 'router-1400w-plunge-base-variable-speed',
-        'description': 'Professional plunge router with variable speed 8000-24000 RPM, soft start, 8mm collet, parallel fence included',
+        'description': 'Mains-powered corded tool with 1400W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 129.99,
         'cost_price': 77.99,
         'stock': 70,
@@ -4095,7 +4095,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Router Bit Set 12-Piece 1/2 Shank',
         'slug': 'router-bit-set-12-piece-12-shank',
-        'description': 'Professional router bit set with wooden case',
+        'description': 'Precision router for edge profiling, rebating, grooving, and decorative moulding in timber and sheet materials. Variable speed control (8,000-30,000rpm) for different cutter sizes and materials. Plunge base with fine depth adjustment and turret stops. Collet accepts standard router cutters. Dust extraction port. Soft-start.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 50,
@@ -4106,7 +4106,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Router Fence Precision Adjustable',
         'slug': 'router-fence-precision-adjustable',
-        'description': 'Precision router fence with micro-adjustment',
+        'description': 'Precision router for edge profiling, rebating, grooving, and decorative moulding in timber and sheet materials. Variable speed control (8,000-30,000rpm) for different cutter sizes and materials. Plunge base with fine depth adjustment and turret stops. Collet accepts standard router cutters. Dust extraction port. Soft-start.',
         'price': 44.99,
         'cost_price': 29.24,
         'stock': 50,
@@ -4117,7 +4117,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Router Table with 1200W Router',
         'slug': 'router-table-with-1200w-router',
-        'description': 'Complete router table with fence and mitre gauge',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 199.99,
         'cost_price': 129.99,
         'stock': 50,
@@ -4128,7 +4128,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'SDS Plus Rotary Hammer Drill 800W',
         'slug': 'sds-plus-rotary-hammer-drill-800w',
-        'description': 'Heavy-duty SDS rotary hammer with 3-function mode and safety clutch',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 124.99,
         'cost_price': 81.24,
         'stock': 50,
@@ -4139,7 +4139,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Scroll Saw 125W Variable Speed',
         'slug': 'scroll-saw-125w-variable-speed',
-        'description': 'Variable speed scroll saw for intricate cuts',
+        'description': 'Power saw designed for accurate straight or curved cutting depending on type. Adjustable cutting depth and angle settings. Includes blade guard and riving knife for operator safety. Dust extraction port for connection to workshop vacuum. Quick-release blade change system. Suitable for timber, sheet materials, and composite boards.',
         'price': 119.99,
         'cost_price': 77.99,
         'stock': 50,
@@ -4150,7 +4150,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Soldering Iron Station 60W Digital',
         'slug': 'soldering-iron-station-60w-digital',
-        'description': 'Digital temperature-controlled soldering station',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 54.99,
         'cost_price': 35.74,
         'stock': 50,
@@ -4161,7 +4161,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Staple Gun Electric Heavy Duty',
         'slug': 'staple-gun-electric-heavy-duty',
-        'description': 'Electric staple gun for upholstery and fencing',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 44.99,
         'cost_price': 29.24,
         'stock': 50,
@@ -4172,7 +4172,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Step Drill Bit Set 3-Piece',
         'slug': 'step-drill-bit-set-3-piece',
-        'description': 'HSS step drill bit set for sheet metal and plastic',
+        'description': 'Drill bit set manufactured from high-speed steel (HSS) or specialist material for the intended application. Precision-ground cutting edges for clean holes in the target material. Ground flutes for efficient debris clearance. Reduced-shank design fits standard drill chucks. Supplied in durable storage case with marked sizes.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 50,
@@ -4183,7 +4183,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Stud Finder Digital 4-in-1',
         'slug': 'stud-finder-digital-4-in-1',
-        'description': 'Multi-scanner for studs, metal, and live AC',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 34.99,
         'cost_price': 22.74,
         'stock': 50,
@@ -4194,7 +4194,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Table Saw 1800W 254mm Blade',
         'slug': 'table-saw-1800w-254mm-blade',
-        'description': 'Professional table saw with 254mm blade, rip capacity 635mm, parallel fence system, blade tilt 0-45°, stand included',
+        'description': 'Mains-powered corded tool with 1800W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 249.99,
         'cost_price': 149.99,
         'stock': 35,
@@ -4205,7 +4205,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Table Saw 2000W 250mm',
         'slug': 'table-saw-2000w-250mm',
-        'description': 'Precision table saw with sliding side extensions',
+        'description': 'Mains-powered corded tool with 2000W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 299.99,
         'cost_price': 194.99,
         'stock': 50,
@@ -4216,7 +4216,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Thermal Imaging Camera',
         'slug': 'thermal-imaging-camera',
-        'description': 'Professional thermal imaging camera for diagnostics',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 399.99,
         'cost_price': 259.99,
         'stock': 50,
@@ -4227,7 +4227,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Thickness Planer 1500W 318mm Benchtop',
         'slug': 'thickness-planer-1500w-318mm-benchtop',
-        'description': 'Benchtop thickness planer, 318mm width capacity, 2mm max depth of cut, 2-blade cutter head, table extension rollers',
+        'description': 'Mains-powered corded tool with 1500W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 329.99,
         'cost_price': 197.99,
         'stock': 25,
@@ -4238,7 +4238,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Thickness Planer 1500W Bench',
         'slug': 'thickness-planer-1500w-bench',
-        'description': 'Professional thickness planer 318mm capacity',
+        'description': 'Mains-powered corded tool with 1500W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 329.99,
         'cost_price': 214.49,
         'stock': 50,
@@ -4249,7 +4249,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Tile Cutter Electric 600W',
         'slug': 'tile-cutter-electric-600w',
-        'description': 'Electric tile cutter with water cooling system',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -4260,7 +4260,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Torque Wrench Digital 1/2 Drive',
         'slug': 'torque-wrench-digital-12-drive',
-        'description': 'Digital torque wrench 40-200Nm range',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 89.99,
         'cost_price': 58.49,
         'stock': 50,
@@ -4271,7 +4271,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Track Saw 1200W with Guide Rail',
         'slug': 'track-saw-1200w-with-guide-rail',
-        'description': 'Precision plunge-cut saw with 1.4m guide rail',
+        'description': 'Mains-powered corded tool with 1200W motor for sustained high-performance operation without battery limitations. Variable speed control for different materials. Soft-start reduces torque reaction on startup. Double-insulated Class II construction. Lock-on switch for extended use. 3-metre power cable. Includes dust extraction port where applicable.',
         'price': 279.99,
         'cost_price': 181.99,
         'stock': 50,
@@ -4282,7 +4282,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Tyre Inflator Digital Preset',
         'slug': 'tyre-inflator-digital-preset',
-        'description': 'Digital tyre inflator with preset pressure',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 39.99,
         'cost_price': 25.99,
         'stock': 50,
@@ -4293,7 +4293,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Wet Grinder 200W Sharpening',
         'slug': 'wet-grinder-200w-sharpening',
-        'description': 'Water-cooled tool sharpening system',
+        'description': 'Professional-quality power tool designed for workshop and site use. Built for durability and performance with heavy-duty motor and precision-machined components. Ergonomic design reduces operator fatigue. Safety features include guards, electronic brake, and overload protection. Check specifications for full technical details.',
         'price': 124.99,
         'cost_price': 81.24,
         'stock': 50,
@@ -4304,7 +4304,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Wood Drill Bit Set Flat 6-Piece',
         'slug': 'wood-drill-bit-set-flat-6-piece',
-        'description': 'Professional flat wood drill bit set 10-25mm',
+        'description': 'Drill bit set manufactured from high-speed steel (HSS) or specialist material for the intended application. Precision-ground cutting edges for clean holes in the target material. Ground flutes for efficient debris clearance. Reduced-shank design fits standard drill chucks. Supplied in durable storage case with marked sizes.',
         'price': 24.99,
         'cost_price': 16.24,
         'stock': 50,
@@ -4315,7 +4315,7 @@ POWER_TOOLS_PRODUCTS = [
     {
         'name': 'Work Light LED Cordless 18V',
         'slug': 'work-light-led-cordless-18v',
-        'description': 'Bright LED work light with rotating head',
+        'description': 'Cordless power tool with 18V lithium-ion battery system. Brushless motor technology provides higher efficiency, longer runtime, and extended motor life. Variable speed trigger with electronic brake. LED work light illuminates the cutting/drilling area. Ergonomic soft-grip body. Battery and charger may be sold separately — check listing. Part of a compatible battery platform system.',
         'price': 44.99,
         'cost_price': 29.24,
         'stock': 50,
@@ -4330,7 +4330,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Angle Brackets 50mm Zinc Plated Pack 10',
         'slug': 'angle-brackets-50mm-zinc-plated-pack-10',
-        'description': 'Right angle fixing brackets',
+        'description': 'Steel brackets/plates for reinforcing timber joints and connections. Zinc-plated or galvanised for corrosion resistance. Pre-drilled fixing holes for screws or bolts. Provides structural support at corners, junctions, and spans. Suitable for indoor framing, decking, fencing, and general construction. Load-rated for structural use.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 140,
@@ -4341,7 +4341,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Blind Rivets Multigrip 4.8mm Pack 50',
         'slug': 'blind-rivets-multigrip-48mm-pack-50',
-        'description': 'Variable grip range rivets',
+        'description': 'Blind rivets (pop rivets) for permanently joining sheet materials where access to the rear is not possible. Insert through pre-drilled hole, pull mandrel with rivet gun until stem breaks, forming a secure mechanical joint. Suitable for joining sheet metal, plastic, fibreglass, and thin materials. Dome head for neat finish.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 100,
@@ -4352,7 +4352,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Brad Nails 18 Gauge 25mm Pack 1000',
         'slug': 'brad-nails-18-gauge-25mm-pack-1000',
-        'description': '18 gauge finishing nails',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 150,
@@ -4363,7 +4363,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Brad Nails 18 Gauge 32mm Pack 1000',
         'slug': 'brad-nails-18-gauge-32mm-pack-1000',
-        'description': 'Long brad nails for trim',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 7.49,
         'cost_price': 4.49,
         'stock': 140,
@@ -4374,7 +4374,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Chipboard Screws Bugle Head 4x45mm Pack 100',
         'slug': 'chipboard-screws-bugle-head-4x45mm-pack-100',
-        'description': 'Bugle head design prevents splitting',
+        'description': 'Chipboard screws with sharp point and coarse thread optimised for manufactured boards (chipboard, MDF, OSB). 4mm x 45mm. Countersunk head. Single-thread design with wide spacing for maximum grip in particle-based materials. Pozidrive recess. Yellow zinc chromatized for mild corrosion resistance.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 150,
@@ -4385,7 +4385,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Chipboard Screws Countersunk 3x25mm Pack 200',
         'slug': 'chipboard-screws-countersunk-3x25mm-pack-200',
-        'description': 'Flush fitting chipboard screws',
+        'description': 'Chipboard screws with sharp point and coarse thread optimised for manufactured boards (chipboard, MDF, OSB). 3mm x 25mm. Countersunk head. Single-thread design with wide spacing for maximum grip in particle-based materials. Pozidrive recess. Yellow zinc chromatized for mild corrosion resistance.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 200,
@@ -4396,7 +4396,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Chipboard Screws Pozi 3x30mm Yellow Zinc Pack 200',
         'slug': 'chipboard-screws-pozi-3x30mm-yellow-zinc-pack-200',
-        'description': 'Specialist screws for chipboard and MDF',
+        'description': 'Chipboard screws with sharp point and coarse thread optimised for manufactured boards (chipboard, MDF, OSB). 3mm x 30mm. Countersunk head. Single-thread design with wide spacing for maximum grip in particle-based materials. Pozidrive recess. Yellow zinc chromatized for mild corrosion resistance.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 240,
@@ -4407,7 +4407,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Chipboard Screws Pozi 4x40mm Yellow Zinc Pack 200',
         'slug': 'chipboard-screws-pozi-4x40mm-yellow-zinc-pack-200',
-        'description': 'Premium chipboard fixings',
+        'description': 'Chipboard screws with sharp point and coarse thread optimised for manufactured boards (chipboard, MDF, OSB). 4mm x 40mm. Countersunk head. Single-thread design with wide spacing for maximum grip in particle-based materials. Pozidrive recess. Yellow zinc chromatized for mild corrosion resistance.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 210,
@@ -4418,7 +4418,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Chipboard Screws Pozi 4x50mm Yellow Zinc Pack 100',
         'slug': 'chipboard-screws-pozi-4x50mm-yellow-zinc-pack-100',
-        'description': 'Long chipboard screws for thick panels',
+        'description': 'Chipboard screws with sharp point and coarse thread optimised for manufactured boards (chipboard, MDF, OSB). 4mm x 50mm. Countersunk head. Single-thread design with wide spacing for maximum grip in particle-based materials. Pozidrive recess. Yellow zinc chromatized for mild corrosion resistance.',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 180,
@@ -4429,7 +4429,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Clout Nails 40mm Galvanised Pack 1kg',
         'slug': 'clout-nails-40mm-galvanised-pack-1kg',
-        'description': 'Large head nails for roofing felt',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 140,
@@ -4440,7 +4440,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Coach Bolts M10x80mm Zinc Plated Pack 15',
         'slug': 'coach-bolts-m10x80mm-zinc-plated-pack-15',
-        'description': 'Large coach bolts for timber',
+        'description': 'Steel bolt with zinc plating for corrosion resistance. Full or partial thread as specified. Use with corresponding nut and washer for secure through-fixings in timber, metal, and composite materials. Zinc plating suitable for interior and sheltered exterior use. Grade 4.8 tensile strength for general-purpose applications.',
         'price': 10.99,
         'cost_price': 6.59,
         'stock': 90,
@@ -4451,7 +4451,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Coach Bolts M8x60mm Zinc Plated Pack 20',
         'slug': 'coach-bolts-m8x60mm-zinc-plated-pack-20',
-        'description': 'Carriage bolts with domed head',
+        'description': 'Steel bolt with zinc plating for corrosion resistance. Full or partial thread as specified. Use with corresponding nut and washer for secure through-fixings in timber, metal, and composite materials. Zinc plating suitable for interior and sheltered exterior use. Grade 4.8 tensile strength for general-purpose applications.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 120,
@@ -4462,7 +4462,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Coupling Nuts M8 Zinc Plated Pack 10',
         'slug': 'coupling-nuts-m8-zinc-plated-pack-10',
-        'description': 'Hex coupling nuts for joining rod',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 120,
@@ -4473,7 +4473,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Decking Screws 4x50mm Green Pack 200',
         'slug': 'decking-screws-4x50mm-green-pack-200',
-        'description': 'Corrosion resistant decking screws',
+        'description': 'Decking screws with anti-corrosion coating designed for treated timber decking installation. Countersunk head with star drive recess for positive engagement and reduced cam-out. Sharp self-drilling point. Designed to resist withdrawal in softwood. Green coating blends with treated timber. Suitable for exterior ground-contact use.',
         'price': 8.99,
         'cost_price': 5.39,
         'stock': 150,
@@ -4484,7 +4484,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Decking Screws 5x70mm Green Pack 100',
         'slug': 'decking-screws-5x70mm-green-pack-100',
-        'description': 'Long decking screws',
+        'description': 'Decking screws with anti-corrosion coating designed for treated timber decking installation. Countersunk head with star drive recess for positive engagement and reduced cam-out. Sharp self-drilling point. Designed to resist withdrawal in softwood. Green coating blends with treated timber. Suitable for exterior ground-contact use.',
         'price': 9.99,
         'cost_price': 5.99,
         'stock': 130,
@@ -4495,7 +4495,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Drywall Screws Bugle Head 3.9x45mm Pack 200',
         'slug': 'drywall-screws-bugle-head-39x45mm-pack-200',
-        'description': 'Extra long drywall screws',
+        'description': 'Drywall screws with bugle head designed to sit flush without breaking the paper face of plasterboard. Sharp self-drilling point — no pre-drilling required. Black phosphate coating for corrosion resistance under plaster finishes. For fixing plasterboard to timber studs (coarse thread) or metal channels (fine thread).',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 220,
@@ -4506,7 +4506,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Drywall Screws Coarse Thread 3.5x25mm Pack 500',
         'slug': 'drywall-screws-coarse-thread-35x25mm-pack-500',
-        'description': 'Black phosphate coated drywall screws',
+        'description': 'Drywall screws with bugle head designed to sit flush without breaking the paper face of plasterboard. Sharp self-drilling point — no pre-drilling required. Black phosphate coating for corrosion resistance under plaster finishes. For fixing plasterboard to timber studs (coarse thread) or metal channels (fine thread).',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 300,
@@ -4517,7 +4517,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Drywall Screws Coarse Thread 3.5x32mm Pack 500',
         'slug': 'drywall-screws-coarse-thread-35x32mm-pack-500',
-        'description': 'Standard plasterboard fixings',
+        'description': 'Drywall screws with bugle head designed to sit flush without breaking the paper face of plasterboard. Sharp self-drilling point — no pre-drilling required. Black phosphate coating for corrosion resistance under plaster finishes. For fixing plasterboard to timber studs (coarse thread) or metal channels (fine thread).',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 280,
@@ -4528,7 +4528,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Drywall Screws Coarse Thread 3.5x38mm Pack 500',
         'slug': 'drywall-screws-coarse-thread-35x38mm-pack-500',
-        'description': 'For double layer plasterboard',
+        'description': 'Drywall screws with bugle head designed to sit flush without breaking the paper face of plasterboard. Sharp self-drilling point — no pre-drilling required. Black phosphate coating for corrosion resistance under plaster finishes. For fixing plasterboard to timber studs (coarse thread) or metal channels (fine thread).',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 260,
@@ -4539,7 +4539,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Drywall Screws Fine Thread 3.5x25mm Pack 500',
         'slug': 'drywall-screws-fine-thread-35x25mm-pack-500',
-        'description': 'Fine thread for metal studs',
+        'description': 'Drywall screws with bugle head designed to sit flush without breaking the paper face of plasterboard. Sharp self-drilling point — no pre-drilling required. Black phosphate coating for corrosion resistance under plaster finishes. For fixing plasterboard to timber studs (coarse thread) or metal channels (fine thread).',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 240,
@@ -4550,7 +4550,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Fence Panel Brackets Galvanised Pack 4',
         'slug': 'fence-panel-brackets-galvanised-pack-4',
-        'description': 'Heavy duty fence brackets',
+        'description': 'Steel brackets/plates for reinforcing timber joints and connections. Zinc-plated or galvanised for corrosion resistance. Pre-drilled fixing holes for screws or bolts. Provides structural support at corners, junctions, and spans. Suitable for indoor framing, decking, fencing, and general construction. Load-rated for structural use.',
         'price': 11.99,
         'cost_price': 7.19,
         'stock': 100,
@@ -4561,7 +4561,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Flat Washers M6 Zinc Plated Pack 100',
         'slug': 'flat-washers-m6-zinc-plated-pack-100',
-        'description': 'Standard flat washers',
+        'description': 'Zinc-plated steel washers providing increased bearing area under bolt heads and nuts. Distributes clamping force over a larger surface to prevent damage to softer materials. Reduces loosening from vibration. Suitable for use with corresponding metric fasteners. Interior and sheltered exterior applications.',
         'price': 2.99,
         'cost_price': 1.79,
         'stock': 220,
@@ -4572,7 +4572,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Flat Washers M8 Zinc Plated Pack 100',
         'slug': 'flat-washers-m8-zinc-plated-pack-100',
-        'description': 'M8 flat washers',
+        'description': 'Zinc-plated steel washers providing increased bearing area under bolt heads and nuts. Distributes clamping force over a larger surface to prevent damage to softer materials. Reduces loosening from vibration. Suitable for use with corresponding metric fasteners. Interior and sheltered exterior applications.',
         'price': 3.49,
         'cost_price': 2.09,
         'stock': 200,
@@ -4583,7 +4583,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Frame Fixing Plugs 10x80mm Pack 50',
         'slug': 'frame-fixing-plugs-10x80mm-pack-50',
-        'description': 'Long plugs for frame fixings',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 180,
@@ -4594,7 +4594,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Frame Fixings 10x100mm Torx Drive Pack 25',
         'slug': 'frame-fixings-10x100mm-torx-drive-pack-25',
-        'description': 'Heavy duty frame fixings',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 13.99,
         'cost_price': 8.39,
         'stock': 90,
@@ -4605,7 +4605,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Frame Fixings 8x80mm Torx Drive Pack 50',
         'slug': 'frame-fixings-8x80mm-torx-drive-pack-50',
-        'description': 'Window and door frame fixings',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 11.99,
         'cost_price': 7.19,
         'stock': 120,
@@ -4616,7 +4616,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Gate Hooks and Eyes 150mm Black Pack 2',
         'slug': 'gate-hooks-and-eyes-150mm-black-pack-2',
-        'description': 'Gate hook and eye set',
+        'description': 'Screw-fix hooks/eyes for hanging, latching, and securing items. Screw thread for direct fixing into timber or wall plugs in masonry. Suitable for hanging pictures, tools, garden equipment, and gate latching. Choose material finish for application: brass for interior decorative, zinc for general purpose, black for exterior.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 90,
@@ -4627,7 +4627,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hardboard Pins 20mm Copper Plated Pack 500g',
         'slug': 'hardboard-pins-20mm-copper-plated-pack-500g',
-        'description': 'Copper pins for hardboard',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 160,
@@ -4638,7 +4638,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hex Bolts M10x50mm Zinc Plated Pack 15',
         'slug': 'hex-bolts-m10x50mm-zinc-plated-pack-15',
-        'description': 'Heavy duty hex bolts',
+        'description': 'Steel bolt with zinc plating for corrosion resistance. Full or partial thread as specified. Use with corresponding nut and washer for secure through-fixings in timber, metal, and composite materials. Zinc plating suitable for interior and sheltered exterior use. Grade 4.8 tensile strength for general-purpose applications.',
         'price': 8.99,
         'cost_price': 5.39,
         'stock': 110,
@@ -4649,7 +4649,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hex Bolts M6x30mm Zinc Plated Pack 25',
         'slug': 'hex-bolts-m6x30mm-zinc-plated-pack-25',
-        'description': 'Hex head bolts with nuts',
+        'description': 'Steel bolt with zinc plating for corrosion resistance. Full or partial thread as specified. Use with corresponding nut and washer for secure through-fixings in timber, metal, and composite materials. Zinc plating suitable for interior and sheltered exterior use. Grade 4.8 tensile strength for general-purpose applications.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 150,
@@ -4660,7 +4660,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hex Bolts M8x40mm Zinc Plated Pack 20',
         'slug': 'hex-bolts-m8x40mm-zinc-plated-pack-20',
-        'description': 'Medium hex bolts',
+        'description': 'Steel bolt with zinc plating for corrosion resistance. Full or partial thread as specified. Use with corresponding nut and washer for secure through-fixings in timber, metal, and composite materials. Zinc plating suitable for interior and sheltered exterior use. Grade 4.8 tensile strength for general-purpose applications.',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 130,
@@ -4671,7 +4671,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hex Nuts M10 Zinc Plated Pack 50',
         'slug': 'hex-nuts-m10-zinc-plated-pack-50',
-        'description': 'M10 heavy duty nuts',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 160,
@@ -4682,7 +4682,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hex Nuts M6 Zinc Plated Pack 100',
         'slug': 'hex-nuts-m6-zinc-plated-pack-100',
-        'description': 'Standard hex nuts',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 3.99,
         'cost_price': 2.39,
         'stock': 200,
@@ -4693,7 +4693,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hex Nuts M8 Zinc Plated Pack 50',
         'slug': 'hex-nuts-m8-zinc-plated-pack-50',
-        'description': 'M8 hex nuts',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 180,
@@ -4704,7 +4704,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hollow Wall Anchors Metal 4mm Pack 50',
         'slug': 'hollow-wall-anchors-metal-4mm-pack-50',
-        'description': 'Toggle fixings for plasterboard',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 160,
@@ -4715,7 +4715,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Hollow Wall Anchors Metal 6mm Pack 25',
         'slug': 'hollow-wall-anchors-metal-6mm-pack-25',
-        'description': 'Heavy duty cavity fixings',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 140,
@@ -4726,7 +4726,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Joist Hangers 50mm Galvanised Pack 10',
         'slug': 'joist-hangers-50mm-galvanised-pack-10',
-        'description': 'Timber joist hangers',
+        'description': 'Galvanised steel joist hangers for supporting timber joists at beam and wall junctions without the need for building in. Hot-dip galvanised for long-term corrosion resistance. Nailing flanges for secure fixing. Engineered to provide reliable structural support. Suitable for domestic floor and roof construction.',
         'price': 12.99,
         'cost_price': 7.79,
         'stock': 90,
@@ -4737,7 +4737,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'L Brackets 75mm Heavy Duty Pack 4',
         'slug': 'l-brackets-75mm-heavy-duty-pack-4',
-        'description': 'Large L-shaped brackets',
+        'description': 'Steel brackets/plates for reinforcing timber joints and connections. Zinc-plated or galvanised for corrosion resistance. Pre-drilled fixing holes for screws or bolts. Provides structural support at corners, junctions, and spans. Suitable for indoor framing, decking, fencing, and general construction. Load-rated for structural use.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 110,
@@ -4748,7 +4748,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Lost Head Nails 50mm Galvanised Pack 500g',
         'slug': 'lost-head-nails-50mm-galvanised-pack-500g',
-        'description': 'Small head nails for finishing',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 150,
@@ -4759,7 +4759,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Machine Screws M4x10mm Steel Pack 100',
         'slug': 'machine-screws-m4x10mm-steel-pack-100',
-        'description': 'Metric machine screws with nuts',
+        'description': 'Metric machine screws with full thread for use with tapped holes or corresponding nuts. Precision-rolled thread for accurate mating with standard metric threads. Zinc-plated or steel finish. Slotted or cross-recess head. Suitable for mechanical assembly, electrical equipment, and general engineering applications.',
         'price': 3.49,
         'cost_price': 2.09,
         'stock': 200,
@@ -4770,7 +4770,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Machine Screws M4x16mm Steel Pack 100',
         'slug': 'machine-screws-m4x16mm-steel-pack-100',
-        'description': 'Standard machine screws',
+        'description': 'Metric machine screws with full thread for use with tapped holes or corresponding nuts. Precision-rolled thread for accurate mating with standard metric threads. Zinc-plated or steel finish. Slotted or cross-recess head. Suitable for mechanical assembly, electrical equipment, and general engineering applications.',
         'price': 3.99,
         'cost_price': 2.39,
         'stock': 180,
@@ -4781,7 +4781,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Machine Screws M5x20mm Steel Pack 50',
         'slug': 'machine-screws-m5x20mm-steel-pack-50',
-        'description': 'M5 machine screws for precision work',
+        'description': 'Metric machine screws with full thread for use with tapped holes or corresponding nuts. Precision-rolled thread for accurate mating with standard metric threads. Zinc-plated or steel finish. Slotted or cross-recess head. Suitable for mechanical assembly, electrical equipment, and general engineering applications.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 160,
@@ -4792,7 +4792,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Machine Screws M6x25mm Steel Pack 50',
         'slug': 'machine-screws-m6x25mm-steel-pack-50',
-        'description': 'Heavy duty machine screws',
+        'description': 'Metric machine screws with full thread for use with tapped holes or corresponding nuts. Precision-rolled thread for accurate mating with standard metric threads. Zinc-plated or steel finish. Slotted or cross-recess head. Suitable for mechanical assembly, electrical equipment, and general engineering applications.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 140,
@@ -4803,7 +4803,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Machine Screws M8x30mm Steel Pack 25',
         'slug': 'machine-screws-m8x30mm-steel-pack-25',
-        'description': 'Large diameter machine screws',
+        'description': 'Metric machine screws with full thread for use with tapped holes or corresponding nuts. Precision-rolled thread for accurate mating with standard metric threads. Zinc-plated or steel finish. Slotted or cross-recess head. Suitable for mechanical assembly, electrical equipment, and general engineering applications.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 100,
@@ -4814,7 +4814,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Masonry Nails 50mm Hardened Steel Pack 100',
         'slug': 'masonry-nails-50mm-hardened-steel-pack-100',
-        'description': 'Hardened nails for concrete',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 130,
@@ -4825,7 +4825,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Masonry Screws Countersunk 7.5x80mm Pack 50',
         'slug': 'masonry-screws-countersunk-75x80mm-pack-50',
-        'description': 'Long masonry screws for heavy loads',
+        'description': 'Concrete/masonry screws for direct fixing into concrete, brick, and block without plugs. High-low thread design cuts its own thread in pre-drilled pilot holes (correct masonry drill bit required). Removes and re-drives for repositioning. Suitable for fixing battens, brackets, frames, and equipment to masonry.',
         'price': 9.99,
         'cost_price': 5.99,
         'stock': 130,
@@ -4836,7 +4836,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Masonry Screws Hex Head 7.5x100mm Pack 25',
         'slug': 'masonry-screws-hex-head-75x100mm-pack-25',
-        'description': 'Extra long concrete fixings',
+        'description': 'Concrete/masonry screws for direct fixing into concrete, brick, and block without plugs. High-low thread design cuts its own thread in pre-drilled pilot holes (correct masonry drill bit required). Removes and re-drives for repositioning. Suitable for fixing battens, brackets, frames, and equipment to masonry.',
         'price': 10.99,
         'cost_price': 6.59,
         'stock': 100,
@@ -4847,7 +4847,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Masonry Screws Hex Head 7.5x60mm Pack 50',
         'slug': 'masonry-screws-hex-head-75x60mm-pack-50',
-        'description': 'Direct fixing screws for concrete',
+        'description': 'Concrete/masonry screws for direct fixing into concrete, brick, and block without plugs. High-low thread design cuts its own thread in pre-drilled pilot holes (correct masonry drill bit required). Removes and re-drives for repositioning. Suitable for fixing battens, brackets, frames, and equipment to masonry.',
         'price': 8.99,
         'cost_price': 5.39,
         'stock': 150,
@@ -4858,7 +4858,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Mending Plates 100mm Zinc Plated Pack 10',
         'slug': 'mending-plates-100mm-zinc-plated-pack-10',
-        'description': 'Flat mending plates for repairs',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 120,
@@ -4869,7 +4869,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Mirror Screws Chrome 25mm Pack 4',
         'slug': 'mirror-screws-chrome-25mm-pack-4',
-        'description': 'Decorative chrome mirror fixings',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 120,
@@ -4880,7 +4880,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Nyloc Nuts M6 Zinc Plated Pack 50',
         'slug': 'nyloc-nuts-m6-zinc-plated-pack-50',
-        'description': 'Self-locking nylon insert nuts',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 150,
@@ -4891,7 +4891,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Nyloc Nuts M8 Zinc Plated Pack 25',
         'slug': 'nyloc-nuts-m8-zinc-plated-pack-25',
-        'description': 'M8 locking nuts',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 130,
@@ -4902,7 +4902,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Oval Wire Nails 50mm Bright Steel Pack 500g',
         'slug': 'oval-wire-nails-50mm-bright-steel-pack-500g',
-        'description': 'Oval nails reduce splitting',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 170,
@@ -4913,7 +4913,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Panel Pins 25mm Bright Steel Pack 500g',
         'slug': 'panel-pins-25mm-bright-steel-pack-500g',
-        'description': 'Fine pins for delicate work',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 200,
@@ -4924,7 +4924,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Panel Pins 40mm Bright Steel Pack 500g',
         'slug': 'panel-pins-40mm-bright-steel-pack-500g',
-        'description': 'Medium panel pins',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 180,
@@ -4935,7 +4935,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Plasterboard Fixings Plastic 25mm Pack 50',
         'slug': 'plasterboard-fixings-plastic-25mm-pack-50',
-        'description': 'Self-drilling plasterboard plugs',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 180,
@@ -4946,7 +4946,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Pop Rivets Aluminium 4x10mm Pack 100',
         'slug': 'pop-rivets-aluminium-4x10mm-pack-100',
-        'description': 'Standard aluminium rivets',
+        'description': 'Blind rivets (pop rivets) for permanently joining sheet materials where access to the rear is not possible. Insert through pre-drilled hole, pull mandrel with rivet gun until stem breaks, forming a secure mechanical joint. Suitable for joining sheet metal, plastic, fibreglass, and thin materials. Dome head for neat finish.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 160,
@@ -4957,7 +4957,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Pop Rivets Aluminium 4x12mm Pack 100',
         'slug': 'pop-rivets-aluminium-4x12mm-pack-100',
-        'description': 'Medium length rivets',
+        'description': 'Blind rivets (pop rivets) for permanently joining sheet materials where access to the rear is not possible. Insert through pre-drilled hole, pull mandrel with rivet gun until stem breaks, forming a secure mechanical joint. Suitable for joining sheet metal, plastic, fibreglass, and thin materials. Dome head for neat finish.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 150,
@@ -4968,7 +4968,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Pop Rivets Large Flange 4x10mm Pack 50',
         'slug': 'pop-rivets-large-flange-4x10mm-pack-50',
-        'description': 'Large flange for soft materials',
+        'description': 'Blind rivets (pop rivets) for permanently joining sheet materials where access to the rear is not possible. Insert through pre-drilled hole, pull mandrel with rivet gun until stem breaks, forming a secure mechanical joint. Suitable for joining sheet metal, plastic, fibreglass, and thin materials. Dome head for neat finish.',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 120,
@@ -4979,7 +4979,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Pop Rivets Steel 4x10mm Pack 100',
         'slug': 'pop-rivets-steel-4x10mm-pack-100',
-        'description': 'Steel rivets for stronger fixing',
+        'description': 'Blind rivets (pop rivets) for permanently joining sheet materials where access to the rear is not possible. Insert through pre-drilled hole, pull mandrel with rivet gun until stem breaks, forming a secure mechanical joint. Suitable for joining sheet metal, plastic, fibreglass, and thin materials. Dome head for neat finish.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 140,
@@ -4990,7 +4990,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Rod Connector M10 Zinc Plated Pack 10',
         'slug': 'rod-connector-m10-zinc-plated-pack-10',
-        'description': 'Thread rod connectors',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 100,
@@ -5001,7 +5001,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Roofing Bolts M6x50mm Square Neck Pack 25',
         'slug': 'roofing-bolts-m6x50mm-square-neck-pack-25',
-        'description': 'Square neck prevents rotation',
+        'description': 'Steel bolt with zinc plating for corrosion resistance. Full or partial thread as specified. Use with corresponding nut and washer for secure through-fixings in timber, metal, and composite materials. Zinc plating suitable for interior and sheltered exterior use. Grade 4.8 tensile strength for general-purpose applications.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 130,
@@ -5012,7 +5012,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Round Wire Nails 100mm Bright Steel Pack 1kg',
         'slug': 'round-wire-nails-100mm-bright-steel-pack-1kg',
-        'description': 'Heavy construction nails',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 140,
@@ -5023,7 +5023,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Round Wire Nails 50mm Bright Steel Pack 500g',
         'slug': 'round-wire-nails-50mm-bright-steel-pack-500g',
-        'description': 'General purpose wire nails',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 180,
@@ -5034,7 +5034,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Round Wire Nails 75mm Bright Steel Pack 500g',
         'slug': 'round-wire-nails-75mm-bright-steel-pack-500g',
-        'description': 'Long wire nails for construction',
+        'description': 'Steel nails for timber-to-timber fixing and general carpentry. Manufactured from mild steel wire with consistent quality. Point geometry designed for clean entry with minimal timber splitting. Choose head style for application: round head (general), lost head (finishing), clout (roofing felt), panel pin (mouldings).',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 160,
@@ -5045,7 +5045,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Screw Eyes 25mm Brass Plated Pack 10',
         'slug': 'screw-eyes-25mm-brass-plated-pack-10',
-        'description': 'Small brass screw eyes',
+        'description': 'Screw-fix hooks/eyes for hanging, latching, and securing items. Screw thread for direct fixing into timber or wall plugs in masonry. Suitable for hanging pictures, tools, garden equipment, and gate latching. Choose material finish for application: brass for interior decorative, zinc for general purpose, black for exterior.',
         'price': 3.49,
         'cost_price': 2.09,
         'stock': 150,
@@ -5056,7 +5056,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Screw Eyes 38mm Zinc Plated Pack 10',
         'slug': 'screw-eyes-38mm-zinc-plated-pack-10',
-        'description': 'Medium screw eyes',
+        'description': 'Screw-fix hooks/eyes for hanging, latching, and securing items. Screw thread for direct fixing into timber or wall plugs in masonry. Suitable for hanging pictures, tools, garden equipment, and gate latching. Choose material finish for application: brass for interior decorative, zinc for general purpose, black for exterior.',
         'price': 3.99,
         'cost_price': 2.39,
         'stock': 140,
@@ -5067,7 +5067,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Screw Hooks 50mm Brass Plated Pack 10',
         'slug': 'screw-hooks-50mm-brass-plated-pack-10',
-        'description': 'Brass cup hooks',
+        'description': 'Screw-fix hooks/eyes for hanging, latching, and securing items. Screw thread for direct fixing into timber or wall plugs in masonry. Suitable for hanging pictures, tools, garden equipment, and gate latching. Choose material finish for application: brass for interior decorative, zinc for general purpose, black for exterior.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 130,
@@ -5078,7 +5078,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Screw Hooks 75mm Heavy Duty Pack 5',
         'slug': 'screw-hooks-75mm-heavy-duty-pack-5',
-        'description': 'Large heavy duty hooks',
+        'description': 'Screw-fix hooks/eyes for hanging, latching, and securing items. Screw thread for direct fixing into timber or wall plugs in masonry. Suitable for hanging pictures, tools, garden equipment, and gate latching. Choose material finish for application: brass for interior decorative, zinc for general purpose, black for exterior.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 100,
@@ -5089,7 +5089,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Security Screws One-Way 4x40mm Pack 25',
         'slug': 'security-screws-one-way-4x40mm-pack-25',
-        'description': 'Anti-tamper one-way screws',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 80,
@@ -5100,7 +5100,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Self Tapping Screws Countersunk 4x12mm Pack 200',
         'slug': 'self-tapping-screws-countersunk-4x12mm-pack-200',
-        'description': 'Flush fitting self-tappers',
+        'description': 'Self-tapping screws with hardened point that cuts its own thread in pre-drilled pilot holes in sheet metal, plastic, and thin materials. No nut required on the rear face. Zinc-plated for corrosion resistance. Suitable for HVAC ductwork, automotive bodywork, electrical enclosures, and general sheet metalworking.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 190,
@@ -5111,7 +5111,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Self Tapping Screws Hex Head 6x25mm Pack 100',
         'slug': 'self-tapping-screws-hex-head-6x25mm-pack-100',
-        'description': 'Hex head for high torque',
+        'description': 'Self-tapping screws with hardened point that cuts its own thread in pre-drilled pilot holes in sheet metal, plastic, and thin materials. No nut required on the rear face. Zinc-plated for corrosion resistance. Suitable for HVAC ductwork, automotive bodywork, electrical enclosures, and general sheet metalworking.',
         'price': 7.49,
         'cost_price': 4.49,
         'stock': 140,
@@ -5122,7 +5122,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Self Tapping Screws Pan Head 4x12mm Pack 200',
         'slug': 'self-tapping-screws-pan-head-4x12mm-pack-200',
-        'description': 'Pan head self-tappers for metal',
+        'description': 'Self-tapping screws with hardened point that cuts its own thread in pre-drilled pilot holes in sheet metal, plastic, and thin materials. No nut required on the rear face. Zinc-plated for corrosion resistance. Suitable for HVAC ductwork, automotive bodywork, electrical enclosures, and general sheet metalworking.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 200,
@@ -5133,7 +5133,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Self Tapping Screws Pan Head 4x16mm Pack 200',
         'slug': 'self-tapping-screws-pan-head-4x16mm-pack-200',
-        'description': 'Medium self-tapping screws',
+        'description': 'Self-tapping screws with hardened point that cuts its own thread in pre-drilled pilot holes in sheet metal, plastic, and thin materials. No nut required on the rear face. Zinc-plated for corrosion resistance. Suitable for HVAC ductwork, automotive bodywork, electrical enclosures, and general sheet metalworking.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 180,
@@ -5144,7 +5144,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Self Tapping Screws Pan Head 6x20mm Pack 100',
         'slug': 'self-tapping-screws-pan-head-6x20mm-pack-100',
-        'description': 'Heavy duty self-tappers',
+        'description': 'Self-tapping screws with hardened point that cuts its own thread in pre-drilled pilot holes in sheet metal, plastic, and thin materials. No nut required on the rear face. Zinc-plated for corrosion resistance. Suitable for HVAC ductwork, automotive bodywork, electrical enclosures, and general sheet metalworking.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 160,
@@ -5155,7 +5155,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Spring Toggle Anchors M4 Pack 20',
         'slug': 'spring-toggle-anchors-m4-pack-20',
-        'description': 'Spring loaded toggles for hollow walls',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 120,
@@ -5166,7 +5166,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Spring Toggle Anchors M6 Pack 15',
         'slug': 'spring-toggle-anchors-m6-pack-15',
-        'description': 'Large spring toggles',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 9.99,
         'cost_price': 5.99,
         'stock': 100,
@@ -5177,7 +5177,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Spring Washers M6 Zinc Plated Pack 100',
         'slug': 'spring-washers-m6-zinc-plated-pack-100',
-        'description': 'Spring washers prevent loosening',
+        'description': 'Zinc-plated steel washers providing increased bearing area under bolt heads and nuts. Distributes clamping force over a larger surface to prevent damage to softer materials. Reduces loosening from vibration. Suitable for use with corresponding metric fasteners. Interior and sheltered exterior applications.',
         'price': 3.99,
         'cost_price': 2.39,
         'stock': 180,
@@ -5188,7 +5188,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Spring Washers M8 Zinc Plated Pack 50',
         'slug': 'spring-washers-m8-zinc-plated-pack-50',
-        'description': 'M8 spring washers',
+        'description': 'Zinc-plated steel washers providing increased bearing area under bolt heads and nuts. Distributes clamping force over a larger surface to prevent damage to softer materials. Reduces loosening from vibration. Suitable for use with corresponding metric fasteners. Interior and sheltered exterior applications.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 160,
@@ -5199,7 +5199,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Staples 10mm Type 140 Pack 1000',
         'slug': 'staples-10mm-type-140-pack-1000',
-        'description': 'Standard staples for staplers',
+        'description': 'Staples compatible with standard staple guns and tackers. Precision-cut from galvanised steel wire for consistent feeding and driving. Suitable for upholstery, fabric, insulation, vapour barriers, and light timber fixing. Choose size to suit material thickness — staple legs should penetrate substrate by minimum 10mm.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 200,
@@ -5210,7 +5210,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Staples 12mm Type 140 Pack 1000',
         'slug': 'staples-12mm-type-140-pack-1000',
-        'description': 'Medium length staples',
+        'description': 'Staples compatible with standard staple guns and tackers. Precision-cut from galvanised steel wire for consistent feeding and driving. Suitable for upholstery, fabric, insulation, vapour barriers, and light timber fixing. Choose size to suit material thickness — staple legs should penetrate substrate by minimum 10mm.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 180,
@@ -5221,7 +5221,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Staples 14mm Type 140 Pack 1000',
         'slug': 'staples-14mm-type-140-pack-1000',
-        'description': 'Long staples for thick materials',
+        'description': 'Staples compatible with standard staple guns and tackers. Precision-cut from galvanised steel wire for consistent feeding and driving. Suitable for upholstery, fabric, insulation, vapour barriers, and light timber fixing. Choose size to suit material thickness — staple legs should penetrate substrate by minimum 10mm.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 160,
@@ -5232,7 +5232,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'T Brackets 100mm Steel Pack 4',
         'slug': 't-brackets-100mm-steel-pack-4',
-        'description': 'T-shaped structural brackets',
+        'description': 'Steel brackets/plates for reinforcing timber joints and connections. Zinc-plated or galvanised for corrosion resistance. Pre-drilled fixing holes for screws or bolts. Provides structural support at corners, junctions, and spans. Suitable for indoor framing, decking, fencing, and general construction. Load-rated for structural use.',
         'price': 8.99,
         'cost_price': 5.39,
         'stock': 100,
@@ -5243,7 +5243,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Threaded Rod M10x1000mm Zinc Plated',
         'slug': 'threaded-rod-m10x1000mm-zinc-plated',
-        'description': 'M10 threaded studding',
+        'description': 'Zinc-plated steel threaded rod (studding), 1-metre length. Full metric thread along entire length. Cut to required size with hacksaw. Used with nuts and washers for suspended fixings, through-bolting, and custom-length fastening. Suitable for pipe supports, cable trays, and suspended ceiling systems. Grade 4.8.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 80,
@@ -5254,7 +5254,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Threaded Rod M12x1000mm Zinc Plated',
         'slug': 'threaded-rod-m12x1000mm-zinc-plated',
-        'description': 'Heavy duty threaded rod',
+        'description': 'Zinc-plated steel threaded rod (studding), 1-metre length. Full metric thread along entire length. Cut to required size with hacksaw. Used with nuts and washers for suspended fixings, through-bolting, and custom-length fastening. Suitable for pipe supports, cable trays, and suspended ceiling systems. Grade 4.8.',
         'price': 9.99,
         'cost_price': 5.99,
         'stock': 60,
@@ -5265,7 +5265,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Threaded Rod M8x1000mm Zinc Plated',
         'slug': 'threaded-rod-m8x1000mm-zinc-plated',
-        'description': '1 metre threaded rod',
+        'description': 'Zinc-plated steel threaded rod (studding), 1-metre length. Full metric thread along entire length. Cut to required size with hacksaw. Used with nuts and washers for suspended fixings, through-bolting, and custom-length fastening. Suitable for pipe supports, cable trays, and suspended ceiling systems. Grade 4.8.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 100,
@@ -5276,7 +5276,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Universal Plugs Grey 8mm Pack 100',
         'slug': 'universal-plugs-grey-8mm-pack-100',
-        'description': 'Universal plugs for all materials',
+        'description': 'Fixings and fasteners for construction, joinery, and assembly applications. Manufactured to consistent quality standards for reliable performance. Choose appropriate size, material, and finish for the substrate and environmental conditions. Follow recommended installation guidelines for specified load ratings.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 220,
@@ -5287,7 +5287,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wall Plugs Assorted 150pk',
         'slug': 'wall-plugs-assorted',
-        'description': 'Assorted wall plugs pack of 150. Various sizes for different applications.',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 7.99,
         'cost_price': 5.19,
         'stock': 80,
@@ -5298,7 +5298,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wall Plugs Blue 10mm Pack 50',
         'slug': 'wall-plugs-blue-10mm-pack-50',
-        'description': 'Large blue plugs for heavy duty',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 3.99,
         'cost_price': 2.39,
         'stock': 250,
@@ -5309,7 +5309,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wall Plugs Brown 7mm Pack 100',
         'slug': 'wall-plugs-brown-7mm-pack-100',
-        'description': 'Brown plugs for heavier loads',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 3.49,
         'cost_price': 2.09,
         'stock': 280,
@@ -5320,7 +5320,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wall Plugs Red 6mm Pack 100',
         'slug': 'wall-plugs-red-6mm-pack-100',
-        'description': 'Standard red wall plugs for general use',
+        'description': 'Fixings designed for secure attachment to walls and ceilings. Provides reliable pull-out and shear resistance in the specified substrate material (masonry, plasterboard, or hollow walls). Follow recommended drill size and installation depth. Load ratings depend on wall material and condition. Always use appropriate size for the load.',
         'price': 2.99,
         'cost_price': 1.79,
         'stock': 300,
@@ -5331,7 +5331,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wing Nuts M6 Zinc Plated Pack 25',
         'slug': 'wing-nuts-m6-zinc-plated-pack-25',
-        'description': 'Hand-tightened wing nuts',
+        'description': 'Zinc-plated steel hexagonal nut for use with corresponding metric bolts and threaded rod. Standard pitch thread. Zinc electroplated finish for corrosion resistance in dry interior applications. Grade 8 strength. Suitable for general assembly, construction, and maintenance applications. Use with flat washer for larger bearing area.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 140,
@@ -5342,7 +5342,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Countersunk 3x20mm Brass Pack 100',
         'slug': 'wood-screws-countersunk-3x20mm-brass-pack-100',
-        'description': 'Brass countersunk screws for decorative finish',
+        'description': 'Slotted countersunk wood screws, 3mm x 20mm. Pack of 100. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 7.99,
         'cost_price': 4.79,
         'stock': 100,
@@ -5353,7 +5353,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Countersunk 4x40mm Brass Pack 50',
         'slug': 'wood-screws-countersunk-4x40mm-brass-pack-50',
-        'description': 'Premium brass wood screws',
+        'description': 'Slotted countersunk wood screws, 4mm x 40mm. Pack of 50. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 8.99,
         'cost_price': 5.39,
         'stock': 80,
@@ -5364,7 +5364,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 3x25mm Zinc Plated Pack 200',
         'slug': 'wood-screws-pozi-3x25mm-zinc-plated-pack-200',
-        'description': 'Zinc plated pozi drive wood screws for general joinery',
+        'description': 'Pozidrive countersunk wood screws, 3mm x 25mm. Pack of 200. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 3.99,
         'cost_price': 2.39,
         'stock': 250,
@@ -5375,7 +5375,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 3x30mm Zinc Plated Pack 200',
         'slug': 'wood-screws-pozi-3x30mm-zinc-plated-pack-200',
-        'description': '30mm wood screws for timber construction',
+        'description': 'Pozidrive countersunk wood screws, 3mm x 30mm. Pack of 200. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 4.49,
         'cost_price': 2.69,
         'stock': 220,
@@ -5386,7 +5386,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 3x35mm Yellow Zinc Pack 200',
         'slug': 'wood-screws-pozi-3x35mm-yellow-zinc-pack-200',
-        'description': 'Corrosion resistant yellow zinc screws',
+        'description': 'Pozidrive countersunk wood screws, 3mm x 35mm. Pack of 200. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 4.99,
         'cost_price': 2.99,
         'stock': 200,
@@ -5397,7 +5397,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 3x40mm Zinc Plated Pack 200',
         'slug': 'wood-screws-pozi-3x40mm-zinc-plated-pack-200',
-        'description': '40mm wood screws ideal for decking and fencing',
+        'description': 'Pozidrive countersunk wood screws, 3mm x 40mm. Pack of 200. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 5.49,
         'cost_price': 3.29,
         'stock': 200,
@@ -5408,7 +5408,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 4x50mm Zinc Plated Pack 100',
         'slug': 'wood-screws-pozi-4x50mm-zinc-plated-pack-100',
-        'description': 'Heavy duty 50mm wood screws for structural work',
+        'description': 'Pozidrive countersunk wood screws, 4mm x 50mm. Pack of 100. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 5.99,
         'cost_price': 3.59,
         'stock': 180,
@@ -5419,7 +5419,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 4x60mm Zinc Plated Pack 100',
         'slug': 'wood-screws-pozi-4x60mm-zinc-plated-pack-100',
-        'description': 'Long 60mm wood screws for thick timber',
+        'description': 'Pozidrive countersunk wood screws, 4mm x 60mm. Pack of 100. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 6.99,
         'cost_price': 4.19,
         'stock': 150,
@@ -5430,7 +5430,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Pozi 5x70mm Zinc Plated Pack 50',
         'slug': 'wood-screws-pozi-5x70mm-zinc-plated-pack-50',
-        'description': 'Extra long 70mm wood screws for heavy joinery',
+        'description': 'Pozidrive countersunk wood screws, 5mm x 70mm. Pack of 50. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 6.49,
         'cost_price': 3.89,
         'stock': 120,
@@ -5441,7 +5441,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Wood Screws Twin Thread 4x50mm Pack 100',
         'slug': 'wood-screws-twin-thread-4x50mm-pack-100',
-        'description': 'Twin thread design for faster insertion',
+        'description': 'Slotted countersunk wood screws, 4mm x 50mm. Pack of 100. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 7.49,
         'cost_price': 4.49,
         'stock': 160,
@@ -5452,7 +5452,7 @@ SCREWS_FIXINGS_PRODUCTS = [
     {
         'name': 'Woodscrews Pozi 4x40mm 200pk',
         'slug': 'woodscrews-pozi-4x40mm',
-        'description': 'Pack of 200 zinc-plated woodscrews, Pozi head, 4mm x 40mm.',
+        'description': 'Pozidrive countersunk wood screws, 4mm x 40mm. Pack of 100. Countersunk head sits flush with timber surface for a neat finish. Twin-thread design for fast driving and strong pull-out resistance in softwood and hardwood. Zinc plated for corrosion resistance in dry interior applications. Suitable for general joinery and carpentry.',
         'price': 5.99,
         'cost_price': 3.89,
         'stock': 100,
@@ -5467,7 +5467,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Acoustic Sealant Grey 310ml',
         'slug': 'acoustic-sealant-grey-310ml',
-        'description': 'Professional acoustic sealant for soundproofing, permanently flexible, seals gaps in partition walls and floors, non-hardening, non-slumping formula',
+        'description': 'Acoustic sealant for sealing joints between plasterboard sheets, around the perimeter of acoustic partitions, and at service penetrations in sound-rated walls. Permanently flexible — does not set hard, maintaining the acoustic seal over time. Non-setting formulation. Suitable for dry internal environments. Apply with cartridge gun.',
         'price': 11.99,
         'cost_price': 6.59,
         'stock': 60,
@@ -5478,7 +5478,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Bathroom Sealant Clear 310ml',
         'slug': 'bathroom-sealant-clear-310ml',
-        'description': 'Premium bathroom and kitchen silicone sealant, clear finish, anti-mould protection, permanently flexible, excellent adhesion to ceramic and enamel',
+        'description': 'Flexible silicone sealant for waterproofing joints in kitchens, bathrooms, and wet areas. Permanently elastic — accommodates movement without cracking. Anti-fungal additive prevents black mould growth. Excellent adhesion to ceramic, glass, enamel, stainless steel, and most plastics. Apply with standard cartridge gun. Smooth with wet finger. Skins in 10 minutes, full cure 24 hours.',
         'price': 6.99,
         'cost_price': 3.84,
         'stock': 140,
@@ -5489,7 +5489,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Exterior Frame Sealant Brown 380ml',
         'slug': 'exterior-frame-sealant-brown-380ml',
-        'description': 'Extra large brown frame sealant for exterior use, weatherproof and flexible, fills gaps up to 30mm, excellent UV resistance and durability',
+        'description': 'Exterior-grade frame sealant for sealing joints around window and door frames, expansion joints, and external cladding. Permanently flexible to accommodate thermal movement. UV-resistant — will not crack or discolour in sunlight. Overpaintable within 1 hour. Excellent adhesion to timber, PVCu, aluminium, brick, and concrete. All-weather application.',
         'price': 6.99,
         'cost_price': 3.84,
         'stock': 95,
@@ -5500,7 +5500,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Fire Rated Sealant Grey 310ml',
         'slug': 'fire-rated-sealant-grey-310ml',
-        'description': 'Intumescent acrylic sealant for fire-stopping applications, tested to 4 hours fire resistance, paintable, acoustic properties, minimal shrinkage',
+        'description': 'Intumescent fire-rated sealant for sealing gaps around fire door frames, service penetrations, and linear joints in fire-rated construction. Expands when exposed to heat to maintain fire compartmentation. Tested to BS 476 and EN 1366. Up to 4-hour fire rating depending on application. Acoustic rating 60dB+. Apply with cartridge gun.',
         'price': 12.99,
         'cost_price': 7.14,
         'stock': 70,
@@ -5511,7 +5511,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Frame Sealant Brown 310ml',
         'slug': 'frame-sealant-brown-310ml',
-        'description': 'Acrylic frame sealant in brown, paintable and overpaintable, ideal for sealing gaps around window and door frames, minimal shrinkage',
+        'description': 'Exterior-grade frame sealant for sealing joints around window and door frames, expansion joints, and external cladding. Permanently flexible to accommodate thermal movement. UV-resistant — will not crack or discolour in sunlight. Overpaintable within 1 hour. Excellent adhesion to timber, PVCu, aluminium, brick, and concrete. All-weather application.',
         'price': 5.49,
         'cost_price': 3.02,
         'stock': 150,
@@ -5522,7 +5522,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Frame Sealant White 310ml',
         'slug': 'frame-sealant-white-310ml',
-        'description': 'White acrylic decorators sealant, paintable finish for interior and exterior use, seals gaps up to 25mm, low odour formula',
+        'description': 'Exterior-grade frame sealant for sealing joints around window and door frames, expansion joints, and external cladding. Permanently flexible to accommodate thermal movement. UV-resistant — will not crack or discolour in sunlight. Overpaintable within 1 hour. Excellent adhesion to timber, PVCu, aluminium, brick, and concrete. All-weather application.',
         'price': 5.49,
         'cost_price': 3.02,
         'stock': 160,
@@ -5533,7 +5533,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Grab Adhesive White 350ml',
         'slug': 'grab-adhesive-white-350ml',
-        'description': 'Instant grab adhesive and sealant, bonds in seconds, no support needed, suitable for heavy materials, interior and exterior use, paintable',
+        'description': 'High-strength grab adhesive for bonding heavy items to walls and surfaces without mechanical fixings. Provides instant grip — holds materials in position without support while curing. Bonds wood, metal, concrete, brick, ceramic, PVCu, polystyrene, and most building materials. Gap-filling formula. Full strength in 24 hours. Apply in beads with cartridge gun.',
         'price': 9.99,
         'cost_price': 5.49,
         'stock': 120,
@@ -5544,7 +5544,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Gutter Repair Sealant Clear 290ml',
         'slug': 'gutter-repair-sealant-clear-290ml',
-        'description': 'Specialist clear gutter repair sealant, instant waterproof seal, adheres to wet surfaces, UV stable, flexible, works on plastic, metal and concrete gutters',
+        'description': 'Waterproof repair sealant for sealing leaks in gutters, roof flashings, and roofing felt joints. Flexible formula withstands thermal expansion and contraction. Adheres to wet surfaces for emergency repairs. Suitable for bitumen, lead, zinc, PVCu, and cast iron guttering. UV-resistant. Remains permanently flexible. Apply with cartridge gun or trowel.',
         'price': 9.49,
         'cost_price': 5.22,
         'stock': 85,
@@ -5555,7 +5555,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Kitchen and Bath Sealant White 310ml',
         'slug': 'kitchen-and-bath-sealant-white-310ml',
-        'description': 'Economy white sanitary sealant for kitchens and bathrooms, anti-mould protection, easy to apply and smooth, good adhesion to tiles and ceramics',
+        'description': 'Flexible silicone sealant for waterproofing joints in kitchens, bathrooms, and wet areas. Permanently elastic — accommodates movement without cracking. Anti-fungal additive prevents black mould growth. Excellent adhesion to ceramic, glass, enamel, stainless steel, and most plastics. Apply with standard cartridge gun. Smooth with wet finger. Skins in 10 minutes, full cure 24 hours.',
         'price': 5.99,
         'cost_price': 3.29,
         'stock': 170,
@@ -5566,7 +5566,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Multi-Purpose Sealant Black 290ml',
         'slug': 'multi-purpose-sealant-black-290ml',
-        'description': 'Heavy-duty black multi-purpose sealant and adhesive, bonds to most materials, permanently elastic, solvent-free, suitable for indoor and outdoor use',
+        'description': 'Multi-purpose neutral-cure silicone sealant suitable for interior and exterior use. Non-corrosive formulation safe for use on mirrors, natural stone, and sensitive metals (will not cause staining or corrosion). Permanently flexible. Excellent adhesion to glass, ceramic, most metals, and plastics. Mould-resistant. Low-odour curing. Apply with cartridge gun.',
         'price': 8.49,
         'cost_price': 4.67,
         'stock': 90,
@@ -5577,7 +5577,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Neutral Cure Silicone Clear 310ml',
         'slug': 'neutral-cure-silicone-clear-310ml',
-        'description': 'Neutral cure silicone for sensitive surfaces, non-corrosive, odourless, excellent adhesion to glass, mirrors, metals, plastics and natural stone',
+        'description': 'Flexible silicone sealant for waterproofing joints in kitchens, bathrooms, and wet areas. Permanently elastic — accommodates movement without cracking. Anti-fungal additive prevents black mould growth. Excellent adhesion to ceramic, glass, enamel, stainless steel, and most plastics. Apply with standard cartridge gun. Smooth with wet finger. Skins in 10 minutes, full cure 24 hours.',
         'price': 8.99,
         'cost_price': 4.94,
         'stock': 110,
@@ -5588,7 +5588,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Roof and Gutter Sealant Grey 310ml',
         'slug': 'roof-and-gutter-sealant-grey-310ml',
-        'description': 'Weatherproof roof and gutter sealant in grey, seals leaks and cracks, withstands extreme temperatures, UV resistant, flexible when cured',
+        'description': 'Waterproof repair sealant for sealing leaks in gutters, roof flashings, and roofing felt joints. Flexible formula withstands thermal expansion and contraction. Adheres to wet surfaces for emergency repairs. Suitable for bitumen, lead, zinc, PVCu, and cast iron guttering. UV-resistant. Remains permanently flexible. Apply with cartridge gun or trowel.',
         'price': 7.99,
         'cost_price': 4.39,
         'stock': 100,
@@ -5599,7 +5599,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Sanitary Silicone Translucent 310ml',
         'slug': 'sanitary-silicone-translucent-310ml',
-        'description': 'Translucent sanitary silicone with fungicide, ideal for wet areas, fast curing formula, resists discoloration, odourless when cured',
+        'description': 'Flexible silicone sealant for waterproofing joints in kitchens, bathrooms, and wet areas. Permanently elastic — accommodates movement without cracking. Anti-fungal additive prevents black mould growth. Excellent adhesion to ceramic, glass, enamel, stainless steel, and most plastics. Apply with standard cartridge gun. Smooth with wet finger. Skins in 10 minutes, full cure 24 hours.',
         'price': 6.49,
         'cost_price': 3.57,
         'stock': 130,
@@ -5610,7 +5610,7 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Silicone Sealant Clear 310ml',
         'slug': 'silicone-sealant-clear-310ml',
-        'description': 'General purpose clear silicone sealant, waterproof and flexible, ideal for bathrooms, kitchens, windows and glazing, resists mould and mildew',
+        'description': 'Flexible silicone sealant for waterproofing joints in kitchens, bathrooms, and wet areas. Permanently elastic — accommodates movement without cracking. Anti-fungal additive prevents black mould growth. Excellent adhesion to ceramic, glass, enamel, stainless steel, and most plastics. Apply with standard cartridge gun. Smooth with wet finger. Skins in 10 minutes, full cure 24 hours.',
         'price': 4.99,
         'cost_price': 2.74,
         'stock': 200,
@@ -5621,8 +5621,8 @@ SEALANTS_PRODUCTS = [
     {
         'name': 'Silicone Sealant White 310ml',
         'slug': 'silicone-sealant-white-310ml',
-        'description': 'White sanitary silicone sealant with anti-fungal protection, perfect for sealing baths, showers, basins and tiles, permanently flexible',
-        'price': 4.99,
+        'description': 'Flexible silicone sealant for waterproofing joints in kitchens, bathrooms, and wet areas. Permanently elastic — accommodates movement without cracking. Anti-fungal additive prevents black mould growth. Excellent adhesion to ceramic, glass, enamel, stainless steel, and most plastics. Apply with standard cartridge gun. Smooth with wet finger. Skins in 10 minutes, full cure 24 hours.',
+        'price': 5.99,
         'cost_price': 2.74,
         'stock': 180,
         'available': True,

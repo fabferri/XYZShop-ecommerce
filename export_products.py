@@ -1,6 +1,8 @@
 """
-Export All Product Definitions from Database
-This script exports all existing products to a Python file format
+Export Products
+Exports all current products and categories from the database to a Python
+file (exported_products.py) containing CATEGORIES and ALL_PRODUCTS lists.
+Use this to create a backup before making major database changes.
 """
 
 import os

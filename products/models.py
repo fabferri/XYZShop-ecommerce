@@ -1,3 +1,8 @@
+"""
+Products Models
+Category, Product, ProductReview, Sale, and ProductPriceHistory models
+for the product catalog, ratings, sales tracking, and price audit trail.
+"""
 from django.db import models
 from django.urls import reverse
 from django.conf import settings

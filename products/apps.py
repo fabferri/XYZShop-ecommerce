@@ -1,3 +1,7 @@
+"""
+Products App Configuration
+Connects the products signal handlers on app ready.
+"""
 from django.apps import AppConfig
 
 

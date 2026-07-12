@@ -1,3 +1,8 @@
+"""
+Products Signals
+Automatically tracks price changes via pre_save/post_save on Product.
+Creates ProductPriceHistory records when price or cost_price changes.
+"""
 from django.db.models.signals import post_save, pre_save
 from django.dispatch import receiver
 from .models import Product, ProductPriceHistory

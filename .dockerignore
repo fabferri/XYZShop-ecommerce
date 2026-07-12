@@ -1,0 +1,32 @@
+# Exclude files that should not be copied into the Docker image.
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Git
+.git/
+.gitignore
+
+# Secrets and local config
+.env
+
+# Collected static (regenerated during the image build)
+staticfiles/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Docker files themselves
+Dockerfile
+.dockerignore
+docker-compose.yml

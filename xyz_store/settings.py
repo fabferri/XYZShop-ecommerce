@@ -11,21 +11,47 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
+import os
+
+from dotenv import load_dotenv
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
+# Load environment variables from a .env file if present (see .env.example).
+load_dotenv(BASE_DIR / '.env')
+
+
+def _env_bool(name, default=False):
+    """Read a boolean environment variable ('1', 'true', 'yes', 'on')."""
+    return os.environ.get(name, str(default)).strip().lower() in ('1', 'true', 'yes', 'on')
+
+
+def _env_list(name, default=''):
+    """Read a comma-separated environment variable into a list of strings."""
+    raw = os.environ.get(name, default)
+    return [item.strip() for item in raw.split(',') if item.strip()]
 
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-(nkh#*#=h5y9e%q$yq5&$37p1h^^ipe(o_uy#bt4#6-52jnb^c'
+# Set SECRET_KEY in the environment (or .env) for production deployments.
+SECRET_KEY = os.environ.get(
+    'SECRET_KEY',
+    'django-insecure-(nkh#*#=h5y9e%q$yq5&$37p1h^^ipe(o_uy#bt4#6-52jnb^c',
+)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# Defaults to True for local development; set DEBUG=False in the environment.
+DEBUG = _env_bool('DEBUG', True)
 
-ALLOWED_HOSTS = []
+# Hosts/domains this site can serve. Comma-separated in the environment.
+ALLOWED_HOSTS = _env_list('ALLOWED_HOSTS', 'localhost,127.0.0.1')
+
+# Origins trusted for CSRF (required when serving over HTTPS behind a proxy).
+CSRF_TRUSTED_ORIGINS = _env_list('CSRF_TRUSTED_ORIGINS')
 
 
 # Application definition
@@ -37,14 +63,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
+    'rest_framework.authtoken',
+    'django_filters',
     'products',
     'cart',
     'orders',
     'accounts',
+    'api',
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -72,6 +103,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'xyz_store.wsgi.application'
+ASGI_APPLICATION = 'xyz_store.asgi.application'
 
 
 # Database
@@ -125,6 +157,9 @@ STATICFILES_DIRS = [
     BASE_DIR / 'products' / 'static',
 ]
 
+# WhiteNoise: use finders to serve files from source directories (no collectstatic needed)
+WHITENOISE_USE_FINDERS = True
+
 MEDIA_URL = 'media/'
 MEDIA_ROOT = BASE_DIR / 'media'
 
@@ -136,7 +171,49 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Cart session settings
 CART_SESSION_ID = 'cart'
 
+# Django REST Framework
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.SessionAuthentication',
+        'rest_framework.authentication.TokenAuthentication',
+    ],
+    'DEFAULT_PERMISSION_CLASSES': [
+        'rest_framework.permissions.AllowAny',
+    ],
+    'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'PAGE_SIZE': 20,
+    'DEFAULT_FILTER_BACKENDS': [
+        'django_filters.rest_framework.DjangoFilterBackend',
+    ],
+}
+
 # Authentication settings
 LOGIN_REDIRECT_URL = '/'
 LOGIN_URL = '/accounts/login/'
 LOGOUT_REDIRECT_URL = '/'
+
+
+# ---------------------------------------------------------------------------
+# Production security hardening
+# These settings are only enforced when DEBUG is False so local development
+# over plain HTTP keeps working. Enable HTTPS on your host before deploying.
+# ---------------------------------------------------------------------------
+
+# Always safe to enable.
+SECURE_CONTENT_TYPE_NOSNIFF = True
+
+if not DEBUG:
+    # Redirect all HTTP requests to HTTPS.
+    SECURE_SSL_REDIRECT = _env_bool('SECURE_SSL_REDIRECT', True)
+
+    # Only send cookies over HTTPS.
+    SESSION_COOKIE_SECURE = True
+    CSRF_COOKIE_SECURE = True
+
+    # HTTP Strict Transport Security (default: 1 year). Set to 0 to disable.
+    SECURE_HSTS_SECONDS = int(os.environ.get('SECURE_HSTS_SECONDS', '31536000'))
+    SECURE_HSTS_INCLUDE_SUBDOMAINS = True
+    SECURE_HSTS_PRELOAD = True
+
+    # Trust the X-Forwarded-Proto header from a front-end proxy/load balancer.
+    SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')

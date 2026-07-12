@@ -1,3 +1,8 @@
+"""
+Orders Forms
+OrderCreateForm for checkout and PaymentForm for payment method
+selection with card detail validation.
+"""
 from django import forms
 from .models import Order
 

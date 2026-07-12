@@ -1,3 +1,8 @@
+"""
+Management Command: create_initial_price_history
+Creates initial ProductPriceHistory records for all existing products
+that don't already have a price history entry.
+"""
 from django.core.management.base import BaseCommand
 from products.models import Product, ProductPriceHistory
 

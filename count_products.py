@@ -1,5 +1,7 @@
 """
-Quick script to count products in database and exported file
+Count Products
+Compares the number of products in the database against the number
+defined in exported_products.py to verify data consistency.
 """
 
 import os

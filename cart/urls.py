@@ -1,3 +1,7 @@
+"""
+Cart URL Configuration
+Routes for viewing, adding to, and removing from the shopping cart.
+"""
 from django.urls import path
 from . import views
 

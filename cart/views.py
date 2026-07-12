@@ -1,3 +1,8 @@
+"""
+Cart Views
+Function-based views for adding/removing products and displaying
+the cart detail page.
+"""
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_POST
 from products.models import Product

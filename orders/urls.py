@@ -1,3 +1,7 @@
+"""
+Orders URL Configuration
+Routes for order creation, payment processing, and payment confirmation.
+"""
 from django.urls import path
 from . import views
 

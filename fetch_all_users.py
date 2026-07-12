@@ -1,6 +1,7 @@
 """
-Fetch All Users Script
-This script displays all users in the database
+Fetch All Users
+Displays all users in the database with username, email, staff status,
+and date joined. Shows superusers and regular customers.
 """
 
 import os

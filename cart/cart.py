@@ -1,3 +1,8 @@
+"""
+Cart Class
+Session-based shopping cart stored in request.session[CART_SESSION_ID].
+Provides add, remove, iterate, length, total price, and clear operations.
+"""
 from decimal import Decimal
 from django.conf import settings
 from products.models import Product

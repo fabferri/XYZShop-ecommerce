@@ -1,7 +1,10 @@
 """
-Delete All Records Script
-This script deletes all records from the XYZShop database.
-WARNING: This will permanently delete all data!
+Delete All Records
+Deletes ALL data from the database: sales, order items, orders, reviews,
+price history, products, categories, and ALL users (including superusers).
+Prompts for confirmation before proceeding.
+WARNING: This is destructive and irreversible! Run create_admin.py
+afterwards to recreate an admin account.
 """
 
 import os

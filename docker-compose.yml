@@ -1,0 +1,24 @@
+# Docker Compose for local runs of XYZShop.
+# Usage:
+#   docker compose up --build
+# Then open http://localhost:8000/
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      # Development defaults. For production set DEBUG=False, a strong SECRET_KEY,
+      # and the real ALLOWED_HOSTS. Values here override the fallbacks in settings.py.
+      DEBUG: "True"
+      ALLOWED_HOSTS: "localhost,127.0.0.1"
+      # SECRET_KEY: "set-a-strong-random-value-in-production"
+    volumes:
+      # Persist the SQLite database and uploaded media to the host.
+      # (Move to PostgreSQL for real production - see TODO.md item 2.)
+      - ./db.sqlite3:/app/db.sqlite3
+      - ./media:/app/media
+    # To load configuration from a .env file instead of the block above:
+    # env_file:
+    #   - .env

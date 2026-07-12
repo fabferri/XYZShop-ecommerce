@@ -32,6 +32,7 @@ for model, model_admin in default_site._registry.items():
 
 urlpatterns = [
     path('admin/', admin_site.urls),
+    path('api/', include('api.urls', namespace='api')),
     path('accounts/', include('accounts.urls', namespace='accounts')),
     path('cart/', include('cart.urls', namespace='cart')),
     path('orders/', include('orders.urls', namespace='orders')),

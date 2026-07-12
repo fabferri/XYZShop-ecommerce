@@ -1,3 +1,7 @@
+"""
+Set Single Product Online
+Sets product ID 762 to is_online=True, making it visible to customers.
+"""
 import os
 import django
 

@@ -1,11 +1,13 @@
 """
 Restore Database from Export
-This script recreates the complete database including:
-- 505 products from the exported data
-- Product descriptions (generated)
-- Price history records (505 entries)
-- 10 sample customers with reviews
-- 22 orders with 110 order items
+Recreates the complete demo dataset from exported_products.py:
+- 9 categories and 507 products (408 online + 99 warehouse)
+- Auto-generated product descriptions
+- 507 price history records
+- 50 sample customer accounts (password: customer123)
+- 500 orders with order items and sale records
+- ~375 product reviews (75% of purchases reviewed)
+Run after: python manage.py migrate && python create_admin.py
 """
 
 import os

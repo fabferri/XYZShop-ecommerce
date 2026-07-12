@@ -1,3 +1,7 @@
+"""
+Products URL Configuration
+Routes for product listing, category filtering, search, and product detail.
+"""
 from django.urls import path
 from . import views
 

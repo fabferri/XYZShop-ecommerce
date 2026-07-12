@@ -1,7 +1,8 @@
 """
-Compare Product Images Script
-This script compares images in media/products folder with the list in product_images_list.txt
-and identifies any mismatches (new images or missing images).
+Compare Product Images
+Compares actual images in media/products/ against the list in
+product_images_list.txt and reports any missing or extra files.
+Run extract_product_images.py first to generate the list file.
 """
 
 import os

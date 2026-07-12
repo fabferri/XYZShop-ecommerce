@@ -1,7 +1,11 @@
+"""
+Create Admin Superuser
+Creates a Django superuser with predefined credentials (admin / admin123).
+Skips creation if the user already exists.
+"""
 import os
 import django
 
-# Set up Django environment
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xyz_store.settings')
 django.setup()
 

@@ -1,3 +1,8 @@
+"""
+Check Product Descriptions
+Displays how many products have descriptions and how many are missing them.
+Shows the first 5 products without descriptions as a sample.
+"""
 import os
 import django
 

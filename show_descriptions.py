@@ -1,9 +1,12 @@
+"""
+Show Product Descriptions
+Prints every product's name, category, and description to the console.
+"""
 import os
 import django
 
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'xyz_store.settings')
 django.setup()
-
 
 from products.models import Product
 

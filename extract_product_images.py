@@ -1,7 +1,7 @@
 """
-Extract Product Image Names Script
-This script extracts all product image filenames from the media/products folder
-and saves them to a text file.
+Extract Product Image Names
+Scans the media/products/ folder and saves all image filenames
+(.jpg, .png, .gif) to product_images_list.txt for auditing.
 """
 
 import os

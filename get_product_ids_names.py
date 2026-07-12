@@ -1,5 +1,7 @@
 """
-Script to retrieve and display product IDs and names from the database
+Get Product IDs and Names
+Retrieves and displays all product IDs and names from the database,
+ordered by ID. Useful for looking up specific products.
 """
 
 import os

@@ -1,3 +1,8 @@
+"""
+Create Customers and Reviews
+Creates 10 sample customer accounts and assigns random product reviews
+(mix of positive and negative) to randomly selected online products.
+"""
 import os
 import django
 import random
